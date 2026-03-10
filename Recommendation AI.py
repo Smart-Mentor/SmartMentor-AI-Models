@@ -10,7 +10,6 @@ from transformers import logging
 
 logging.set_verbosity_error()
 
-# GREETINGS
 greetings = [
 "hi","hello","hey","hey there","hi there","hello there",
 "good morning","good afternoon","good evening",
@@ -35,7 +34,7 @@ greeting_responses = [
 "Hi! Tell me what subject or framework you want to learn.",
 "Hey there! I can recommend courses for you.",
 "Hello! What would you like to learn today?",
-"Hi! Are you interested in Machine Learning, Deep Learning, or something else?",
+"Hi! Are you interested in Web Development, Backend Development, or something else?",
 "Hey! I can help you discover great courses.",
 "Hello! Just tell me the subject or framework you're looking for.",
 "Hi there! Ready to explore some courses?",
@@ -53,17 +52,20 @@ exit_words = [
 "no thanks","no thank you",
 "that's all","thats all",
 "done","finish","finished",
-"end","stop"
+"end","see you","see you later","good bye","stop"
 ]
 
-df = pd.read_csv(r"C:\Users\Lenovo\Downloads\archive\newData.csv")
+df = pd.read_csv(r"D:\Games\Recommendation Course AI\DataSets\TryNewOneData.csv")
+
 df.fillna("", inplace=True)
+df.replace("-", "", inplace=True)
 
 df["text"] = (
 df["course_title"]+" "+
 df["subject"]+" "+
 df["FrameWork"]+" "+
-df["level"]
+df["level"]+" "+
+df["Language"]
 )
 
 tfidf = TfidfVectorizer(stop_words="english")
@@ -81,15 +83,16 @@ model = AutoModel.from_pretrained("bert-base-uncased")
 subjects = df["subject"].str.lower().unique()
 frameworks = df["FrameWork"].str.lower().unique()
 levels = df["level"].str.lower().unique()
+languages = df["Language"].str.lower().unique()
 
-all_keywords = list(subjects)+list(frameworks)
+all_keywords = list(subjects) + list(frameworks)
 
 def correct_word(word):
 
-    match = difflib.get_close_matches(word,all_keywords,n=1,cutoff=0.7)
+    match = difflib.get_close_matches(word, all_keywords, n=1, cutoff=0.7)
 
     if match:
-        print("Did you mean:",match[0],"?")
+
         return match[0]
 
     return None
@@ -124,7 +127,7 @@ def detect_framework(text):
 
 def detect_level(text):
 
-    text=text.lower()
+    text = text.lower()
 
     if "beginner" in text:
         return "beginner level"
@@ -141,101 +144,109 @@ def detect_level(text):
 
     return None
 
+def detect_language(text):
+
+    for word in text.split():
+        if word in languages:
+            return word
+    return None
+
 def show_options(subject):
 
-    fw = df[df["subject"].str.lower()==subject]["FrameWork"].unique()
-    lv = df[df["subject"].str.lower()==subject]["level"].unique()
+    fw = df[df["subject"].str.lower() == subject]["FrameWork"].unique()
+    lv = df[df["subject"].str.lower() == subject]["level"].unique()
+    lang = df[df["subject"].str.lower() == subject]["Language"].unique()
 
     print("\nAvailable Frameworks:")
-
     for f in fw:
-        print("-",f)
+        if f != "":
+            print("-", f)
+
+    print("\nAvailable Languages:")
+    for l in lang:
+        if l != "":
+            print("-", l)
 
     print("\nAvailable Levels:")
-
     for l in lv:
-        print("-",l)
+        if l != "":
+            print("-", l)
 
-def recommend_courses(subject=None,framework=None,level=None):
+def recommend_courses(subject=None, framework=None, level=None, language=None):
 
-    results=df.copy()
+    results = df.copy()
 
     if subject:
-        results=results[results["subject"].str.lower()==subject]
+        results = results[results["subject"].str.lower() == subject]
 
-    if framework:
-        results=results[results["FrameWork"].str.lower()==framework]
+    if framework and framework != "":
+        results = results[results["FrameWork"].str.lower() == framework]
 
     if level:
-        results=results[results["level"].str.lower()==level]
+        results = results[results["level"].str.lower() == level]
 
-    if len(results)==0:
+    if language and language != "":
+        results = results[results["Language"].str.lower() == language]
+
+    if len(results) == 0:
         return None
 
     return results.head(5)
 
 def chatbot():
 
-    print("\nAI Course Recommendation Chatbot\n")
+    print("\n========= Course Recommendation Chatbot =========\n")
+    print("Hello! I'm here to help you find the best courses.\n")
 
     while True:
-
-        user_input=input("You: ").lower()
+        user_input = input("You: ").lower()
 
         if user_input in greetings:
 
-            print("\nChatbot:",random.choice(greeting_responses),"\n")
+            print("\nChatbot:", random.choice(greeting_responses), "\n")
             continue
 
         if user_input in exit_words:
 
-            print("\nChatbot: You're welcome! 😊 If you need more course recommendations later, come back anytime.\n")
+            print("\nChatbot: You're welcome! If you need more course recommendations later, come back anytime.\n")
             break
 
-        subject=detect_subject(user_input)
-        framework=detect_framework(user_input)
-        level=detect_level(user_input)
+        subject = detect_subject(user_input)
+        framework = detect_framework(user_input)
+        level = detect_level(user_input)
+        language = detect_language(user_input)
 
         if subject and not framework:
-
-            print("\nDetected subject:",subject)
             show_options(subject)
-            print("\nNow type framework and level to get courses\n")
+
+            print("\nYou can now type framework, language, or level to get courses\n")
             continue
 
-        if subject or framework:
+        if subject or framework or language or level:
 
-            print("\nDetected:")
-
-            if subject:
-                print("Subject:",subject)
-
-            if framework:
-                print("Framework:",framework)
-
-            if level:
-                print("Level:",level)
-
-            results=recommend_courses(subject,framework,level)
+            results = recommend_courses(subject, framework, level, language)
 
             if results is None:
-
                 print("\nNo courses found\n")
                 continue
 
             print("\nRecommended Courses:\n")
 
-            for _,row in results.iterrows():
+            for _, row in results.iterrows():
 
-                print("Course Title :",row["course_title"])
-                print("Framework    :",row["FrameWork"])
-                print("Level        :",row["level"])
-                print("URL          :",row["url"])
+                print("Course Title :", row["course_title"])
+
+                if row["FrameWork"] != "":
+                    print("Framework    :", row["FrameWork"])
+
+                if row["Language"] != "":
+                    print("Language     :", row["Language"])
+
+                print("Level        :", row["level"])
+                print("URL          :", row["url"])
                 print("--------------------------")
 
         else:
-
-            print("\nI couldn't understand. Try mentioning a subject or framework.\n")
-
+            print("\nI couldn't understand. Try mentioning subject, framework, language, or level.\n")
 
 chatbot()
