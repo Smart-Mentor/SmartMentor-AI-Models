@@ -92,7 +92,7 @@ def correct_word(word):
     match = difflib.get_close_matches(word, all_keywords, n=1, cutoff=0.7)
 
     if match:
-
+        
         return match[0]
 
     return None
@@ -176,17 +176,17 @@ def recommend_courses(subject=None, framework=None, level=None, language=None):
 
     results = df.copy()
 
-    if subject:
-        results = results[results["subject"].str.lower() == subject]
-
-    if framework and framework != "":
+    if framework:
         results = results[results["FrameWork"].str.lower() == framework]
+
+    if language:
+        results = results[results["Language"].str.lower() == language]
 
     if level:
         results = results[results["level"].str.lower() == level]
 
-    if language and language != "":
-        results = results[results["Language"].str.lower() == language]
+    if subject:
+        results = results[results["subject"].str.lower() == subject]
 
     if len(results) == 0:
         return None
@@ -208,7 +208,7 @@ def chatbot():
 
         if user_input in exit_words:
 
-            print("\nChatbot: You're welcome! If you need more course recommendations later, come back anytime.\n")
+            print("\nChatbot: You're welcome!👋 If you need more course recommendations later, come back anytime.\n")
             break
 
         subject = detect_subject(user_input)
@@ -216,10 +216,12 @@ def chatbot():
         level = detect_level(user_input)
         language = detect_language(user_input)
 
-        if subject and not framework:
+        if subject and not framework and not language:
+
+            print("\nSubject:", subject)
             show_options(subject)
 
-            print("\nYou can now type framework, language, or level to get courses\n")
+            print("\nNow choose framework, language, or level\n")
             continue
 
         if subject or framework or language or level:
@@ -247,6 +249,6 @@ def chatbot():
                 print("--------------------------")
 
         else:
-            print("\nI couldn't understand. Try mentioning subject, framework, language, or level.\n")
+            print("\nPlease mention framework, language, level, or subject.\n")
 
 chatbot()
