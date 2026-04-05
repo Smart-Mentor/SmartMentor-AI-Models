@@ -164,6 +164,7 @@ def detect_language(text):
             return word
     return None
 
+
 def show_options(subject):
 
     fw = df[df["subject"].str.lower() == subject]["FrameWork"].unique()
@@ -198,7 +199,8 @@ for subject in df["subject"].str.lower().unique():
     if "backend" in subject:
         alias_list += subject.replace("/", " ").split()
 
-    subject_aliases[subject] = list(set(alias_list))  # remove duplicates
+    subject_aliases[subject] = list(set(alias_list))  
+
 
 def recommend_courses(subject=None, framework=None, level=None, language=None):
 
@@ -221,7 +223,7 @@ def recommend_courses(subject=None, framework=None, level=None, language=None):
 
     return results.head(5)
 
-##################################################
+
 def get_available_levels(subject=None, framework=None, language=None):
 
     results = df.copy()
@@ -239,8 +241,7 @@ def get_available_levels(subject=None, framework=None, language=None):
 
     return [l for l in levels if l != ""]
 
-#################################################
-#################################################
+
 def infer_subject(framework=None, language=None):
 
     if framework:
@@ -256,30 +257,23 @@ def infer_subject(framework=None, language=None):
     return None
 
 def chatbot():
-
     print("\n========= Course Recommendation Chatbot =========\n")
-    print("Hello! I'm here to help you find the best courses.\n")
-
-    state = {
-        "subject": None,
-        "framework": None,
-        "language": None,
-        "level": None
-    }
-
+    state = {"subject": None, "framework": None, "language": None, "level": None}
     step = "start"
 
-    while True:
+    user_input = None 
 
-        raw_input = input("You: ")
-        user_input = clean_text(raw_input)
+    while True:
+        if user_input is None:
+            user_input = clean_text(input("You: "))
 
         if user_input in greetings:
-            print("\nChatbot:", random.choice(greeting_responses), "\n")
+            print("\nChatbot:", random.choice(greeting_responses))
+            user_input = None
             continue
 
         if user_input in exit_words:
-            print("\nChatbot: You're welcome! 👋 See you later.\n")
+            print("\nChatbot: You're welcome! 😊 If you need more course recommendations later, just come back.")
             break
 
         if step == "start":
@@ -287,7 +281,6 @@ def chatbot():
             subject = detect_subject(user_input)
             framework = detect_framework(user_input)
             language = detect_language(user_input)
-            level = detect_level(user_input)
 
             if framework:
                 state["framework"] = framework
@@ -296,16 +289,15 @@ def chatbot():
                 print(f"\nDetected framework: {framework}")
                 print(f"Inferred subject: {state['subject']}")
 
-                available_levels = get_available_levels(
-                    state["subject"], framework, None
-                )
+                levels = get_available_levels(state["subject"], framework, None)
 
-                print("\n👉 Available Levels:")
-                for l in available_levels:
+                print("\n 👉 Available Levels:")
+                for l in levels:
                     print("-", l)
 
-                print("\n👉 Please choose a level:")
+                print("\n 👉 Choose level:")
                 step = "level"
+                user_input = None
                 continue
 
             if language:
@@ -315,16 +307,15 @@ def chatbot():
                 print(f"\nDetected language: {language}")
                 print(f"Inferred subject: {state['subject']}")
 
-                available_levels = get_available_levels(
-                    state["subject"], None, language
-                )
+                levels = get_available_levels(state["subject"], None, language)
 
-                print("\n👉 Available Levels:")
-                for l in available_levels:
+                print("\n 👉 Available Levels:")
+                for l in levels:
                     print("-", l)
 
-                print("\n👉 Please choose a level:")
+                print("\n 👉 Choose level:")
                 step = "level"
+                user_input = None
                 continue
 
             if subject:
@@ -333,11 +324,13 @@ def chatbot():
                 print(f"\nSubject: {subject}")
                 show_options(subject)
 
-                print("\n👉 Choose a framework or language:")
+                print("\n 👉 Choose framework or language:")
                 step = "framework_language"
+                user_input = None
                 continue
 
-            print("\n Please enter subject, framework, or language")
+            print("\n❌ Enter subject, framework, or language")
+            user_input = None
 
         elif step == "framework_language":
 
@@ -346,45 +339,45 @@ def chatbot():
 
             if framework:
                 state["framework"] = framework
-                print(f"\nFramework selected: {framework}")
+                print(f"Framework: {framework}")
 
             if language:
                 state["language"] = language
-                print(f"\nLanguage selected: {language}")
+                print(f"Language: {language}")
 
             if framework or language:
 
-                available_levels = get_available_levels(
+                levels = get_available_levels(
                     state["subject"],
                     state["framework"],
                     state["language"]
                 )
 
-                print("\n👉 Available Levels:")
-                for l in available_levels:
+                print("\n 👉 Available Levels:")
+                for l in levels:
                     print("-", l)
 
-                print("\n👉 Please choose a level:")
+                print("\n 👉 Choose level:")
                 step = "level"
+                user_input = None
+                continue
 
-            else:
-                print("\n❌ Please choose a valid framework or language")
+            print("❌ Invalid input")
+            user_input = None
 
         elif step == "level":
 
             level = detect_level(user_input)
 
-            available_levels = get_available_levels(
+            levels = get_available_levels(
                 state["subject"],
                 state["framework"],
                 state["language"]
             )
 
-            if level and level in [l.lower() for l in available_levels]:
+            if level and level in [l.lower() for l in levels]:
 
                 state["level"] = level
-
-                print(f"\nLevel selected: {level}")
 
                 results = recommend_courses(
                     state["subject"],
@@ -394,51 +387,49 @@ def chatbot():
                 )
 
                 if results is None:
-                    print("\n❌ No courses found\n")
+                    print("\n❌ No courses found")
                 else:
-                    print("\n Recommended Courses:\n")
-
+                    print("\n🎓 Courses:\n")
                     for _, row in results.iterrows():
+                        print("Title:", row["course_title"])
+                        print("Framework:", row["FrameWork"])
+                        print("Language:", row["Language"])
+                        print("Level:", row["level"])
+                        print("URL:", row["url"])
+                        print("-------------------")
 
-                        print("Course Title :", row["course_title"])
-
-                        if row["FrameWork"]:
-                            print("Framework    :", row["FrameWork"])
-
-                        if row["Language"]:
-                            print("Language     :", row["Language"])
-
-                        print("Level        :", row["level"])
-                        print("URL          :", row["url"])
-                        print("--------------------------")
-
-                print("\n👉 Do you want another recommendation? (yes / no)")
+                print("\n👉 Do you want another recommendation?")
                 step = "restart"
+                user_input = None
+                continue
 
-            else:
-                print("\n❌ Invalid level. Available levels:\n")
-                for l in available_levels:
-                    print("-", l)
+            print("\n❌ Invalid level. Available:")
+            for l in levels:
+                print("-", l)
 
+            user_input = None
 
         elif step == "restart":
 
             if user_input in ["yes", "y"]:
                 print("\n👉 What subject, framework, or language do you want?")
-                step = "start"
-                state = {"subject": None, "framework": None, "language": None, "level": None}
-                continue
-
-            if user_input.startswith("yes "):
-                user_input = user_input.replace("yes ", "")
-
                 state = {"subject": None, "framework": None, "language": None, "level": None}
                 step = "start"
-
+                user_input = None
                 continue
 
-            if user_input in ["no", "n"] or user_input in exit_words:
-                print("\nChatbot: Great! See you next time 👋")
+            elif user_input.startswith("yes"):
+
+                new_query = clean_text(user_input.replace("yes", "", 1))
+
+                state = {"subject": None, "framework": None, "language": None, "level": None}
+                step = "start"
+
+                user_input = new_query  
+                continue  
+
+            elif user_input in ["no", "n"]:
+                print("\nChatbot: You're welcome! 😊 If you need more course recommendations later, just come back.")
                 break
 
             else:
