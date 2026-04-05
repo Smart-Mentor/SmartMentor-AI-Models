@@ -396,7 +396,7 @@ def chatbot():
                 if results is None:
                     print("\n❌ No courses found\n")
                 else:
-                    print("\n🎓 Recommended Courses:\n")
+                    print("\n Recommended Courses:\n")
 
                     for _, row in results.iterrows():
 
