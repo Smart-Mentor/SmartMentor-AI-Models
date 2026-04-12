@@ -75,13 +75,13 @@ course_id,course_title,url,level,subject,FrameWork,Language
 576054,"WordPress Development - Themes, Plugins & Single Page Apps",https://www.udemy.com/wordpress-development-create-wordpress-themes-and-plugins/,Beginner Level,WordPress,WordPress,-
 554136,Building Responsive Websites with Bootstrap 3 Framework,https://www.udemy.com/building-responsive-websites-with-bootstrap-3-framework/,Beginner Level,Web / FrontEnd,Bootstrap,-
 667122,Build A Stock Downloader With Visual Studio 2015 And C#,https://www.udemy.com/csharpyahoostockdownloader/,Beginner Level,Backend,.NET,C#
-1671196,Flutter - Intermediate,/course/flutter-intermediate/,Beginner Level,Mobile,Cross platform,Flutter
-1230848,Learn Java Programming | Complete Course,/course/the-complete-java-course-go-from-begginer-to-advanced/,Beginner Level,Mobile,Native,java
-3356146,Java Programming for Complete Stranger,/course/java-programming-for-complete-stranger/,Beginner Level,Mobile,Native,java
-441606,Step By Step Java Programming Complete Course,/course/step-by-step-java-programming-complete-course/,Beginner Level,Mobile,Native,java
-4107958,GoF Design Patterns - Complete Course with Java Examples,/course/gof-design-patterns-learnit/,Beginner Level,Mobile,Native,java
-1672626,Complete Java Developer Bootcamp,/course/complete-java-developer-bootcamp/,Beginner Level,Mobile,Native,java
-4970728,Java Training Complete Course 2022,/course/java-training-complete-course-2022/,Beginner Level,Mobile,Native,java
+1671196,Flutter - Intermediate,https://www.udemy.com/course/flutter-intermediate/,Beginner Level,Mobile,Cross platform,Flutter
+1230848,Learn Java Programming | Complete Course,https://www.udemy.com/course/the-complete-java-course-go-from-begginer-to-advanced/,Beginner Level,Mobile,Native,java
+3356146,Java Programming for Complete Stranger,https://www.udemy.com/course/java-programming-for-complete-stranger/,Beginner Level,Mobile,Native,java
+441606,Step By Step Java Programming Complete Course,https://www.udemy.com/course/step-by-step-java-programming-complete-course/,Beginner Level,Mobile,Native,java
+4107958,GoF Design Patterns - Complete Course with Java Examples,https://www.udemy.com/course/gof-design-patterns-learnit/,Beginner Level,Mobile,Native,java
+1672626,Complete Java Developer Bootcamp,https://www.udemy.com/course/complete-java-developer-bootcamp/,Beginner Level,Mobile,Native,java
+4970728,Java Training Complete Course 2022,https://www.udemy.com/course/java-training-complete-course-2022/,Beginner Level,Mobile,Native,java
 642410,The Complete Bootstrap Masterclass Course - Build 4 Projects,https://www.udemy.com/bootstrapcourse/,Beginner Level,Web / FrontEnd,Bootstrap,-
 1078522,React JS and Redux - Mastering Web Apps,https://www.udemy.com/react-js-and-redux-mastering-web-apps/,Beginner Level,Web / FrontEnd,React,-
 670034,Advanced Javascript,https://www.udemy.com/top-javascript-interview-questions-and-answers/,Expert Level,Web / FrontEnd,-,javascript
@@ -93,7 +93,7 @@ course_id,course_title,url,level,subject,FrameWork,Language
 637974,Master ExpressJS to Build Web Apps with NodeJS&JavaScript,https://www.udemy.com/expressjs/,Beginner Level,Backend,Nodejs,-
 1171966,The Complete PHP MySQL Professional Course with 5 Projects,https://www.udemy.com/the-complete-php-mysql-professional-course/,Beginner Level,Data Analysis,SQL,-
 833398,Angular Masterclass,https://www.udemy.com/angular-2-fundamentals-with-typescript-for-pro-developers-systemjs/,Beginner Level,Web / FrontEnd,Angular,-
-1223012,"Mastering 'Native CSS Shapes To Build Modern Web Pages""",https://www.udemy.com/mastering-native-css-shapes/,Beginner Level,Web / FrontEnd,-,CSS
+1223012,"Mastering 'Native CSS Shapes To Build Modern Web Pages",https://www.udemy.com/mastering-native-css-shapes/,Beginner Level,Web / FrontEnd,-,CSS
 945336,Javascript Intermediate level 1 - Mastering the DOM,https://www.udemy.com/javascript-intermediate-mastering-the-dom/,Beginner Level,Web / FrontEnd,-,javascript
 399228,"Learn to code, Become a Web Developer and Master JavaScript!",https://www.udemy.com/master-javascript-today/,Beginner Level,Web / FrontEnd,-,javascript
 494078,Expert Guide : Mastering Functions in JavaScript !,https://www.udemy.com/functions-in-javascript/,Beginner Level,Web / FrontEnd,-,javascript
@@ -147,51 +147,51 @@ course_id,course_title,url,level,subject,FrameWork,Language
 212394,Introduction to Node.js Development,https://www.udemy.com/refactoru-intro-nodejs/,Beginner Level,Backend,Nodejs,-
 1248172,Essentials of Spring 5.0 for Developers,https://www.udemy.com/essentials-of-spring-50-for-developers/,Beginner Level,Java,Spring,-
 775618,Learn jQuery from Scratch - Master of JavaScript library,https://www.udemy.com/easy-jquery-for-beginner-learn-from-scratch-step-by-step/,Beginner Level,JavaScript Library,jQuery,-
-2010554,"The Complete Flutter App Development Course for Android, iOS",/course/the-complete-flutter-app-development-course-for-android-ios/,Beginner Level,Mobile,Cross platform,Flutter
-1792392,Flutter - Advanced Course,/course/flutter-advanced-course/,Expert Level,Mobile,Cross platform,Flutter
-3879142,Flutter BLoC - From Zero to Hero Complete Course,/course/bloc-from-zero-to-hero/,Beginner Level,Mobile,Cross platform,Flutter
-2383620,Flutter Web Development Course Build Complete FlutterWeb App,/course/flutter-web-development-course-build-complete-flutterweb-app/,Beginner Level,Mobile,Cross platform,Flutter
-4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Beginner Level,Mobile,Cross platform,Flutter
-4551676,Flutter Bloc Essential Course (English),/course/flutter-bloc-essential-course-english/,Beginner Level,Mobile,Cross platform,Flutter
-2355420,Complete Flutter development - build 14 ios and android apps,/course/complete-flutter-development/,Beginner Level,Mobile,Cross platform,Flutter
-2553003,Build a Rental App with Flutter: iOS & Android Masterclass,/course/ios-android-masterclass-build-3-apps-with-google-flutter/,Beginner Level,Mobile,Cross platform,Flutter
-2304824,Mastering Flutter,/course/mastering-flutter/,Beginner Level,Mobile,Cross platform,Flutter
-533682,Java Programming Masterclass updated to Java 17,/course/java-the-complete-java-developer-course/,Beginner Level,Mobile,Native,java
-827692,The Complete Java Certification Course,/course/master-practical-java-development/,Beginner Level,Mobile,Native,java
-358540,Java In-Depth: Become a Complete Java Engineer!,/course/java-in-depth-become-a-complete-java-engineer/,Beginner Level,Mobile,Native,java
-919872,Android Java Masterclass - Become an App Developer,/course/master-android-7-nougat-java-app-development-step-by-step/,Beginner Level,Mobile,Native,java
-3740582,The Complete Java Development Bootcamp,/course/the-complete-java-development-bootcamp/,Beginner Level,Mobile,Native,java
-359550,Master Object Oriented Design in Java - Homework + Solutions,/course/mastering-object-oriented-design-in-java/,Beginner Level,Mobile,Native,java
-3601890,Java Data Structures and Algorithms Masterclass,/course/java-data-structures-and-algorithms-masterclass/,Beginner Level,Mobile,Native,java
-4149968,Professional Java Developer Career Starter: Java Foundations,/course/neutrino-java-foundations/,Beginner Level,Mobile,Native,java
-2767688,Java Programming Masterclass: Learn Java From Scratch,/course/java-programming-course/,Beginner Level,Mobile,Native,java
-2259748,Java Collections from basics to Advanced,/course/collections-and-concurrent-collection-video-lectures-and-tutorials/,Beginner Level,Mobile,Native,java
-28373,Advanced Java Programming,/course/advanced-java-programming/,Expert Level,Mobile,Native,java
-2916558,Advanced Java Topics: Java Reflection - Master Class,/course/java-reflection-master-class/,Expert Level,Mobile,Native,java
-3945196,Professional Certificate in Java Programming,/course/professional-certificate-in-java-programming/,Beginner Level,Mobile,Native,java
-4150774,Android App Development Master Course with Java | Android,/course/full-android-11-masterclass-course-with-java-53-hours/,Beginner Level,Mobile,Native,java
-345178,Become A Professional Java Developer From Scratch,/course/become-a-professional-java-developer-from-scratch/,Beginner Level,Mobile,Native,java
-421806,Java Programming – the Master Course,/course/java-programming-the-master-course/,Beginner Level,Mobile,Native,java
-3847946,Master The Java Programming Language,/course/java-tutorial-by-sagar/,Beginner Level,Mobile,Native,java
-3502634,The Complete Java Developer Course -Mastering Java from zero,/course/the-complete-java-developer-course-mastering-java-from-zero/,Beginner Level,Mobile,Native,java
-2456220,Java Interview Questions Boot Camp - 1000+ Q& A Master Class,/course/java-interview-questions-bootcamp-master-class-1000-java-questions/,Beginner Level,Mobile,Native,java
-136098,Intermediate & Advanced Java Programming,/course/intermediate-advanced-java-programming/,Expert Level,Mobile,Native,java
-1236852,Java Programming: Become a Professional Java Engineer!,/course/java-programming-the-authoritative-edition/,Beginner Level,Mobile,Native,java
-763258,Core Java Programming from Scratch to Advanced,/course/core-java-fundamentals/,Beginner Level,Mobile,Native,java
-4209504,Master Multithreading - Concurrency with Java Examples,/course/multithreading-learnit/,Beginner Level,Mobile,Native,java
-432700,Advanced Data Structures and Algorithms in Java ( DSA ),/course/data-structures-and-algorithms-in-java-2/,Expert Level,Mobile,Native,java
-1923196,Java - A 3-Step Process to Master Java in 7 days for Newbies,/course/java-a-3-step-process-to-master-java-in-7-days-for-newbies/,Beginner Level,Mobile,Native,java
-2480154,Mastering Java 8 Fundamentals,/course/introduction-to-java-8-i/,Beginner Level,Mobile,Native,java
-5007518,Advanced One Day Java Workshop from Java 8 to 17,/course/advanced-one-day-java-workshop-from-java-8-to-17/,Expert Level,Mobile,Native,java
-819718,Mastering Java Exceptions with Best Practices,/course/mastering-java-exceptions-with-best-practices/,Beginner Level,Mobile,Native,java
-2065405,Mastery in Java Web Services in less than 3 hours !,/course/restful-web-service-in-java/,Beginner Level,Mobile,Native,java
-4435956,"Java 17, Java 11, Advanced Java 8 (1Z0-829,1Z0-819,1Z0-809)",/course/ocp11_from_oca8/,Expert Level,Mobile,Native,java
-179264,Become An Awesome Java Professional,/course/java-programming-wizard/,Beginner Level,Mobile,Native,java
-2208130,Master Lambda Expressions in Java 8,/course/functional-programming-in-java/,Beginner Level,Mobile,Native,java
-658644,"Advanced Java Programming , Multithreading for Java Projects",/course/advanced-object-oriented-java/,Expert Level,Mobile,Native,java
-1240898,Java Maven - The Complete Course,/course/java-maven-the-complete-course/,Beginner Level,Mobile,Native,java
-4216996,The Complete Java Game Development Course 2023: Part 2,/course/java-games/,Beginner Level,Mobile,Native,java
-1461992,Java Design Patterns: The Complete Masterclass - 21 Patterns,/course/java-design-patterns-the-complete-masterclass/,Beginner Level,Mobile,Native,java
+2010554,"The Complete Flutter App Development Course for Android, iOS",https://www.udemy.com/course/the-complete-flutter-app-development-course-for-android-ios/,Beginner Level,Mobile,Cross platform,Flutter
+1792392,Flutter - Advanced Course,https://www.udemy.com/course/flutter-advanced-course/,Expert Level,Mobile,Cross platform,Flutter
+3879142,Flutter BLoC - From Zero to Hero Complete Course,https://www.udemy.com/course/bloc-from-zero-to-hero/,Beginner Level,Mobile,Cross platform,Flutter
+2383620,Flutter Web Development Course Build Complete FlutterWeb App,https://www.udemy.com/course/flutter-web-development-course-build-complete-flutterweb-app/,Beginner Level,Mobile,Cross platform,Flutter
+4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,https://www.udemy.com/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Beginner Level,Mobile,Cross platform,Flutter
+4551676,Flutter Bloc Essential Course (English),https://www.udemy.com/course/flutter-bloc-essential-course-english/,Beginner Level,Mobile,Cross platform,Flutter
+2355420,Complete Flutter development - build 14 ios and android apps,https://www.udemy.com/course/complete-flutter-development/,Beginner Level,Mobile,Cross platform,Flutter
+2553003,Build a Rental App with Flutter: iOS & Android Masterclass,https://www.udemy.com/course/ios-android-masterclass-build-3-apps-with-google-flutter/,Beginner Level,Mobile,Cross platform,Flutter
+2304824,Mastering Flutter,https://www.udemy.com/course/mastering-flutter/,Beginner Level,Mobile,Cross platform,Flutter
+533682,Java Programming Masterclass updated to Java 17,https://www.udemy.com/course/java-the-complete-java-developer-course/,Beginner Level,Mobile,Native,java
+827692,The Complete Java Certification Course,https://www.udemy.com/course/master-practical-java-development/,Beginner Level,Mobile,Native,java
+358540,Java In-Depth: Become a Complete Java Engineer!,https://www.udemy.com/course/java-in-depth-become-a-complete-java-engineer/,Beginner Level,Mobile,Native,java
+919872,Android Java Masterclass - Become an App Developer,https://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/,Beginner Level,Mobile,Native,java
+3740582,The Complete Java Development Bootcamp,https://www.udemy.com/course/the-complete-java-development-bootcamp/,Beginner Level,Mobile,Native,java
+359550,Master Object Oriented Design in Java - Homework + Solutions,https://www.udemy.com/course/mastering-object-oriented-design-in-java/,Beginner Level,Mobile,Native,java
+3601890,Java Data Structures and Algorithms Masterclass,https://www.udemy.com/course/java-data-structures-and-algorithms-masterclass/,Beginner Level,Mobile,Native,java
+4149968,Professional Java Developer Career Starter: Java Foundations,https://www.udemy.com/course/neutrino-java-foundations/,Beginner Level,Mobile,Native,java
+2767688,Java Programming Masterclass: Learn Java From Scratch,https://www.udemy.com/course/java-programming-course/,Beginner Level,Mobile,Native,java
+2259748,Java Collections from basics to Advanced,https://www.udemy.com/course/collections-and-concurrent-collection-video-lectures-and-tutorials/,Beginner Level,Mobile,Native,java
+28373,Advanced Java Programming,https://www.udemy.com/course/advanced-java-programming/,Expert Level,Mobile,Native,java
+2916558,Advanced Java Topics: Java Reflection - Master Class,https://www.udemy.com/course/java-reflection-master-class/,Expert Level,Mobile,Native,java
+3945196,Professional Certificate in Java Programming,https://www.udemy.com/course/professional-certificate-in-java-programming/,Beginner Level,Mobile,Native,java
+4150774,Android App Development Master Course with Java | Android,https://www.udemy.com/course/full-android-11-masterclass-course-with-java-53-hours/,Beginner Level,Mobile,Native,java
+345178,Become A Professional Java Developer From Scratch,https://www.udemy.com/course/become-a-professional-java-developer-from-scratch/,Beginner Level,Mobile,Native,java
+421806,Java Programming – the Master Course,https://www.udemy.com/course/java-programming-the-master-course/,Beginner Level,Mobile,Native,java
+3847946,Master The Java Programming Language,https://www.udemy.com/course/java-tutorial-by-sagar/,Beginner Level,Mobile,Native,java
+3502634,The Complete Java Developer Course -Mastering Java from zero,https://www.udemy.com/course/the-complete-java-developer-course-mastering-java-from-zero/,Beginner Level,Mobile,Native,java
+2456220,Java Interview Questions Boot Camp - 1000+ Q& A Master Class,https://www.udemy.com/course/java-interview-questions-bootcamp-master-class-1000-java-questions/,Beginner Level,Mobile,Native,java
+136098,Intermediate & Advanced Java Programming,https://www.udemy.com/course/intermediate-advanced-java-programming/,Expert Level,Mobile,Native,java
+1236852,Java Programming: Become a Professional Java Engineer!,https://www.udemy.com/course/java-programming-the-authoritative-edition/,Beginner Level,Mobile,Native,java
+763258,Core Java Programming from Scratch to Advanced,https://www.udemy.com/course/core-java-fundamentals/,Beginner Level,Mobile,Native,java
+4209504,Master Multithreading - Concurrency with Java Examples,https://www.udemy.com/course/multithreading-learnit/,Beginner Level,Mobile,Native,java
+432700,Advanced Data Structures and Algorithms in Java ( DSA ),https://www.udemy.com/course/data-structures-and-algorithms-in-java-2/,Expert Level,Mobile,Native,java
+1923196,Java - A 3-Step Process to Master Java in 7 days for Newbies,https://www.udemy.com/course/java-a-3-step-process-to-master-java-in-7-days-for-newbies/,Beginner Level,Mobile,Native,java
+2480154,Mastering Java 8 Fundamentals,https://www.udemy.com/course/introduction-to-java-8-i/,Beginner Level,Mobile,Native,java
+5007518,Advanced One Day Java Workshop from Java 8 to 17,https://www.udemy.com/course/advanced-one-day-java-workshop-from-java-8-to-17/,Expert Level,Mobile,Native,java
+819718,Mastering Java Exceptions with Best Practices,https://www.udemy.com/course/mastering-java-exceptions-with-best-practices/,Beginner Level,Mobile,Native,java
+2065405,Mastery in Java Web Services in less than 3 hours !,https://www.udemy.com/course/restful-web-service-in-java/,Beginner Level,Mobile,Native,java
+4435956,"Java 17, Java 11, Advanced Java 8 (1Z0-829,1Z0-819,1Z0-809)",https://www.udemy.com/course/ocp11_from_oca8/,Expert Level,Mobile,Native,java
+179264,Become An Awesome Java Professional,https://www.udemy.com/course/java-programming-wizard/,Beginner Level,Mobile,Native,java
+2208130,Master Lambda Expressions in Java 8,https://www.udemy.com/course/functional-programming-in-java/,Beginner Level,Mobile,Native,java
+658644,"Advanced Java Programming , Multithreading for Java Projects",https://www.udemy.com/course/advanced-object-oriented-java/,Expert Level,Mobile,Native,java
+1240898,Java Maven - The Complete Course,https://www.udemy.com/course/java-maven-the-complete-course/,Beginner Level,Mobile,Native,java
+4216996,The Complete Java Game Development Course 2023: Part 2,https://www.udemy.com/course/java-games/,Beginner Level,Mobile,Native,java
+1461992,Java Design Patterns: The Complete Masterclass - 21 Patterns,https://www.udemy.com/course/java-design-patterns-the-complete-masterclass/,Beginner Level,Mobile,Native,java
 28295,Learn Web Designing & HTML5/CSS3 Essentials in 4-Hours,https://www.udemy.com/build-beautiful-html5-website/,Beginner Level,Web / FrontEnd,-,HTML
 505208,Programming Foundations: HTML5 + CSS3 for Entrepreneurs 2015,https://www.udemy.com/html-css-more/,Beginner Level,Web / FrontEnd,-,HTML
 1086834,How To Make A Wordpress Website 2017 | Divi Theme Tutorial,https://www.udemy.com/how-to-make-a-wordpress-website-2017-divi-theme-tutorial/,Beginner Level,WordPress,WordPress,-
@@ -576,173 +576,173 @@ course_id,course_title,url,level,subject,FrameWork,Language
 21386,Beginner Photoshop to HTML5 and CSS3,https://www.udemy.com/psd-html5-css3/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 270976,A how to guide in HTML,https://www.udemy.com/a-how-to-guide-in-html/,Expert Level,Web / FrontEnd,-,HTML
 1088178,How To Design A WordPress Website With No Coding At All,https://www.udemy.com/how-to-make-a-wordpress-website-course/,Expert Level,WordPress,WordPress,-
-1632804,Flutter - Beginners Course,/course/flutters-beginners-course/,Beginner Level,Mobile,Cross platform,Flutter
-1967418,Flutter Beginner Tutorial - Build own App,/course/free-flutter-beginner-tutorial-build-own-app/,Beginner Level,Mobile,Cross platform,Flutter
-3939526,"Complete Flutter Guide 2023: Build Android, IOS and Web apps",/course/flutter-the-guide-to-build-android-ios-and-web-apps/,Expert Level,Mobile,Cross platform,Flutter
-3354610,Flutter Tutorials - Complete Flutter Course for Programmers,/course/flutter-tutorials-latest-packages-and-components/,Expert Level,Mobile,Cross platform,Flutter
-4839360,Master Clean Architecture in Flutter for beginners,/course/master-clean-architecture-in-flutter-for-beginners/,Beginner Level,Mobile,Cross platform,Flutter
-4430718,Flutter Course for Beginners - Learn Flutter from Scratch,/course/flutter-course-for-beginners-learn-flutter-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
-4035518,Flutter Desktop Tutorials - Create Desktop Apps in Flutter,/course/flutter-desktop-tutorials-create-desktop-apps-in-flutter/,Intermediate Level,Mobile,Cross platform,Flutter
-4571174,2023 Flutter Beginners Course(No rubbish),/course/2022-flutter-beginners-courseno-rubbish/,Beginner Level,Mobile,Cross platform,Flutter
-1535678,Java Programming for Complete Beginners,/course/java-programming-tutorial-for-beginners/,Beginner Level,Mobile,Native,java
-2707184,Java Programming: Complete Beginner to Advanced,/course/java-programming-complete-beginner-to-advanced/,Beginner Level,Mobile,Native,java
-2462140,Learn JAVA Programming - Beginner to Master,/course/java-se-programming/,Beginner Level,Mobile,Native,java
-1228490,Java for Absolute Beginners,/course/java-for-absolute-beginners/,Beginner Level,Mobile,Native,java
-900464,The Complete Android T + Java Developer Course™ : 2023,/course/java-android-complete-guide/,Intermediate Level,Mobile,Native,java
-529444,Java from Beginner to Expert,/course/java-from-beginner-to-expert/,Beginner Level,Mobile,Native,java
-2002954,Learn Java Programming Crash Course,/course/learn-java-programming-crash-course/,Intermediate Level,Mobile,Native,java
-1285808,Java for Complete Beginners,/course/java-for-complete-beginners/,Beginner Level,Mobile,Native,java
-2669808,Java Course for Complete Beginners with Practical Examples,/course/practical-java-course/,Beginner Level,Mobile,Native,java
-3765238,Java for Beginners - Learn all the Basics of Java,/course/java-for-beginners-learn-all-the-basics-of-java/,Beginner Level,Mobile,Native,java
-1789268,Java Enterprise Edition 8 for Beginners course,/course/java-enterprise-edition-8/,Beginner Level,Mobile,Native,java
-3728112,Project Development Using JAVA for Beginners - 2023,/course/project-development-using-java-for-beginners-2020/,Beginner Level,Mobile,Native,java
-802794,Java Basics: Learn to Code the Right Way,/course/learn-java-programming/,Intermediate Level,Mobile,Native,java
-620486,Java Puzzles to Eliminate Code Fear,/course/eliminate-code-fear/,Intermediate Level,Mobile,Native,java
-4174624,Java Programming - A Complete Java course to Become Java Ace,/course/the-complete-java-programming-bootcamp-zero-to-mastery-in-java/,Intermediate Level,Mobile,Native,java
-3520172,Object Oriented Programming - Basics to Advance (Java OOP),/course/oop-learnit/,Intermediate Level,Mobile,Native,java
-9463,Programming Java for Beginners - The Ultimate Java Tutorial,/course/learn-to-program-with-java/,Beginner Level,Mobile,Native,java
-1599486,Java for Complete Beginners: Become Junior Java Developer,/course/java-for-complete-beginers-programming-fundamentals/,Beginner Level,Mobile,Native,java
-1875420,The Complete Core Java Course : Learn to Code,/course/core-java-from-scratch/,Intermediate Level,Mobile,Native,java
-3192072,The Complete Java Game Development Course for 2023,/course/java-games-development/,Intermediate Level,Mobile,Native,java
-351310,Learn to Program with Java for Complete Beginners - Part 1,/course/learn-to-program-with-java-1/,Beginner Level,Mobile,Native,java
-2671034,Java 11 For Complete Beginners,/course/java-11-complete-beginners/,Beginner Level,Mobile,Native,java
-1249018,Java for beginners (Core concepts): Easy course on Java,/course/java-free/,Beginner Level,Mobile,Native,java
-1700694,Build Minecraft Mod using JAVA - for Kids and Beginners,/course/minecraft-modding-java/,Beginner Level,Mobile,Native,java
-834266,Java For Beginners - 1st step towards becoming a Java Guru!,/course/corejava/,Beginner Level,Mobile,Native,java
-2780776,Practical Java Basics Course with Real-life Examples,/course/practical-java-course-for-beginners/,Intermediate Level,Mobile,Native,java
-858882,Java for Beginners in 2 hours: Build a Banking Application,/course/java-for-beginners-in-2-hours-build-a-banking-application/,Beginner Level,Mobile,Native,java
-389522,Java 8 - Beyond the Basics,/course/java-8-beyond-the-basics/,Intermediate Level,Mobile,Native,java
-316970,Beginner Professional Java - Learn to Code for Work and Fun,/course/beginner-pro-java/,Beginner Level,Mobile,Native,java
-2404700,Learn Java Programming - Beginners guide 2022,/course/learn-java-programming-from-beginner-to-pro-2020/,Beginner Level,Mobile,Native,java
-1157988,Get your Java dream job! Beginners interview preparation,/course/get-your-java-dream-job-junior-interview-preparation/,Beginner Level,Mobile,Native,java
-623036,Java Programming | Absolute Beginners,/course/beginners-java-programming-programming-for-everybody/,Beginner Level,Mobile,Native,java
-3529020,Build 10 Java Beginner Projects  from scratch,/course/build-10-java-beginner-projects-from-scratch/,Beginner Level,Mobile,Native,java
-684904,Java in 3 Hours: Java Programming Tutorial for Beginners,/course/java-in-3-hours-java-programming-tutorial-for-beginners/,Beginner Level,Mobile,Native,java
-351374,Learn to Program with Java for Complete Beginners - Part 2,/course/learn-to-program-with-java-2/,Beginner Level,Mobile,Native,java
-645792,Java Programming for Beginners: Become a Java Programmer,/course/introduction-to-java-programming-b/,Beginner Level,Mobile,Native,java
-1346964,Java for beginners: Step-by-step hands-on guide to Java,/course/java-for-beginners-step-by-step-hands-on-guide-to-java/,Beginner Level,Mobile,Native,java
-1190864,JAVA Programming for Beginners - The Complete Course,/course/java-the-complete-course/,Beginner Level,Mobile,Native,java
-1567526,Java A-Z™ : Learn java within 8 hours,/course/java-a-z-become-masterclass-for-java-easy-jobs/,Intermediate Level,Mobile,Native,java
-2865038,Learn Java Basics in one hour with coding exercises,/course/learn-java-basics/,Intermediate Level,Mobile,Native,java
-3376366,The Complete Java Developer Course: From Beginner to Master!,/course/the-complete-java-developer-course-from-beginner-to-master/,Beginner Level,Mobile,Native,java
-1264836,Java for beginners:  Create 10 useful complete projects,/course/java-for-beginners-create-10-useful-complete-projects/,Beginner Level,Mobile,Native,java
-3794620,Java Basics for Beginners: Learn Coding with Java,/course/java-programming-for-beginners-learn-coding-with-java/,Beginner Level,Mobile,Native,java
-676206,Java Basics Bootcamp,/course/complete-java-basics-for-beginners-start-to-finish/,Intermediate Level,Mobile,Native,java
-4108432,Java Programming For Complete Beginners And Experts,/course/java-from-scratch-to-master/,Beginner Level,Mobile,Native,java
-1412532,Complete Java Bootcamp For Beginners,/course/complete-java-bootcamp-for-beginners/,Beginner Level,Mobile,Native,java
-1866574,Java Masterclass | Beginner to OOP Programming with Eclipse,/course/java-masterclass-beginner-to-oop-programming-with-eclipse/,Beginner Level,Mobile,Native,java
-1602554,Core java for beginners and experts,/course/javabybhanu/,Beginner Level,Mobile,Native,java
-949194,OOP Java Object Oriented Programming for beginners Projects,/course/java-object-oriented-programming-basic-principles/,Beginner Level,Mobile,Native,java
-49340,The Ultimate Java 9 Tutorial - From beginner to professional,/course/java-basics-for-j2ee-and-android/,Beginner Level,Mobile,Native,java
-1960564,Eclipse | Your Basic Java Programming Course,/course/eclipse-your-basic-java-programming-course/,Intermediate Level,Mobile,Native,java
-2653532,Complete Java Tutorial Step by Step - become a programmer,/course/complete-java-tutorial-step-by-step/,Intermediate Level,Mobile,Native,java
-1506644,Basic Java Programming with Eclipse,/course/eclipse-the-basic-java-programming-course/,Intermediate Level,Mobile,Native,java
-4208444,[Free Java] Java Programming for Complete Beginners (OOP).,/course/java-programming-beginner-to-advanced-oop/,Beginner Level,Mobile,Native,java
-1135384,Basic Java Programming with NetBeans,/course/basic-java-programming-with-netbeans/,Intermediate Level,Mobile,Native,java
-1950444,Complete Java Web Service Bootcamp: From Beginner To Pro,/course/complete-java-web-service-bootcamp-from-beginner-to-pro/,Beginner Level,Mobile,Native,java
-4241494,Java Logical Programs and Data Structures For Beginners,/course/java-logical-programs/,Beginner Level,Mobile,Native,java
-2107834,java programming - From Beginner To Advance from scratch!,/course/java-basics-learn-worlds-most-powerful-programming-language/,Beginner Level,Mobile,Native,java
-3249104,Java Servlets Certification Training (beginner to advanced),/course/java-servlets-training/,Beginner Level,Mobile,Native,java
-1861718,Java Masterclass | Beginner to OOP Programming with NetBeans,/course/java-masterclass-basic-to-oop-programming-with-netbeans/,Beginner Level,Mobile,Native,java
-3592778,Java Programming For Complete Beginners- Learn Java in Depth,/course/java-programming-for-complete-beginners-g/,Beginner Level,Mobile,Native,java
-314660,Java Programming for Beginners-The Ultimate Course on Java,/course/java-programming-for-absolute-beginners_part-1/,Beginner Level,Mobile,Native,java
-112866,Java Programming for Absolute Beginners,/course/java-programming-for-absolute-beginners/,Beginner Level,Mobile,Native,java
-3327688,Complete Java Programming Fundamentals With Sample Projects,/course/complete-java-programming-fundamentals-with-sample-projects/,Intermediate Level,Mobile,Native,java
-3975780,ABC of Java  (A Perfect Java course for beginner's),/course/java-for-beginners-a-perfect-course-for-beginners/,Beginner Level,Mobile,Native,java
-1132484,Java Tutorial for Beginners,/course/java-8-for-complete-beginners/,Beginner Level,Mobile,Native,java
-1621670,The Complete Java Developer Course from Scratch,/course/complete-java-developer-course/,Intermediate Level,Mobile,Native,java
-4205958,Java for Beginners: Your Easy Guide to Java Programming,/course/java-programming-for-beginners-online-course/,Beginner Level,Mobile,Native,java
-676788,Java Programming from Zero to Hero : Java Completed,/course/java-programming-from-zero-to-hero-the-complete-course/,Intermediate Level,Mobile,Native,java
-946480,Master the Basics of Java in Less Than 2 Hours,/course/intro-to-java-learning-the-basics/,Intermediate Level,Mobile,Native,java
-4328230,Java Fundamentals for Beginners,/course/java-complete-course-for-beginners/,Beginner Level,Mobile,Native,java
-1110206,Java for Beginners (A visual guide),/course/java-for-beginners-the-complete-course/,Beginner Level,Mobile,Native,java
-4949978,Complete Java Megacourse: Beginner to Expert,/course/complete-java-megacourse-beginner-to-expert/,Beginner Level,Mobile,Native,java
-1692842,Java Collections and Generics for Beginners,/course/java-collections-and-generics-for-beginners/,Beginner Level,Mobile,Native,java
-4307801,Java for real Beginners in the simplest words,/course/java-for-real-beginners-in-the-simplest-words/,Beginner Level,Mobile,Native,java
-1793280,Complete Java Masterclass For Absolute Beginners,/course/complete-java-masterclass-for-absolute-beginners/,Beginner Level,Mobile,Native,java
-1954986,Complete Java Programming and Certification Guide,/course/java-oca-ocp/,Intermediate Level,Mobile,Native,java
-4430550,Java Programming For Beginners - Theory+151 Solved Exercises,/course/java-programming-masterclass-20-theory-80-practice/,Beginner Level,Mobile,Native,java
-2270218,Complete Core Java In Simple Way,/course/complete-core-java-in-simple-way/,Intermediate Level,Mobile,Native,java
-4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Expert Level,Mobile,Cross platform,Flutter
-4551676,Flutter Bloc Essential Course (English),/course/flutter-bloc-essential-course-english/,Expert Level,Mobile,Cross platform,Flutter
-2383642,Flutter API & JSON Course Build Real ios&Android(4 Real App),/course/flutter-api-json-course-build-real-iosandroid4-real-app/,Expert Level,Mobile,Cross platform,Flutter
-3389208,Flutter - How to Build an Ultimate Responsive App,/course/build-a-responsive-app-in-flutter-for-android-ios-web/,Expert Level,Mobile,Cross platform,Flutter
-4572496,"Flutter testing : Unit, Widget & Integration testing",/course/flutter-testing-unit-widget-integration-testing/,Expert Level,Mobile,Cross platform,Flutter
-2498038,Flutter UI Bootcamp | Build Beautiful Apps using Flutter,/course/the-complete-flutter-ui-course-build-amazing-mobile-ui/,Expert Level,Mobile,Cross platform,Flutter
-2376444,Happy Flutter - Sport News Apps Flutter,/course/happy-flutter-sport-news-apps-flutter/,Intermediate Level,Mobile,Cross platform,Flutter
-3785186,Flutter Artificial Intelligence Course - Build 15+ AI Apps,/course/flutter-artificial-intelligence-course-build-15-ai-apps/,Expert Level,Mobile,Cross platform,Flutter
-4076366,Flutter Music Player App with State Management from Scratch,/course/flutter-music-player-app-with-state-management-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
-1719462,Learn Flutter from scratch,/course/learn-flutter-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
-2950932,Flutter Web: Create A Responsive Sleek Developer Portfolio,/course/flutter-web-create-a-responsive-sleek-developer-portfolio/,Expert Level,Mobile,Cross platform,Flutter
-4465722,Flutter Provider Essential Course (English),/course/flutter-provider-essential-course-english/,Expert Level,Mobile,Cross platform,Flutter
-3671296,Flutter - Grocery App - WordPress - WooCommerce Series,/course/flutter-grocery-app-wordpress-woocommerce-series/,Expert Level,Mobile,Cross platform,Flutter
-4143946,Flutter Augmented Reality Course - Build 10+ Mobile AR Apps,/course/flutter-augmented-reality-course-build-10-android-ar-apps/,Expert Level,Mobile,Cross platform,Flutter
-2312680,Intro to Flutter For iOS & Android,/course/devslopes-flutter/,Beginner Level,Mobile,Cross platform,Flutter
-3576615,Flutter cross-platform course that will get you job.,/course/flutter-cross-platform-course-that-will-get-you-job/,Expert Level,Mobile,Cross platform,Flutter
-4352514,Build a Flutter Stopwatch App with Custom UI and Animations,/course/flutter-stopwatch-app/,Expert Level,Mobile,Cross platform,Flutter
-4121698,Flutter Provider State Management - Blog & E-commerce App,/course/flutter-provider-state-management/,Expert Level,Mobile,Cross platform,Flutter
-2183484,Real-World Projects with Flutter,/course/real-world-projects-with-flutter/,Expert Level,Mobile,Cross platform,Flutter
-3958270,Practice Exams | Flutter Certified Application Developer,/course/flutter-certified-application-developer-full-practice-exams/,Expert Level,Mobile,Cross platform,Flutter
-911256,Core Java Made Easy (Covers the latest Java 17),/course/corejavamadeeasy/,Beginner Level,Mobile,Native,java
-1360780,Practice Java by Building Projects,/course/practice-java-by-building-projects/,Intermediate Level,Mobile,Native,java
-1692036,Modern Java - Learn Java 8 features by coding it,/course/modern-java-learn-java-8-features-by-coding-it/,Expert Level,Mobile,Native,java
-2691654,"Java from Zero to First Job, Practical Guide, 1500+ examples",/course/java-development-for-beginners-learnit/,Beginner Level,Mobile,Native,java
-1568344,Java Design Patterns & SOLID Design Principles,/course/design-patterns-in-java-concepts-hands-on-projects/,Expert Level,Mobile,Native,java
-2241936,Java Application Performance Tuning and Memory Management,/course/java-application-performance-and-memory-management/,Expert Level,Mobile,Native,java
-433280,Algorithms Data Structures in Java #1 (+INTERVIEW QUESTIONS),/course/algorithms-and-data-structures/,Intermediate Level,Mobile,Native,java
-1309166,Become a Junior Java Software Developer,/course/become-a-junior-java-software-developer/,Beginner Level,Mobile,Native,java
-45006,Introduction to Java for Programmers,/course/introduction-to-java-programming/,Beginner Level,Mobile,Native,java
-2312596,Java Programming: Step by Step from A to Z,/course/java-programming-step-by-step-from-a-to-z/,Beginner Level,Mobile,Native,java
-498706,Efficient Java Multithreading and Concurrency with Executors,/course/efficient-java-multithreading-with-executors/,Expert Level,Mobile,Native,java
-2644918,Java For Everyone - Zero to Hero,/course/java-for-everyone-zero-to-hero/,Beginner Level,Mobile,Native,java
-2200286,The Java Design Patterns Course,/course/java-design-patterns-course/,Expert Level,Mobile,Native,java
-2446316,Java Object Oriented Programming:OOPS OOAD & Design Patterns,/course/java-object-oriented-programming-analysis-design-oops-ooad/,Intermediate Level,Mobile,Native,java
-1344876,What's New in Java 9 - Modules and More!,/course/whats-new-in-java-9/,Expert Level,Mobile,Native,java
-816152,Algorithms Data Structures in Java #2 (+INTERVIEW QUESTIONS),/course/algorithms-and-data-structures-in-java-part-ii/,Intermediate Level,Mobile,Native,java
-1053406,Java Web Services Part 2 - SOAP and REST Security,/course/javawebservicespart2/,Expert Level,Mobile,Native,java
-1425880,Java Web Development Under The Hood,/course/java-web-development-under-the-hood/,Beginner Level,Mobile,Native,java
-1228376,Learn Java the Easy Way: Build Desktop & Android Mobile Apps,/course/java-the-easy-way/,Beginner Level,Mobile,Native,java
-1135326,Learn Java by building 17 projects step by step,/course/java-for-beginners-with-17-hands-on-projects/,Beginner Level,Mobile,Native,java
-2553023,SOLID principles & Design Patterns for Java programmers,/course/design-patterns-and-solid-principles/,Intermediate Level,Mobile,Native,java
-2027988,Java Programming Bootcamp 2023 - Build Real Projects!,/course/java-programming-become-complete-java-developer/,Expert Level,Mobile,Native,java
-1297194,Fundamentals of Java with NetBeans,/course/fundamentals-of-java-with-netbeans/,Beginner Level,Mobile,Native,java
-512546,Ultimate Java Development and Certification Guide,/course/ultimate-java-development-and-certification-guide/,Beginner Level,Mobile,Native,java
-2830346,Java Programming Comprehensive Course 2022,/course/java-programming-fundamentals-training/,Expert Level,Mobile,Native,java
-12975,Introduction to Java Programming for Online Learners,/course/learning-to-program-in-java-a-supplement-for-online-academic-learners/,Beginner Level,Mobile,Native,java
-2923542,Reflections and Annotation in Java Uncomplicated,/course/reflections-and-annotation-in-java-uncomplicated/,Expert Level,Mobile,Native,java
-2363036,Java Programming: Learn Core Java and Improve Java Skills,/course/java-programming-learn-java-and-improve-core-java-skills/,Beginner Level,Mobile,Native,java
-639048,"From 0 to 1: Learn Java Programming -Live Free,Learn To Code",/course/from-0-to-1-java/,Beginner Level,Mobile,Native,java
-4702002,45 Real World Java Development Projects Bootcamp Course 2022,/course/java-programming-project-using-jsp-jdbc-servlets/,Expert Level,Mobile,Native,java
-2933914,Learn Java From Scratch,/course/learn-java-from-scratch-q/,Beginner Level,Mobile,Native,java
-3539240,Learn Java Programming: Classes and Objects,/course/learn-java-programming-classes-and-objects/,Intermediate Level,Mobile,Native,java
-4603798,Learn Coding with Java from Scratch: Essential Training 2023,/course/learn-coding-with-java-from-scratch-essential-training-2022/,Beginner Level,Mobile,Native,java
-165236,What's New in Java 8: Lambdas,/course/whats-new-in-java-8/,Expert Level,Mobile,Native,java
-1341322,Quick Course - Java interview preparation - for junior,/course/quick-course-java-interview-preparation-for-junior/,Beginner Level,Mobile,Native,java
-887006,Java Object-Oriented Programming : Build a Quiz Application,/course/java-object-oriented-programming-build-a-quiz-application/,Expert Level,Mobile,Native,java
-3181640,Practical Java Programming Practices (120+ Common Projects),/course/practical-java-programming-practices-120-common-projects/,Expert Level,Mobile,Native,java
-681866,Design 11 applications in Java from Scratch,/course/javatutorial/,Beginner Level,Mobile,Native,java
-4313758,Java Fundamentals Course - Sinhala Medium,/course/java-certificate-course-sinhala-medium/,Beginner Level,Mobile,Native,java
-872936,Android & Java Developer Bootcamp,/course/android-java-app-development-masterclass/,Expert Level,Mobile,Native,java
-2384838,Computer Science 101: Intro to Java & Algorithms,/course/computerscience101/,Beginner Level,Mobile,Native,java
-3270308,Clean Code with Java examples,/course/clean-code-java/,Expert Level,Mobile,Native,java
-3206841,Introduction to Java Programming,/course/introduction-to-java-programming-n/,Beginner Level,Mobile,Native,java
-18276,Java Programming using Eclipse: An Introduction,/course/programming-java/,Beginner Level,Mobile,Native,java
-2758820,Java Coding Challenge Bootcamp,/course/java-coding-challenge-bootcamp/,Expert Level,Mobile,Native,java
-493178,JAVA GUI Bootcamp 2021,/course/java-graphical-user-interface-gui-for-absolute-beginners/,Expert Level,Mobile,Native,java
-669518,Byte Size Chunks : Java Multithreading,/course/bsc-java-multithreading/,Expert Level,Mobile,Native,java
-1168156,Learn to code in Java from Scratch,/course/learn-to-code-in-java-from-scratch/,Beginner Level,Mobile,Native,java
-4885954,Java Development Bootcamp: Build 35 Real World Projects,/course/build-real-world-java-development-projects/,Expert Level,Mobile,Native,java
-3287364,Building Applications Using Java and NetBeans,/course/building-applications-using-java-and-netbeans/,Expert Level,Mobile,Native,java
-4889924,30 Day Java Bootcamp: Build 30 Java Development Projects,/course/build-java-development-project-course/,Expert Level,Mobile,Native,java
-389632,A Practical Intro to Java Using Games,/course/a-practical-intro-to-java-using-games/,Beginner Level,Mobile,Native,java
-1132250,Algorithms and Data Structures Easy Way Java - job interview,/course/algorithms-and-data-structures-made-easy-for-interview/,Intermediate Level,Mobile,Native,java
-3853988,A Guide to Understand Java Generics with Examples,/course/java-generics-complete-course/,Beginner Level,Mobile,Native,java
-4987312,2023 Core JAVA Bootcamp from Zero to Hero,/course/2022-core-java-bootcamp-from-zero-to-hero/,Expert Level,Mobile,Native,java
-45226,Learn Java From Scratch,/course/learn-java-from-scratch/,Beginner Level,Mobile,Native,java
-1228946,Java Design Patterns Interview Questions Preparation Course,/course/java-design-patterns-interview-questions-preparation-course/,Intermediate Level,Mobile,Native,java
-3872994,Java Multithreading & Concurrency - Interview Practice Exams,/course/java-multithreading-concurrency-interview-practice-exams/,Intermediate Level,Mobile,Native,java
-3668068,Java Programs for Interviews,/course/java-programs-for-interviews/,Intermediate Level,Mobile,Native,java
-1764108,Learn Java Programming from Scratch with Examples and Demos,/course/101-java-programs-for-absolute-beginners-and-school-students/,Beginner Level,Mobile,Native,java
-2117500,Java Fast Track Preparation for Interview as Java Developer,/course/java-fast-track-preparation-for-interview-as-java-developer/,Intermediate Level,Mobile,Native,java
-957902,Java Interview Guide : 200+ Interview Questions and Answers,/course/java-interview-questions-and-answers/,Intermediate Level,Mobile,Native,java
-3803376,Java 7 & Java 8 new features with Lambdas & Streams,/course/java-7-8-new-featuresenhancements-zero-to-master/,Beginner Level,Mobile,Native,java
+1632804,Flutter - Beginners Course,https://www.udemy.com/course/flutters-beginners-course/,Beginner Level,Mobile,Cross platform,Flutter
+1967418,Flutter Beginner Tutorial - Build own App,https://www.udemy.com/course/free-flutter-beginner-tutorial-build-own-app/,Beginner Level,Mobile,Cross platform,Flutter
+3939526,"Complete Flutter Guide 2023: Build Android, IOS and Web apps",https://www.udemy.com/course/flutter-the-guide-to-build-android-ios-and-web-apps/,Expert Level,Mobile,Cross platform,Flutter
+3354610,Flutter Tutorials - Complete Flutter Course for Programmers,https://www.udemy.com/course/flutter-tutorials-latest-packages-and-components/,Expert Level,Mobile,Cross platform,Flutter
+4839360,Master Clean Architecture in Flutter for beginners,https://www.udemy.com/course/master-clean-architecture-in-flutter-for-beginners/,Beginner Level,Mobile,Cross platform,Flutter
+4430718,Flutter Course for Beginners - Learn Flutter from Scratch,https://www.udemy.com/course/flutter-course-for-beginners-learn-flutter-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
+4035518,Flutter Desktop Tutorials - Create Desktop Apps in Flutter,https://www.udemy.com/course/flutter-desktop-tutorials-create-desktop-apps-in-flutter/,Intermediate Level,Mobile,Cross platform,Flutter
+4571174,2023 Flutter Beginners Course(No rubbish),https://www.udemy.com/course/2022-flutter-beginners-courseno-rubbish/,Beginner Level,Mobile,Cross platform,Flutter
+1535678,Java Programming for Complete Beginners,https://www.udemy.com/course/java-programming-tutorial-for-beginners/,Beginner Level,Mobile,Native,java
+2707184,Java Programming: Complete Beginner to Advanced,https://www.udemy.com/course/java-programming-complete-beginner-to-advanced/,Beginner Level,Mobile,Native,java
+2462140,Learn JAVA Programming - Beginner to Master,https://www.udemy.com/course/java-se-programming/,Beginner Level,Mobile,Native,java
+1228490,Java for Absolute Beginners,https://www.udemy.com/course/java-for-absolute-beginners/,Beginner Level,Mobile,Native,java
+900464,The Complete Android T + Java Developer Course™ : 2023,https://www.udemy.com/course/java-android-complete-guide/,Intermediate Level,Mobile,Native,java
+529444,Java from Beginner to Expert,https://www.udemy.com/course/java-from-beginner-to-expert/,Beginner Level,Mobile,Native,java
+2002954,Learn Java Programming Crash Course,https://www.udemy.com/course/learn-java-programming-crash-course/,Intermediate Level,Mobile,Native,java
+1285808,Java for Complete Beginners,https://www.udemy.com/course/java-for-complete-beginners/,Beginner Level,Mobile,Native,java
+2669808,Java Course for Complete Beginners with Practical Examples,https://www.udemy.com/course/practical-java-course/,Beginner Level,Mobile,Native,java
+3765238,Java for Beginners - Learn all the Basics of Java,https://www.udemy.com/course/java-for-beginners-learn-all-the-basics-of-java/,Beginner Level,Mobile,Native,java
+1789268,Java Enterprise Edition 8 for Beginners course,https://www.udemy.com/course/java-enterprise-edition-8/,Beginner Level,Mobile,Native,java
+3728112,Project Development Using JAVA for Beginners - 2023,https://www.udemy.com/course/project-development-using-java-for-beginners-2020/,Beginner Level,Mobile,Native,java
+802794,Java Basics: Learn to Code the Right Way,https://www.udemy.com/course/learn-java-programming/,Intermediate Level,Mobile,Native,java
+620486,Java Puzzles to Eliminate Code Fear,https://www.udemy.com/course/eliminate-code-fear/,Intermediate Level,Mobile,Native,java
+4174624,Java Programming - A Complete Java course to Become Java Ace,https://www.udemy.com/course/the-complete-java-programming-bootcamp-zero-to-mastery-in-java/,Intermediate Level,Mobile,Native,java
+3520172,Object Oriented Programming - Basics to Advance (Java OOP),https://www.udemy.com/course/oop-learnit/,Intermediate Level,Mobile,Native,java
+9463,Programming Java for Beginners - The Ultimate Java Tutorial,https://www.udemy.com/course/learn-to-program-with-java/,Beginner Level,Mobile,Native,java
+1599486,Java for Complete Beginners: Become Junior Java Developer,https://www.udemy.com/course/java-for-complete-beginers-programming-fundamentals/,Beginner Level,Mobile,Native,java
+1875420,The Complete Core Java Course : Learn to Code,https://www.udemy.com/course/core-java-from-scratch/,Intermediate Level,Mobile,Native,java
+3192072,The Complete Java Game Development Course for 2023,https://www.udemy.com/course/java-games-development/,Intermediate Level,Mobile,Native,java
+351310,Learn to Program with Java for Complete Beginners - Part 1,https://www.udemy.com/course/learn-to-program-with-java-1/,Beginner Level,Mobile,Native,java
+2671034,Java 11 For Complete Beginners,https://www.udemy.com/course/java-11-complete-beginners/,Beginner Level,Mobile,Native,java
+1249018,Java for beginners (Core concepts): Easy course on Java,https://www.udemy.com/course/java-free/,Beginner Level,Mobile,Native,java
+1700694,Build Minecraft Mod using JAVA - for Kids and Beginners,https://www.udemy.com/course/minecraft-modding-java/,Beginner Level,Mobile,Native,java
+834266,Java For Beginners - 1st step towards becoming a Java Guru!,https://www.udemy.com/course/corejava/,Beginner Level,Mobile,Native,java
+2780776,Practical Java Basics Course with Real-life Examples,https://www.udemy.com/course/practical-java-course-for-beginners/,Intermediate Level,Mobile,Native,java
+858882,Java for Beginners in 2 hours: Build a Banking Application,https://www.udemy.com/course/java-for-beginners-in-2-hours-build-a-banking-application/,Beginner Level,Mobile,Native,java
+389522,Java 8 - Beyond the Basics,https://www.udemy.com/course/java-8-beyond-the-basics/,Intermediate Level,Mobile,Native,java
+316970,Beginner Professional Java - Learn to Code for Work and Fun,https://www.udemy.com/course/beginner-pro-java/,Beginner Level,Mobile,Native,java
+2404700,Learn Java Programming - Beginners guide 2022,https://www.udemy.com/course/learn-java-programming-from-beginner-to-pro-2020/,Beginner Level,Mobile,Native,java
+1157988,Get your Java dream job! Beginners interview preparation,https://www.udemy.com/course/get-your-java-dream-job-junior-interview-preparation/,Beginner Level,Mobile,Native,java
+623036,Java Programming | Absolute Beginners,https://www.udemy.com/course/beginners-java-programming-programming-for-everybody/,Beginner Level,Mobile,Native,java
+3529020,Build 10 Java Beginner Projects  from scratch,https://www.udemy.com/course/build-10-java-beginner-projects-from-scratch/,Beginner Level,Mobile,Native,java
+684904,Java in 3 Hours: Java Programming Tutorial for Beginners,https://www.udemy.com/course/java-in-3-hours-java-programming-tutorial-for-beginners/,Beginner Level,Mobile,Native,java
+351374,Learn to Program with Java for Complete Beginners - Part 2,https://www.udemy.com/course/learn-to-program-with-java-2/,Beginner Level,Mobile,Native,java
+645792,Java Programming for Beginners: Become a Java Programmer,https://www.udemy.com/course/introduction-to-java-programming-b/,Beginner Level,Mobile,Native,java
+1346964,Java for beginners: Step-by-step hands-on guide to Java,https://www.udemy.com/course/java-for-beginners-step-by-step-hands-on-guide-to-java/,Beginner Level,Mobile,Native,java
+1190864,JAVA Programming for Beginners - The Complete Course,https://www.udemy.com/course/java-the-complete-course/,Beginner Level,Mobile,Native,java
+1567526,Java A-Z™ : Learn java within 8 hours,https://www.udemy.com/course/java-a-z-become-masterclass-for-java-easy-jobs/,Intermediate Level,Mobile,Native,java
+2865038,Learn Java Basics in one hour with coding exercises,https://www.udemy.com/course/learn-java-basics/,Intermediate Level,Mobile,Native,java
+3376366,The Complete Java Developer Course: From Beginner to Master!,https://www.udemy.com/course/the-complete-java-developer-course-from-beginner-to-master/,Beginner Level,Mobile,Native,java
+1264836,Java for beginners:  Create 10 useful complete projects,https://www.udemy.com/course/java-for-beginners-create-10-useful-complete-projects/,Beginner Level,Mobile,Native,java
+3794620,Java Basics for Beginners: Learn Coding with Java,https://www.udemy.com/course/java-programming-for-beginners-learn-coding-with-java/,Beginner Level,Mobile,Native,java
+676206,Java Basics Bootcamp,https://www.udemy.com/course/complete-java-basics-for-beginners-start-to-finish/,Intermediate Level,Mobile,Native,java
+4108432,Java Programming For Complete Beginners And Experts,https://www.udemy.com/course/java-from-scratch-to-master/,Beginner Level,Mobile,Native,java
+1412532,Complete Java Bootcamp For Beginners,https://www.udemy.com/course/complete-java-bootcamp-for-beginners/,Beginner Level,Mobile,Native,java
+1866574,Java Masterclass | Beginner to OOP Programming with Eclipse,https://www.udemy.com/course/java-masterclass-beginner-to-oop-programming-with-eclipse/,Beginner Level,Mobile,Native,java
+1602554,Core java for beginners and experts,https://www.udemy.com/course/javabybhanu/,Beginner Level,Mobile,Native,java
+949194,OOP Java Object Oriented Programming for beginners Projects,https://www.udemy.com/course/java-object-oriented-programming-basic-principles/,Beginner Level,Mobile,Native,java
+49340,The Ultimate Java 9 Tutorial - From beginner to professional,https://www.udemy.com/course/java-basics-for-j2ee-and-android/,Beginner Level,Mobile,Native,java
+1960564,Eclipse | Your Basic Java Programming Course,https://www.udemy.com/course/eclipse-your-basic-java-programming-course/,Intermediate Level,Mobile,Native,java
+2653532,Complete Java Tutorial Step by Step - become a programmer,https://www.udemy.com/course/complete-java-tutorial-step-by-step/,Intermediate Level,Mobile,Native,java
+1506644,Basic Java Programming with Eclipse,https://www.udemy.com/course/eclipse-the-basic-java-programming-course/,Intermediate Level,Mobile,Native,java
+4208444,[Free Java] Java Programming for Complete Beginners (OOP).,https://www.udemy.com/course/java-programming-beginner-to-advanced-oop/,Beginner Level,Mobile,Native,java
+1135384,Basic Java Programming with NetBeans,https://www.udemy.com/course/basic-java-programming-with-netbeans/,Intermediate Level,Mobile,Native,java
+1950444,Complete Java Web Service Bootcamp: From Beginner To Pro,https://www.udemy.com/course/complete-java-web-service-bootcamp-from-beginner-to-pro/,Beginner Level,Mobile,Native,java
+4241494,Java Logical Programs and Data Structures For Beginners,https://www.udemy.com/course/java-logical-programs/,Beginner Level,Mobile,Native,java
+2107834,java programming - From Beginner To Advance from scratch!,https://www.udemy.com/course/java-basics-learn-worlds-most-powerful-programming-language/,Beginner Level,Mobile,Native,java
+3249104,Java Servlets Certification Training (beginner to advanced),https://www.udemy.com/course/java-servlets-training/,Beginner Level,Mobile,Native,java
+1861718,Java Masterclass | Beginner to OOP Programming with NetBeans,https://www.udemy.com/course/java-masterclass-basic-to-oop-programming-with-netbeans/,Beginner Level,Mobile,Native,java
+3592778,Java Programming For Complete Beginners- Learn Java in Depth,https://www.udemy.com/course/java-programming-for-complete-beginners-g/,Beginner Level,Mobile,Native,java
+314660,Java Programming for Beginners-The Ultimate Course on Java,https://www.udemy.com/course/java-programming-for-absolute-beginners_part-1/,Beginner Level,Mobile,Native,java
+112866,Java Programming for Absolute Beginners,https://www.udemy.com/course/java-programming-for-absolute-beginners/,Beginner Level,Mobile,Native,java
+3327688,Complete Java Programming Fundamentals With Sample Projects,https://www.udemy.com/course/complete-java-programming-fundamentals-with-sample-projects/,Intermediate Level,Mobile,Native,java
+3975780,ABC of Java  (A Perfect Java course for beginner's),https://www.udemy.com/course/java-for-beginners-a-perfect-course-for-beginners/,Beginner Level,Mobile,Native,java
+1132484,Java Tutorial for Beginners,https://www.udemy.com/course/java-8-for-complete-beginners/,Beginner Level,Mobile,Native,java
+1621670,The Complete Java Developer Course from Scratch,https://www.udemy.com/course/complete-java-developer-course/,Intermediate Level,Mobile,Native,java
+4205958,Java for Beginners: Your Easy Guide to Java Programming,https://www.udemy.com/course/java-programming-for-beginners-online-course/,Beginner Level,Mobile,Native,java
+676788,Java Programming from Zero to Hero : Java Completed,https://www.udemy.com/course/java-programming-from-zero-to-hero-the-complete-course/,Intermediate Level,Mobile,Native,java
+946480,Master the Basics of Java in Less Than 2 Hours,https://www.udemy.com/course/intro-to-java-learning-the-basics/,Intermediate Level,Mobile,Native,java
+4328230,Java Fundamentals for Beginners,https://www.udemy.com/course/java-complete-course-for-beginners/,Beginner Level,Mobile,Native,java
+1110206,Java for Beginners (A visual guide),https://www.udemy.com/course/java-for-beginners-the-complete-course/,Beginner Level,Mobile,Native,java
+4949978,Complete Java Megacourse: Beginner to Expert,https://www.udemy.com/course/complete-java-megacourse-beginner-to-expert/,Beginner Level,Mobile,Native,java
+1692842,Java Collections and Generics for Beginners,https://www.udemy.com/course/java-collections-and-generics-for-beginners/,Beginner Level,Mobile,Native,java
+4307801,Java for real Beginners in the simplest words,https://www.udemy.com/course/java-for-real-beginners-in-the-simplest-words/,Beginner Level,Mobile,Native,java
+1793280,Complete Java Masterclass For Absolute Beginners,https://www.udemy.com/course/complete-java-masterclass-for-absolute-beginners/,Beginner Level,Mobile,Native,java
+1954986,Complete Java Programming and Certification Guide,https://www.udemy.com/course/java-oca-ocp/,Intermediate Level,Mobile,Native,java
+4430550,Java Programming For Beginners - Theory+151 Solved Exercises,https://www.udemy.com/course/java-programming-masterclass-20-theory-80-practice/,Beginner Level,Mobile,Native,java
+2270218,Complete Core Java In Simple Way,https://www.udemy.com/course/complete-core-java-in-simple-way/,Intermediate Level,Mobile,Native,java
+4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,https://www.udemy.com/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Expert Level,Mobile,Cross platform,Flutter
+4551676,Flutter Bloc Essential Course (English),https://www.udemy.com/course/flutter-bloc-essential-course-english/,Expert Level,Mobile,Cross platform,Flutter
+2383642,Flutter API & JSON Course Build Real ios&Android(4 Real App),https://www.udemy.com/course/flutter-api-json-course-build-real-iosandroid4-real-app/,Expert Level,Mobile,Cross platform,Flutter
+3389208,Flutter - How to Build an Ultimate Responsive App,https://www.udemy.com/course/build-a-responsive-app-in-flutter-for-android-ios-web/,Expert Level,Mobile,Cross platform,Flutter
+4572496,"Flutter testing : Unit, Widget & Integration testing",https://www.udemy.com/course/flutter-testing-unit-widget-integration-testing/,Expert Level,Mobile,Cross platform,Flutter
+2498038,Flutter UI Bootcamp | Build Beautiful Apps using Flutter,https://www.udemy.com/course/the-complete-flutter-ui-course-build-amazing-mobile-ui/,Expert Level,Mobile,Cross platform,Flutter
+2376444,Happy Flutter - Sport News Apps Flutter,https://www.udemy.com/course/happy-flutter-sport-news-apps-flutter/,Intermediate Level,Mobile,Cross platform,Flutter
+3785186,Flutter Artificial Intelligence Course - Build 15+ AI Apps,https://www.udemy.com/course/flutter-artificial-intelligence-course-build-15-ai-apps/,Expert Level,Mobile,Cross platform,Flutter
+4076366,Flutter Music Player App with State Management from Scratch,https://www.udemy.com/course/flutter-music-player-app-with-state-management-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
+1719462,Learn Flutter from scratch,https://www.udemy.com/course/learn-flutter-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
+2950932,Flutter Web: Create A Responsive Sleek Developer Portfolio,https://www.udemy.com/course/flutter-web-create-a-responsive-sleek-developer-portfolio/,Expert Level,Mobile,Cross platform,Flutter
+4465722,Flutter Provider Essential Course (English),https://www.udemy.com/course/flutter-provider-essential-course-english/,Expert Level,Mobile,Cross platform,Flutter
+3671296,Flutter - Grocery App - WordPress - WooCommerce Series,https://www.udemy.com/course/flutter-grocery-app-wordpress-woocommerce-series/,Expert Level,Mobile,Cross platform,Flutter
+4143946,Flutter Augmented Reality Course - Build 10+ Mobile AR Apps,https://www.udemy.com/course/flutter-augmented-reality-course-build-10-android-ar-apps/,Expert Level,Mobile,Cross platform,Flutter
+2312680,Intro to Flutter For iOS & Android,https://www.udemy.com/course/devslopes-flutter/,Beginner Level,Mobile,Cross platform,Flutter
+3576615,Flutter cross-platform course that will get you job.,https://www.udemy.com/course/flutter-cross-platform-course-that-will-get-you-job/,Expert Level,Mobile,Cross platform,Flutter
+4352514,Build a Flutter Stopwatch App with Custom UI and Animations,https://www.udemy.com/course/flutter-stopwatch-app/,Expert Level,Mobile,Cross platform,Flutter
+4121698,Flutter Provider State Management - Blog & E-commerce App,https://www.udemy.com/course/flutter-provider-state-management/,Expert Level,Mobile,Cross platform,Flutter
+2183484,Real-World Projects with Flutter,https://www.udemy.com/course/real-world-projects-with-flutter/,Expert Level,Mobile,Cross platform,Flutter
+3958270,Practice Exams | Flutter Certified Application Developer,https://www.udemy.com/course/flutter-certified-application-developer-full-practice-exams/,Expert Level,Mobile,Cross platform,Flutter
+911256,Core Java Made Easy (Covers the latest Java 17),https://www.udemy.com/course/corejavamadeeasy/,Beginner Level,Mobile,Native,java
+1360780,Practice Java by Building Projects,https://www.udemy.com/course/practice-java-by-building-projects/,Intermediate Level,Mobile,Native,java
+1692036,Modern Java - Learn Java 8 features by coding it,https://www.udemy.com/course/modern-java-learn-java-8-features-by-coding-it/,Expert Level,Mobile,Native,java
+2691654,"Java from Zero to First Job, Practical Guide, 1500+ examples",https://www.udemy.com/course/java-development-for-beginners-learnit/,Beginner Level,Mobile,Native,java
+1568344,Java Design Patterns & SOLID Design Principles,https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/,Expert Level,Mobile,Native,java
+2241936,Java Application Performance Tuning and Memory Management,https://www.udemy.com/course/java-application-performance-and-memory-management/,Expert Level,Mobile,Native,java
+433280,Algorithms Data Structures in Java #1 (+INTERVIEW QUESTIONS),https://www.udemy.com/course/algorithms-and-data-structures/,Intermediate Level,Mobile,Native,java
+1309166,Become a Junior Java Software Developer,https://www.udemy.com/course/become-a-junior-java-software-developer/,Beginner Level,Mobile,Native,java
+45006,Introduction to Java for Programmers,https://www.udemy.com/course/introduction-to-java-programming/,Beginner Level,Mobile,Native,java
+2312596,Java Programming: Step by Step from A to Z,https://www.udemy.com/course/java-programming-step-by-step-from-a-to-z/,Beginner Level,Mobile,Native,java
+498706,Efficient Java Multithreading and Concurrency with Executors,https://www.udemy.com/course/efficient-java-multithreading-with-executors/,Expert Level,Mobile,Native,java
+2644918,Java For Everyone - Zero to Hero,https://www.udemy.com/course/java-for-everyone-zero-to-hero/,Beginner Level,Mobile,Native,java
+2200286,The Java Design Patterns Course,https://www.udemy.com/course/java-design-patterns-course/,Expert Level,Mobile,Native,java
+2446316,Java Object Oriented Programming:OOPS OOAD & Design Patterns,https://www.udemy.com/course/java-object-oriented-programming-analysis-design-oops-ooad/,Intermediate Level,Mobile,Native,java
+1344876,What's New in Java 9 - Modules and More!,https://www.udemy.com/course/whats-new-in-java-9/,Expert Level,Mobile,Native,java
+816152,Algorithms Data Structures in Java #2 (+INTERVIEW QUESTIONS),https://www.udemy.com/course/algorithms-and-data-structures-in-java-part-ii/,Intermediate Level,Mobile,Native,java
+1053406,Java Web Services Part 2 - SOAP and REST Security,https://www.udemy.com/course/javawebservicespart2/,Expert Level,Mobile,Native,java
+1425880,Java Web Development Under The Hood,https://www.udemy.com/course/java-web-development-under-the-hood/,Beginner Level,Mobile,Native,java
+1228376,Learn Java the Easy Way: Build Desktop & Android Mobile Apps,https://www.udemy.com/course/java-the-easy-way/,Beginner Level,Mobile,Native,java
+1135326,Learn Java by building 17 projects step by step,https://www.udemy.com/course/java-for-beginners-with-17-hands-on-projects/,Beginner Level,Mobile,Native,java
+2553023,SOLID principles & Design Patterns for Java programmers,https://www.udemy.com/course/design-patterns-and-solid-principles/,Intermediate Level,Mobile,Native,java
+2027988,Java Programming Bootcamp 2023 - Build Real Projects!,https://www.udemy.com/course/java-programming-become-complete-java-developer/,Expert Level,Mobile,Native,java
+1297194,Fundamentals of Java with NetBeans,https://www.udemy.com/course/fundamentals-of-java-with-netbeans/,Beginner Level,Mobile,Native,java
+512546,Ultimate Java Development and Certification Guide,https://www.udemy.com/course/ultimate-java-development-and-certification-guide/,Beginner Level,Mobile,Native,java
+2830346,Java Programming Comprehensive Course 2022,https://www.udemy.com/course/java-programming-fundamentals-training/,Expert Level,Mobile,Native,java
+12975,Introduction to Java Programming for Online Learners,https://www.udemy.com/course/learning-to-program-in-java-a-supplement-for-online-academic-learners/,Beginner Level,Mobile,Native,java
+2923542,Reflections and Annotation in Java Uncomplicated,https://www.udemy.com/course/reflections-and-annotation-in-java-uncomplicated/,Expert Level,Mobile,Native,java
+2363036,Java Programming: Learn Core Java and Improve Java Skills,https://www.udemy.com/course/java-programming-learn-java-and-improve-core-java-skills/,Beginner Level,Mobile,Native,java
+639048,"From 0 to 1: Learn Java Programming -Live Free,Learn To Code",https://www.udemy.com/course/from-0-to-1-java/,Beginner Level,Mobile,Native,java
+4702002,45 Real World Java Development Projects Bootcamp Course 2022,https://www.udemy.com/course/java-programming-project-using-jsp-jdbc-servlets/,Expert Level,Mobile,Native,java
+2933914,Learn Java From Scratch,https://www.udemy.com/course/learn-java-from-scratch-q/,Beginner Level,Mobile,Native,java
+3539240,Learn Java Programming: Classes and Objects,https://www.udemy.com/course/learn-java-programming-classes-and-objects/,Intermediate Level,Mobile,Native,java
+4603798,Learn Coding with Java from Scratch: Essential Training 2023,https://www.udemy.com/course/learn-coding-with-java-from-scratch-essential-training-2022/,Beginner Level,Mobile,Native,java
+165236,What's New in Java 8: Lambdas,https://www.udemy.com/course/whats-new-in-java-8/,Expert Level,Mobile,Native,java
+1341322,Quick Course - Java interview preparation - for junior,https://www.udemy.com/course/quick-course-java-interview-preparation-for-junior/,Beginner Level,Mobile,Native,java
+887006,Java Object-Oriented Programming : Build a Quiz Application,https://www.udemy.com/course/java-object-oriented-programming-build-a-quiz-application/,Expert Level,Mobile,Native,java
+3181640,Practical Java Programming Practices (120+ Common Projects),https://www.udemy.com/course/practical-java-programming-practices-120-common-projects/,Expert Level,Mobile,Native,java
+681866,Design 11 applications in Java from Scratch,https://www.udemy.com/course/javatutorial/,Beginner Level,Mobile,Native,java
+4313758,Java Fundamentals Course - Sinhala Medium,https://www.udemy.com/course/java-certificate-course-sinhala-medium/,Beginner Level,Mobile,Native,java
+872936,Android & Java Developer Bootcamp,https://www.udemy.com/course/android-java-app-development-masterclass/,Expert Level,Mobile,Native,java
+2384838,Computer Science 101: Intro to Java & Algorithms,https://www.udemy.com/course/computerscience101/,Beginner Level,Mobile,Native,java
+3270308,Clean Code with Java examples,https://www.udemy.com/course/clean-code-java/,Expert Level,Mobile,Native,java
+3206841,Introduction to Java Programming,https://www.udemy.com/course/introduction-to-java-programming-n/,Beginner Level,Mobile,Native,java
+18276,Java Programming using Eclipse: An Introduction,https://www.udemy.com/course/programming-java/,Beginner Level,Mobile,Native,java
+2758820,Java Coding Challenge Bootcamp,https://www.udemy.com/course/java-coding-challenge-bootcamp/,Expert Level,Mobile,Native,java
+493178,JAVA GUI Bootcamp 2021,https://www.udemy.com/course/java-graphical-user-interface-gui-for-absolute-beginners/,Expert Level,Mobile,Native,java
+669518,Byte Size Chunks : Java Multithreading,https://www.udemy.com/course/bsc-java-multithreading/,Expert Level,Mobile,Native,java
+1168156,Learn to code in Java from Scratch,https://www.udemy.com/course/learn-to-code-in-java-from-scratch/,Beginner Level,Mobile,Native,java
+4885954,Java Development Bootcamp: Build 35 Real World Projects,https://www.udemy.com/course/build-real-world-java-development-projects/,Expert Level,Mobile,Native,java
+3287364,Building Applications Using Java and NetBeans,https://www.udemy.com/course/building-applications-using-java-and-netbeans/,Expert Level,Mobile,Native,java
+4889924,30 Day Java Bootcamp: Build 30 Java Development Projects,https://www.udemy.com/course/build-java-development-project-course/,Expert Level,Mobile,Native,java
+389632,A Practical Intro to Java Using Games,https://www.udemy.com/course/a-practical-intro-to-java-using-games/,Beginner Level,Mobile,Native,java
+1132250,Algorithms and Data Structures Easy Way Java - job interview,https://www.udemy.com/course/algorithms-and-data-structures-made-easy-for-interview/,Intermediate Level,Mobile,Native,java
+3853988,A Guide to Understand Java Generics with Examples,https://www.udemy.com/course/java-generics-complete-course/,Beginner Level,Mobile,Native,java
+4987312,2023 Core JAVA Bootcamp from Zero to Hero,https://www.udemy.com/course/2022-core-java-bootcamp-from-zero-to-hero/,Expert Level,Mobile,Native,java
+45226,Learn Java From Scratch,https://www.udemy.com/course/learn-java-from-scratch/,Beginner Level,Mobile,Native,java
+1228946,Java Design Patterns Interview Questions Preparation Course,https://www.udemy.com/course/java-design-patterns-interview-questions-preparation-course/,Intermediate Level,Mobile,Native,java
+3872994,Java Multithreading & Concurrency - Interview Practice Exams,https://www.udemy.com/course/java-multithreading-concurrency-interview-practice-exams/,Intermediate Level,Mobile,Native,java
+3668068,Java Programs for Interviews,https://www.udemy.com/course/java-programs-for-interviews/,Intermediate Level,Mobile,Native,java
+1764108,Learn Java Programming from Scratch with Examples and Demos,https://www.udemy.com/course/101-java-programs-for-absolute-beginners-and-school-students/,Beginner Level,Mobile,Native,java
+2117500,Java Fast Track Preparation for Interview as Java Developer,https://www.udemy.com/course/java-fast-track-preparation-for-interview-as-java-developer/,Intermediate Level,Mobile,Native,java
+957902,Java Interview Guide : 200+ Interview Questions and Answers,https://www.udemy.com/course/java-interview-questions-and-answers/,Intermediate Level,Mobile,Native,java
+3803376,Java 7 & Java 8 new features with Lambdas & Streams,https://www.udemy.com/course/java-7-8-new-featuresenhancements-zero-to-master/,Beginner Level,Mobile,Native,java
