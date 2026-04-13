@@ -84,7 +84,7 @@ def clean_text(text):
     text = text.lower()             
     return text
 
-df = pd.read_csv(r"D:\Games\¡\TryNewOneData.csv")
+df = pd.read_csv(r"D:\Games\Recommendation Course AI\DataSets\Data Model.csv")
 
 df.fillna("", inplace=True)
 df.replace("-", "", inplace=True)
@@ -122,18 +122,54 @@ def correct_word(word):
         return match[0]
     return None
 
+def build_subject_aliases():
+    subject_aliases = {}
+
+    for subject in df["subject"].str.lower().unique():
+
+        alias_list = []
+
+        parts = subject.split("/")
+
+        for part in parts:
+            part = part.strip()
+
+            alias_list.append(part)
+
+            words = part.split()
+            alias_list.extend(words)
+
+        words = subject.replace("/", " ").split()
+        for w in words:
+            alias_list.append(w)
+
+        subject_aliases[subject] = list(set(alias_list))
+
 def detect_subject(text):
+    global subject_aliases  # 🔥 important safety
+
+    if not subject_aliases:
+        return None
+
+    text = text.lower()
+
+    best_match = None
+    best_score = 0
+
     for subject, keywords in subject_aliases.items():
+        score = 0
+
         for word in keywords:
-            if word in text:
-                return subject
-    for s in subjects:
-        if s in text:
-            return s
-    for word in text.split():
-        suggestion = correct_word(word)
-        if suggestion in subjects:
-            return suggestion
+            if f" {word} " in f" {text} ":
+                score += 1
+
+        if score > best_score:
+            best_score = score
+            best_match = subject
+
+    if best_match:
+        return best_match.split("/")[0].strip()
+
     return None
 
 def detect_framework(text):
@@ -247,31 +283,34 @@ def detect_language(text):
     return None
 
 def show_options(subject):
-    fw = df[df["subject"].str.lower() == subject]["FrameWork"].unique()
-    lv = df[df["subject"].str.lower() == subject]["level"].unique()
-    lang = df[df["subject"].str.lower() == subject]["Language"].unique()
+    sub_df = df[df["subject"].str.lower() == subject]
 
-    print("\nAvailable Frameworks:")
-    for f in fw:
-        if f != "":
-            print("-", f)
+    fw = sub_df["FrameWork"].unique()
+    lang = sub_df["Language"].unique()
 
-    print("\nAvailable Languages:")
-    for l in lang:
-        if l != "":
-            print("-", l)
+    has_framework = any(f.strip() for f in fw)
+    has_language = any(l.strip() for l in lang)
 
-subject_aliases = {}
+    if has_framework:
+        print("\nAvailable Frameworks:")
+        for f in fw:
+            if f.strip() != "":
+                print("-", f)
 
-for subject in df["subject"].str.lower().unique():
-    words = subject.split("/")  
-    alias_list = []
-    for w in words:
-        alias_list.append(w)
-        alias_list.append(w.replace(" ", ""))  
-    if "web" in subject or "frontend" in subject or "backend" in subject:
-        alias_list += subject.replace("/", " ").split()
-    subject_aliases[subject] = list(set(alias_list))  
+    if has_language:
+        print("\nAvailable Languages:")
+        for l in lang:
+            if l.strip() != "":
+                print("-", l)
+
+    if has_framework and has_language:
+        print("\n👉 Choose framework or language:")
+    elif has_framework:
+        print("\n👉 Choose framework:")
+    elif has_language:
+        print("\n👉 Choose language:")
+    else:
+        print("\n❌ No frameworks or languages available for this subject.")
 
 def recommend_courses(subject=None, framework=None, level=None, language=None):
     results = df.copy()
@@ -478,10 +517,23 @@ def chatbot():
                 state["subject"] = subject
 
                 print(f"\nSubject: {subject}")
+
+                sub_df = df[df["subject"].str.lower() == subject]
+
+                fw = sub_df["FrameWork"].unique()
+                lang = sub_df["Language"].unique()
+
+                has_framework = any(f.strip() for f in fw)
+                has_language = any(l.strip() for l in lang)
+
                 show_options(subject)
 
-                print("\n👉 Choose framework or language:")
-                step = "framework_language"
+                if has_framework or has_language:
+                    step = "framework_language"
+                else:
+                    print("\n❌ This subject has no data to continue.")
+                    step = "start"
+
                 user_input = None
                 continue
 
@@ -522,12 +574,13 @@ def chatbot():
                 )
 
                 if not levels:
-                    print("👉 Try another framework or language.")
+                    print("❌ No levels available for this selection.")
 
-                    state["framework"] = None
-                    state["language"] = None
+                    if framework:
+                        state["framework"] = None
+                    if language:
+                        state["language"] = None
 
-                    step = "framework_language"
                     user_input = None
                     continue
 
@@ -535,7 +588,7 @@ def chatbot():
                 for l in levels:
                     print("-", l)
 
-                print("\n👉 Choose level OR You Can Change Framework/Language/Subject:")
+                print("\n👉 Choose level:")
                 step = "level"
                 user_input = None
                 continue
