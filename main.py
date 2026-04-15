@@ -1,51 +1,46 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
-import numpy as np
 import difflib
-import os
-import uvicorn
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    uvicorn.run("main:app", host="0.0.0.0", port=port)
 
 app = FastAPI()
 
-@app.get("/")
-def home():
-    return {"message": "API is working 🚀"}
+# ✅ CORS (for frontend)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-# ================= LOAD DATA =================
+print("🚀 Starting API...")
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(BASE_DIR, "Data Model2.csv")
-
-df = pd.read_csv(file_path)
-
+# ✅ Load dataset ONCE
+df = pd.read_csv("Data Model2.csv")
 df.fillna("", inplace=True)
-df.replace("-", "", inplace=True)
 
-# Normalize
-df["subject"] = df["subject"].str.lower()
-df["FrameWork"] = df["FrameWork"].str.lower()
-df["Language"] = df["Language"].str.lower()
-df["level"] = df["level"].str.lower()
+print("✅ Dataset loaded")
 
-subjects = df["subject"].unique()
-frameworks = df["FrameWork"].unique()
-languages = df["Language"].unique()
+# ==============================
+# DATA PREPARATION
+# ==============================
 
-# ================= REQUEST MODEL =================
-class UserInput(BaseModel):
-    message: str
+subjects = df["subject"].str.lower().unique()
+frameworks = df["FrameWork"].str.lower().unique()
+languages = df["Language"].str.lower().unique()
 
-# ================= ALIASES =================
+all_keywords = list(subjects) + list(frameworks)
+
+# ==============================
+# ALIASES
+# ==============================
+
 subject_aliases = {
     "web / frontend": ["web", "frontend", "front", "ui"],
     "backend": ["backend", "back", "api", "server"],
-    "data science": ["ds", "data science"],
-    "data analysis": ["analysis", "data analysis"],
+    "data science": ["data science", "ds"],
+    "data analysis": ["data analysis", "analysis"],
     "ai / artificial intelligence": ["ai", "artificial intelligence"],
 }
 
@@ -57,13 +52,27 @@ framework_aliases = {
     "python": ["python", "py"],
 }
 
-# ================= DETECTION =================
+language_aliases = {
+    "javascript": ["js", "javascript"],
+    "html": ["html"],
+    "css": ["css"],
+    "java": ["java"],
+}
+
+# ==============================
+# DETECTION FUNCTIONS
+# ==============================
+
+def correct_word(word):
+    matches = difflib.get_close_matches(word, all_keywords, n=1, cutoff=0.8)
+    return matches[0] if matches else None
+
 def detect_subject(text):
     text = text.lower()
 
     for subject, aliases in subject_aliases.items():
-        for a in aliases:
-            if a in text:
+        for alias in aliases:
+            if alias in text:
                 return subject
 
     for s in subjects:
@@ -72,24 +81,27 @@ def detect_subject(text):
 
     return None
 
-
 def detect_framework(text):
     text = text.lower()
 
     for fw, aliases in framework_aliases.items():
-        for a in aliases:
-            if a in text:
+        for alias in aliases:
+            if alias in text:
                 return fw
 
-    for f in frameworks:
-        if f in text:
-            return f
+    for fw in frameworks:
+        if fw in text:
+            return fw
 
     return None
 
-
 def detect_language(text):
     text = text.lower()
+
+    for lang, aliases in language_aliases.items():
+        for alias in aliases:
+            if alias in text:
+                return lang
 
     for lang in languages:
         if lang in text:
@@ -97,43 +109,55 @@ def detect_language(text):
 
     return None
 
+# ==============================
+# RECOMMENDATION
+# ==============================
 
-# ================= RECOMMENDER =================
-def recommend(subject=None, framework=None, language=None):
+def recommend_courses(subject=None, framework=None, language=None):
     results = df.copy()
 
     if subject:
-        results = results[results["subject"] == subject]
+        results = results[results["subject"].str.lower() == subject]
 
     if framework:
-        results = results[results["FrameWork"] == framework]
+        results = results[results["FrameWork"].str.lower() == framework]
 
     if language:
-        results = results[results["Language"] == language]
+        results = results[results["Language"].str.lower() == language]
 
-    if results.empty:
+    if len(results) == 0:
         return []
 
-    results = results.sample(frac=1)
-    return results.head(5).to_dict(orient="records")
+    results = results.sample(frac=1).head(5)
 
+    output = []
+    for _, row in results.iterrows():
+        output.append({
+            "title": row["course_title"],
+            "subject": row["subject"],
+            "framework": row["FrameWork"],
+            "language": row["Language"],
+            "level": row["level"],
+            "url": row["url"]
+        })
 
-# ================= API =================
-@app.post("/chat")
-def chat(user: UserInput):
-    text = user.message.lower()
+    return output
 
-    subject = detect_subject(text)
-    framework = detect_framework(text)
-    language = detect_language(text)
+# ==============================
+# API ROUTES
+# ==============================
 
-    if not subject and framework:
-        # infer subject
-        row = df[df["FrameWork"] == framework]
-        if not row.empty:
-            subject = row.iloc[0]["subject"]
+@app.get("/")
+def home():
+    return {"message": "API is working 🚀"}
 
-    courses = recommend(subject, framework, language)
+@app.get("/chat")
+def chat(query: str):
+    subject = detect_subject(query)
+    framework = detect_framework(query)
+    language = detect_language(query)
+
+    results = recommend_courses(subject, framework, language)
 
     return {
         "detected": {
@@ -141,5 +165,5 @@ def chat(user: UserInput):
             "framework": framework,
             "language": language
         },
-        "courses": courses if courses else "No courses found"
+        "courses": results
     }
