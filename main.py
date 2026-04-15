@@ -26,11 +26,16 @@ print("🚀 Starting API...")
 # =========================
 # LOAD DATASET
 # =========================
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.path.join(BASE_DIR, "Data Model2.csv")
+@app.on_event("startup")
+def load_data():
+    global df
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(BASE_DIR, "Data Model2.csv")
 
-df = pd.read_csv(csv_path)
-df.fillna("", inplace=True)
+    print("📂 Loading dataset...")
+    df = pd.read_csv(csv_path)
+    df.fillna("", inplace=True)
+    print("✅ Dataset loaded")
 
 print("✅ Dataset loaded")
 
@@ -168,6 +173,9 @@ def health():
 
 @app.get("/chat")
 def chat(query: str):
+    if df is None:
+        return {"error": "Dataset not loaded yet"}
+    
     subject = detect_subject(query)
     framework = detect_framework(query)
     language = detect_language(query)
