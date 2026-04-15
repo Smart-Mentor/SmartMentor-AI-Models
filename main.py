@@ -12,6 +12,10 @@ if __name__ == "__main__":
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"message": "API is working 🚀"}
+
 # ================= LOAD DATA =================
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
