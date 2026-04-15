@@ -1,61 +1,36 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 import pandas as pd
+import numpy as np
 import difflib
-import os
-import uvicorn
 
-# =========================
-# CREATE APP FIRST
-# =========================
 app = FastAPI()
 
-# =========================
-# CORS
-# =========================
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# ================= LOAD DATA =================
+df = pd.read_csv(r"D:\Games\¡\Data Model2.csv")
+df.fillna("", inplace=True)
+df.replace("-", "", inplace=True)
 
-print("🚀 Starting API...")
+# Normalize
+df["subject"] = df["subject"].str.lower()
+df["FrameWork"] = df["FrameWork"].str.lower()
+df["Language"] = df["Language"].str.lower()
+df["level"] = df["level"].str.lower()
 
-# =========================
-# LOAD DATASET
-# =========================
-@app.on_event("startup")
-def load_data():
-    global df
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(BASE_DIR, "Data Model2.csv")
+subjects = df["subject"].unique()
+frameworks = df["FrameWork"].unique()
+languages = df["Language"].unique()
 
-    print("📂 Loading dataset...")
-    df = pd.read_csv(csv_path)
-    df.fillna("", inplace=True)
-    print("✅ Dataset loaded")
+# ================= REQUEST MODEL =================
+class UserInput(BaseModel):
+    message: str
 
-print("✅ Dataset loaded")
-
-# =========================
-# DATA PREP
-# =========================
-subjects = df["subject"].str.lower().unique()
-frameworks = df["FrameWork"].str.lower().unique()
-languages = df["Language"].str.lower().unique()
-
-all_keywords = list(subjects) + list(frameworks)
-
-# =========================
-# ALIASES (IMPROVED)
-# =========================
+# ================= ALIASES =================
 subject_aliases = {
-    "web / frontend": ["web", "frontend", "front", "ui", "website"],
+    "web / frontend": ["web", "frontend", "front", "ui"],
     "backend": ["backend", "back", "api", "server"],
-    "data science": ["data science", "ds"],
-    "data analysis": ["data analysis", "analysis"],
+    "data science": ["ds", "data science"],
+    "data analysis": ["analysis", "data analysis"],
     "ai / artificial intelligence": ["ai", "artificial intelligence"],
 }
 
@@ -63,33 +38,17 @@ framework_aliases = {
     "machinelearning": ["ml", "machine learning", "machine"],
     "deeplearning": ["dl", "deep learning", "deep"],
     "react": ["react", "reactjs"],
-    "nodejs": ["node", "nodejs", "node js"],
+    "nodejs": ["node", "nodejs"],
     "python": ["python", "py"],
 }
 
-language_aliases = {
-    "javascript": ["js", "javascript"],
-    "html": ["html"],
-    "css": ["css"],
-    "java": ["java"],
-}
-
-# =========================
-# DETECTION FUNCTIONS (IMPROVED)
-# =========================
+# ================= DETECTION =================
 def detect_subject(text):
     text = text.lower()
 
-    # 🔥 priority keywords
-    if any(w in text for w in ["web", "frontend", "front"]):
-        return "web / frontend"
-
-    if any(w in text for w in ["backend", "back", "api", "server"]):
-        return "backend"
-
     for subject, aliases in subject_aliases.items():
-        for alias in aliases:
-            if alias in text:
+        for a in aliases:
+            if a in text:
                 return subject
 
     for s in subjects:
@@ -103,13 +62,13 @@ def detect_framework(text):
     text = text.lower()
 
     for fw, aliases in framework_aliases.items():
-        for alias in aliases:
-            if alias in text:
+        for a in aliases:
+            if a in text:
                 return fw
 
-    for fw in frameworks:
-        if fw in text:
-            return fw
+    for f in frameworks:
+        if f in text:
+            return f
 
     return None
 
@@ -117,70 +76,49 @@ def detect_framework(text):
 def detect_language(text):
     text = text.lower()
 
-    for lang, aliases in language_aliases.items():
-        for alias in aliases:
-            if alias in text:
-                return lang
-
     for lang in languages:
         if lang in text:
             return lang
 
     return None
 
-# =========================
-# RECOMMENDER
-# =========================
-def recommend_courses(subject=None, framework=None, language=None):
+
+# ================= RECOMMENDER =================
+def recommend(subject=None, framework=None, language=None):
     results = df.copy()
 
     if subject:
-        results = results[results["subject"].str.lower() == subject]
+        results = results[results["subject"] == subject]
 
     if framework:
-        results = results[results["FrameWork"].str.lower() == framework]
+        results = results[results["FrameWork"] == framework]
 
     if language:
-        results = results[results["Language"].str.lower() == language]
+        results = results[results["Language"] == language]
 
-    if len(results) == 0:
+    if results.empty:
         return []
 
-    results = results.sample(frac=1).head(5)
+    results = results.sample(frac=1)
+    return results.head(5).to_dict(orient="records")
 
-    return [
-        {
-            "title": row["course_title"],
-            "subject": row["subject"],
-            "framework": row["FrameWork"],
-            "language": row["Language"],
-            "level": row["level"],
-            "url": row["url"]
-        }
-        for _, row in results.iterrows()
-    ]
 
-# =========================
-# ROUTES
-# =========================
-@app.get("/")
-def home():
-    return {"message": "API is working 🚀"}
+# ================= API =================
+@app.post("/chat")
+def chat(user: UserInput):
+    text = user.message.lower()
 
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+    subject = detect_subject(text)
+    framework = detect_framework(text)
+    language = detect_language(text)
 
-@app.get("/chat")
-def chat(query: str):
-    if df is None:
-        return {"error": "Dataset not loaded yet"}
-    
-    subject = detect_subject(query)
-    framework = detect_framework(query)
-    language = detect_language(query)
+    if not subject and framework:
+        # infer subject
+        row = df[df["FrameWork"] == framework]
+        if not row.empty:
+            subject = row.iloc[0]["subject"]
 
-    results = recommend_courses(subject, framework, language)
+    courses = recommend(subject, framework, language)
 
     return {
         "detected": {
@@ -188,13 +126,5 @@ def chat(query: str):
             "framework": framework,
             "language": language
         },
-        "courses": results
+        "courses": courses if courses else "No courses found"
     }
-
-# =========================
-# RUN SERVER (LAST LINE ONLY)
-# =========================
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    print("🚀 Running on port:", port)
-    uvicorn.run(app, host="0.0.0.0", port=port)
