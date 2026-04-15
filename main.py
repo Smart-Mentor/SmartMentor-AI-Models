@@ -3,11 +3,17 @@ from pydantic import BaseModel
 import pandas as pd
 import numpy as np
 import difflib
+import os
+import uvicorn
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
 
 app = FastAPI()
 
 # ================= LOAD DATA =================
-df = pd.read_csv(r"D:\Games\¡\Data Model2.csv")
+df = pd.read_csv(r"Data Model2.csv")
 df.fillna("", inplace=True)
 df.replace("-", "", inplace=True)
 
