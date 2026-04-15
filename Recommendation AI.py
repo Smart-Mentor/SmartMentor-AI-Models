@@ -84,7 +84,7 @@ def clean_text(text):
     text = text.lower()             
     return text
 
-df = pd.read_csv(r"D:\Games\Recommendation Course AI\DataSets\Data Model.csv")
+df = pd.read_csv(r"D:\Games\¡\Data Model2.csv")
 
 df.fillna("", inplace=True)
 df.replace("-", "", inplace=True)
@@ -117,68 +117,295 @@ languages = df["Language"].str.lower().unique()
 all_keywords = list(subjects) + list(frameworks)
 
 def correct_word(word):
-    match = difflib.get_close_matches(word, all_keywords, n=1, cutoff=0.7)
-    if match:
-        return match[0]
-    return None
+    matches = difflib.get_close_matches(word, all_keywords, n=1, cutoff=0.85)
+    return matches[0] if matches else None
 
-def build_subject_aliases():
-    subject_aliases = {}
-
-    for subject in df["subject"].str.lower().unique():
-
-        alias_list = []
-
-        parts = subject.split("/")
-
-        for part in parts:
-            part = part.strip()
-
-            alias_list.append(part)
-
-            words = part.split()
-            alias_list.extend(words)
-
-        words = subject.replace("/", " ").split()
-        for w in words:
-            alias_list.append(w)
-
-        subject_aliases[subject] = list(set(alias_list))
-
-def detect_subject(text):
-    global subject_aliases  # 🔥 important safety
-
-    if not subject_aliases:
-        return None
-
+def is_input_related(text):
     text = text.lower()
 
-    best_match = None
-    best_score = 0
+    important_words = [
+        "web", "frontend", "backend", "front", "back",
+        "ai", "ml", "dl", "data", "mobile", "deep", "machine",
+        "server", "api", "ui", "mob", "wp", "js", "desk"
+        "ios", "ds", "dotnet", "boot", "bs", "artificial",
+        "doc", "dock", "jq", "node", "node js", "py" , "word",
+    ]
+
+    for word in text.split():
+        if word in important_words:
+            return True
+
+        if word in subjects or word in frameworks or word in languages:
+            return True
+
+        suggestion = difflib.get_close_matches(word, all_keywords, n=1, cutoff=0.85)
+        if suggestion:
+            return True
+
+    return False
+
+def build_subject_aliases():
+    aliases = {}
+    for subject in subjects:
+        words = subject.split("/")
+        alias_list = []
+        for w in words:
+            alias_list.append(w)
+            alias_list.append(w.replace(" ", ""))
+        if "web" in subject or "frontend" in subject or "backend" in subject:
+            alias_list += subject.replace("/", " ").split()
+        aliases[subject] = list(set(alias_list))
+    return aliases
+
+subject_aliases = build_subject_aliases()
+
+subject_aliases = {
+    "ai / artificial intelligence": [
+        "ai",
+        "artificial intelligence",
+        "ai / artificial intelligence",
+        "intelligent systems"
+    ],
+
+    "backend": [
+        "backend",
+        "back end",
+        "back",
+        "server",
+        "server side",
+        "api",
+        "apis",
+        "rest api",
+    ],
+
+    "web / frontend": [
+        "front",
+        "frontend",
+        "front end",
+        "web",
+        "web development",
+        "ui",
+        "user interface",
+        "website",
+    ],
+
+    "mobile": [
+        "mob",
+        "mobile",
+        "android",
+        "ios",
+        "app development",
+        "mobile app",
+    ],
+
+    "data science": [
+        "data science",
+        "ds",
+        "data scientist",
+        "data modeling"
+    ],
+
+    "data analysis": [
+        "data analysis",
+        "data analyst",
+        "analysis",
+        "analyzing data",
+        "excel analysis"
+    ],
+
+    "cloud": [
+        "cloud",
+        "cloud computing",
+        "azure",
+        "gcp"
+    ],
+
+    "desktop": [
+        "desk",
+        "desktop",
+        "desktop app",
+        "windows app",
+        "pc application"
+    ],
+
+    "java": [
+        "java",
+        "java development",
+        "java programming"
+    ]
+}
+
+def detect_subject(text):
+    text = text.lower()
+
+    if any(word in text for word in ["web", "frontend", "front"]):
+        return "web / frontend"
+
+    if any(word in text for word in ["backend", "back", "api", "server"]):
+        return "backend"
+
+    if any(word in text for word in ["data science", "ds"]):
+        return "data science"
+
+    if any(word in text for word in ["analysis", "data analysis"]):
+        return "data analysis"
+
+    if any(word in text for word in ["ai", "artificial intelligence"]):
+        return "ai / artificial intelligence"
 
     for subject, keywords in subject_aliases.items():
-        score = 0
-
         for word in keywords:
-            if f" {word} " in f" {text} ":
-                score += 1
+            if word in text:
+                return subject
 
-        if score > best_score:
-            best_score = score
-            best_match = subject
+    for s in subjects:
+        if s in text:
+            return s
 
-    if best_match:
-        return best_match.split("/")[0].strip()
+    for word in text.split():
+        suggestion = correct_word(word)
+        if suggestion in subjects:
+            return suggestion
 
     return None
 
+framework_aliases = {
+    "machinelearning": [
+        "ml",
+        "machine",
+        "machine learning",
+        "machine-learning",
+        "machinelearn",
+    ],
+
+    "deeplearning": [
+        "dl",
+        "deep learning",
+        "deep",
+        "deep-learning",
+        "deep learn",
+        "neural networks",
+    ],
+
+    ".net": [
+        "net",
+        ".net",
+        "dotnet",
+        "asp.net",
+        "asp net"
+    ],
+
+    "angular": [
+        "angular",
+        "angularjs",
+    ],
+
+    "aws": [
+        "aws",
+        "amazon web services",
+        "aws cloud"
+    ],
+
+    "flutter": [
+        "flutter",
+        "dart flutter",
+        "flutter framework"
+    ],
+
+    "bootstrap": [
+        "boot",
+        "bootstrap",
+        "bootstrap framework",
+        "bs"
+    ],
+
+    "docker": [
+        "docker",
+        "doc",
+        "container",
+        "containers",
+        "docker container"
+    ],
+
+    "jquery": [
+        "jquery",
+        "jq"
+    ],
+
+    "native": [
+        "native",
+        "native development"
+    ],
+
+    "nodejs": [
+        "node",
+        "nodejs",
+        "node js",
+        "node.js"
+    ],
+
+    "php": [
+        "php",
+        "php language"
+    ],
+
+    "python": [
+        "python",
+        "py",
+        "python language"
+    ],
+
+    "react": [
+        "react",
+        "reactjs",
+        "react js",
+        "react.js"
+    ],
+
+    "spring": [
+        "spring",
+        "spring boot",
+        "springboot"
+    ],
+
+    "sql": [
+        "sql",
+        "database",
+        "db",
+        "structured query language"
+    ],
+
+    "wordpress": [
+        "wordpress",
+        "word press",
+        "wp",
+        "wordpress cms"
+    ]
+}
+
 def detect_framework(text):
-    for word in text.split():
-        if word in frameworks:
-            return word
-        suggestion = correct_word(word)
-        if suggestion in frameworks:
-            return suggestion
+    text = text.lower()
+    text_no_space = text.replace(" ", "")
+    avoid_ml = {"html", "html5", "html/css", "html css"}
+
+    for fw, aliases in framework_aliases.items():
+        for alias in aliases:
+            alias_lower = alias.lower()
+            
+            if alias_lower == "ml":
+                if any(bad in text_no_space for bad in ["html", "htm"]):
+                    continue
+                if "ml" in text_no_space and not any(word in text for word in ["html", "html5", "html/css", "html css"]):
+                    return fw
+                continue
+            
+            if alias_lower in text or alias_lower in text_no_space:
+                return fw
+
+    for fw in frameworks:
+        if fw.lower() in text or fw.lower().replace(" ", "") in text_no_space:
+            return fw.lower()
+
     return None
 
 beginner_words = [
@@ -206,7 +433,7 @@ intermediate_words = [
 advanced_words = [
     "advanced", "expert", "pro", "professional", "professionals",
     "master", "mastery", "senior", "experienced", "veteran",
-    "deep", "deep dive", "in depth", "in-depth", "hardcore",
+    "in depth", "in-depth", "hardcore",
     "high level", "high-level", "top level", "top-level",
     "skilled", "specialist", "guru", "ninja", "wizard",
     "proficient", "seasoned", "level 3", "hard", "complex",
@@ -276,10 +503,64 @@ def detect_level(text):
             return l
     return None
 
+language_aliases = {
+    "c#": [
+        "csharp",
+        "c sharp",
+        "c#",
+        "c #",
+    ],
+
+    "c++": [
+        "cpp",
+        "c p p",
+        "c plus plus",
+        "c++ language",
+        "c+",
+        "c++"
+    ],
+
+    "javascript": [
+        "js",
+        "java script",
+        "javascript"
+    ],
+
+    "html": [
+        "html",
+        "html5",
+        "hypertext markup",
+        "hypertext markup language",
+        "hyper text markup language",
+    ],
+
+    "css": [
+        "css",
+        "css3",
+        "style sheet",
+        "styling",
+    ],
+
+    "java": [
+        "java",
+        "java language",
+        "java programming",
+        "core java"
+    ]
+}
+
 def detect_language(text):
-    for word in text.split():
-        if word in languages:
-            return word
+    text = text.lower()
+
+    for lang, aliases in language_aliases.items():
+        for alias in aliases:
+            if alias in text:
+                return lang
+
+    for lang in languages:
+        if lang in text:
+            return lang
+
     return None
 
 def show_options(subject):
@@ -422,11 +703,15 @@ def chatbot():
 
         if step == "start":
 
+            if not is_input_related(user_input):
+                print("\n❌ Please enter a valid course topic!")
+                user_input = None
+                continue
+
             smart_subject, smart_framework, smart_language, smart_level = extract_intent(user_input)
 
             if smart_level and (smart_framework or smart_language or smart_subject):
 
-                print("\n✅ Detected:")
                 if isinstance(smart_level, list):
                     print("Levels:", ", ".join([lvl.title() for lvl in smart_level]))
                 else:
@@ -462,7 +747,7 @@ def chatbot():
                         print("URL:", row["url"])
                         print("-------------------")
 
-                print("\n👉 Do you want to change the level for the same option? Or start a new search?")
+                print("\n👉 You Can Change The Level For The Same Option Or Start a New Search\n")
                 step = "post_recommendation"
                 user_input = None
                 continue
@@ -493,7 +778,7 @@ def chatbot():
                 for l in levels:
                     print("-", l)
 
-                print("\n👉 Choose level OR You Can Change Framework/Language/Subject:")
+                print("\n👉 Choose level OR You Can Change Subject:")
                 step = "level"
                 user_input = None
                 continue
@@ -537,18 +822,23 @@ def chatbot():
                 user_input = None
                 continue
 
-            print("\n❌ Enter subject, framework, or language")
+            print("\n👉 Enter Subject, Framework or Language")
             user_input = None
 
         elif step == "framework_language":
+
+            if not is_input_related(user_input):
+                print("\n❌ Please choose from the available options.")
+                user_input = None
+                continue
 
             framework = detect_framework(user_input)
             language = detect_language(user_input)
 
             if framework:
                 if not is_valid_combination(state["subject"], framework=framework):
-                    print("\n❌ This framework does not belong to this subject.")
-                    print("\n👉 Choose language or framework from the list.")
+                    print("\n❌ This Framework does not belong to this subject.")
+                    print("\n👉 Choose Language or Framework from the list.")
                     user_input = None
                     continue
                 
@@ -557,8 +847,8 @@ def chatbot():
 
             if language:
                 if not is_valid_combination(state["subject"], language=language):
-                    print("\n❌ This language does not belong to this subject.")
-                    print("\n👉 Choose language or framework from the list.")
+                    print("\n❌ This Language does not belong to this subject.")
+                    print("\n👉 Choose Language or Framework from the list.")
                     user_input = None
                     continue
                 
@@ -566,37 +856,70 @@ def chatbot():
                 print(f"Language: {language}")
 
             if framework or language:
-
                 levels = get_available_levels(
                     state["subject"],
                     state["framework"],
                     state["language"]
                 )
 
-                if not levels:
-                    print("❌ No levels available for this selection.")
+                if len(levels) == 1:
+                    state["level"] = levels[0]
+                    print(f"\nOnly one level available: {levels[0]}")
+                    
+                    results = recommend_courses(
+                        state["subject"],
+                        state["framework"],
+                        state["level"],
+                        state["language"]
+                    )
+                    
+                    if results is None or len(results) == 0:
+                        print("\n❌ No courses found")
+                    else:
+                        print("\n🎓 Recommended Courses:\n")
+                        for _, row in results.iterrows():
+                            print("Title:", row["course_title"])
+                            if row["FrameWork"] != "":
+                                print("Framework:", row["FrameWork"])
+                            if row["Language"] != "":
+                                print("Language:", row["Language"])
+                            print("Level:", row["level"])
+                            print("URL:", row["url"])
+                            print("-------------------")
+                    
+                    print("\n👉 Change the level or Start a new search.\n")
+                    step = "post_recommendation"
+                    user_input = None
+                    continue
 
+                elif len(levels) > 1:
+                    print("\n👉 Available Levels:")
+                    for l in levels:
+                        print("-", l)
+                    print("\n👉 Choose level:")
+                    step = "level"
+                    user_input = None
+                    continue
+
+                else:
+                    print("❌ No levels available for this selection.")
                     if framework:
                         state["framework"] = None
                     if language:
                         state["language"] = None
-
                     user_input = None
                     continue
 
-                print("\n👉 Available Levels:")
-                for l in levels:
-                    print("-", l)
-
-                print("\n👉 Choose level:")
-                step = "level"
-                user_input = None
-                continue
-
-            print("❌ Invalid input")
+            print("❌ Invalid input !")
+            print("\n Please Enter A Valid Framework or Language .")
             user_input = None
 
         elif step == "level":
+
+            if not is_input_related(user_input) and not detect_level(user_input):
+                print("\n❌ Please enter a valid Level .")
+                user_input = None
+                continue
 
             new_subject = detect_subject(user_input)
             new_framework = detect_framework(user_input)
@@ -617,8 +940,8 @@ def chatbot():
                 levels = get_available_levels(state["subject"], new_framework, None)
 
                 if not levels:
-                    print("\n❌ No courses found for this framework.")
-                    print("👉 Choose from available frameworks in selected subject.\n")
+                    print("\n❌ No courses found for this Framework.")
+                    print("👉 Choose from available Frameworks in selected subject.\n")
                     state["framework"] = None
                     user_input = None
                     continue
@@ -667,7 +990,7 @@ def chatbot():
                     valid_levels = [lvl for lvl in level_detected if str(lvl).lower() in available_lower]
                     if valid_levels:
                         state["level"] = valid_levels
-                        print(f"\n✅ Levels selected: {', '.join([str(lvl).title() for lvl in valid_levels])}")
+                        print(f"\nLevels : {', '.join([str(lvl).title() for lvl in valid_levels])}")
 
                         results = recommend_courses(
                             state["subject"],
@@ -690,12 +1013,12 @@ def chatbot():
                                 print("URL:", row["url"])
                                 print("-------------------")
 
-                        print("\n👉 Do you want to change the level again or start a new search?")
+                        print("\n👉 Change the level or Start a new search.\n")
                         step = "post_recommendation"
                         user_input = None
                         continue
                     else:
-                        print("\n❌ None of the selected levels are available.")
+                        print("\n❌ None of the selected Levels are available.")
                         user_input = None
                         continue
                 else:
@@ -730,7 +1053,7 @@ def chatbot():
                                     print("Level:", row["level"])
                                     print("URL:", row["url"])
                                     print("-------------------")
-                            print("\n👉 Do you want to change level again or start new search?")
+                            print("\n👉 Change the level or Start a new search.\n")
                             step = "post_recommendation"
                             user_input = None
                             continue
@@ -760,12 +1083,12 @@ def chatbot():
                                     print("Level:", row["level"])
                                     print("URL:", row["url"])
                                     print("-------------------")
-                            print("\n👉 Do you want to change the level again or start a new search?")
+                            print("\n👉 Change the level or Start a new search.\n")
                             step = "post_recommendation"
                             user_input = None
                             continue
 
-            print("\n❌ Invalid level. Available:")
+            print("\nInvalid level.\n\nAvailable:")
             for l in levels:
                 print("-", l)
             user_input = None
@@ -834,7 +1157,7 @@ def chatbot():
                         print("URL:", row["url"])
                         print("-------------------")
 
-                print("\n👉 Do you want to change the level again or start a new search?")
+                print("\n👉 Change the level or Start a new search.\n")
                 user_input = None
                 continue
 
@@ -845,7 +1168,7 @@ def chatbot():
                 continue
 
             if text in ["yes", "y"]:
-                print("\n👉 What subject, framework, or language do you want?")
+                print("\n👉 What Subject, Framework or Language do you want?")
                 state = {"subject": None, "framework": None, "language": None, "level": None}
                 step = "start"
                 user_input = None
@@ -855,7 +1178,8 @@ def chatbot():
                 print("\nChatbot:", random.choice(exit_responses))
                 break
 
-            print("\n❓ I didn't understand.")
+            print("\n❌ I didn't understand !")
+            print("\nPlease Enter Valid Courses!\n")
             user_input = None
             continue
 
