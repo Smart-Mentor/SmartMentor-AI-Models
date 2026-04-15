@@ -2,8 +2,15 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import difflib
+import os
+import uvicorn
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
 
 app = FastAPI()
+
 
 # ✅ CORS (for frontend)
 app.add_middleware(
@@ -146,6 +153,9 @@ def recommend_courses(subject=None, framework=None, language=None):
 # ==============================
 # API ROUTES
 # ==============================
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 
 @app.get("/")
 def home():
