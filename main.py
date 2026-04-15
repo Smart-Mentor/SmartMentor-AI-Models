@@ -5,14 +5,14 @@ import difflib
 import os
 import uvicorn
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    uvicorn.run("main:app", host="0.0.0.0", port=port)
-
+# =========================
+# CREATE APP FIRST
+# =========================
 app = FastAPI()
 
-
-# ✅ CORS (for frontend)
+# =========================
+# CORS
+# =========================
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -23,28 +23,31 @@ app.add_middleware(
 
 print("🚀 Starting API...")
 
-# ✅ Load dataset ONCE
-df = pd.read_csv("Data Model2.csv")
+# =========================
+# LOAD DATASET
+# =========================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(BASE_DIR, "Data Model2.csv")
+
+df = pd.read_csv(csv_path)
 df.fillna("", inplace=True)
 
 print("✅ Dataset loaded")
 
-# ==============================
-# DATA PREPARATION
-# ==============================
-
+# =========================
+# DATA PREP
+# =========================
 subjects = df["subject"].str.lower().unique()
 frameworks = df["FrameWork"].str.lower().unique()
 languages = df["Language"].str.lower().unique()
 
 all_keywords = list(subjects) + list(frameworks)
 
-# ==============================
-# ALIASES
-# ==============================
-
+# =========================
+# ALIASES (IMPROVED)
+# =========================
 subject_aliases = {
-    "web / frontend": ["web", "frontend", "front", "ui"],
+    "web / frontend": ["web", "frontend", "front", "ui", "website"],
     "backend": ["backend", "back", "api", "server"],
     "data science": ["data science", "ds"],
     "data analysis": ["data analysis", "analysis"],
@@ -55,7 +58,7 @@ framework_aliases = {
     "machinelearning": ["ml", "machine learning", "machine"],
     "deeplearning": ["dl", "deep learning", "deep"],
     "react": ["react", "reactjs"],
-    "nodejs": ["node", "nodejs"],
+    "nodejs": ["node", "nodejs", "node js"],
     "python": ["python", "py"],
 }
 
@@ -66,16 +69,18 @@ language_aliases = {
     "java": ["java"],
 }
 
-# ==============================
-# DETECTION FUNCTIONS
-# ==============================
-
-def correct_word(word):
-    matches = difflib.get_close_matches(word, all_keywords, n=1, cutoff=0.8)
-    return matches[0] if matches else None
-
+# =========================
+# DETECTION FUNCTIONS (IMPROVED)
+# =========================
 def detect_subject(text):
     text = text.lower()
+
+    # 🔥 priority keywords
+    if any(w in text for w in ["web", "frontend", "front"]):
+        return "web / frontend"
+
+    if any(w in text for w in ["backend", "back", "api", "server"]):
+        return "backend"
 
     for subject, aliases in subject_aliases.items():
         for alias in aliases:
@@ -87,6 +92,7 @@ def detect_subject(text):
             return s
 
     return None
+
 
 def detect_framework(text):
     text = text.lower()
@@ -102,6 +108,7 @@ def detect_framework(text):
 
     return None
 
+
 def detect_language(text):
     text = text.lower()
 
@@ -116,10 +123,9 @@ def detect_language(text):
 
     return None
 
-# ==============================
-# RECOMMENDATION
-# ==============================
-
+# =========================
+# RECOMMENDER
+# =========================
 def recommend_courses(subject=None, framework=None, language=None):
     results = df.copy()
 
@@ -137,29 +143,28 @@ def recommend_courses(subject=None, framework=None, language=None):
 
     results = results.sample(frac=1).head(5)
 
-    output = []
-    for _, row in results.iterrows():
-        output.append({
+    return [
+        {
             "title": row["course_title"],
             "subject": row["subject"],
             "framework": row["FrameWork"],
             "language": row["Language"],
             "level": row["level"],
             "url": row["url"]
-        })
+        }
+        for _, row in results.iterrows()
+    ]
 
-    return output
-
-# ==============================
-# API ROUTES
-# ==============================
-@app.get("/health")
-def health():
-    return {"status": "ok"}
-
+# =========================
+# ROUTES
+# =========================
 @app.get("/")
 def home():
     return {"message": "API is working 🚀"}
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 
 @app.get("/chat")
 def chat(query: str):
@@ -177,3 +182,11 @@ def chat(query: str):
         },
         "courses": results
     }
+
+# =========================
+# RUN SERVER (LAST LINE ONLY)
+# =========================
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    print("🚀 Running on port:", port)
+    uvicorn.run(app, host="0.0.0.0", port=port)
