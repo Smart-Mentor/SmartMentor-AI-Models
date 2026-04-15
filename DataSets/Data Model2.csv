@@ -1,30 +1,30 @@
 course_id,course_title,url,level,subject,FrameWork,Language
 8324,Javascript for Beginners,https://www.udemy.com/beginning-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 8325,HTML Tutorial: HTML & CSS for Beginners,https://www.udemy.com/learn-html5/,Beginner Level,Web / FrontEnd,-,HTML
-9463,Programming Java for Beginners - The Ultimate Java Tutorial,https://www.udemy.comhttps://www.udemy.com/course/learn-to-program-with-java/,Beginner Level,Mobile,Native,java
+9463,Programming Java for Beginners - The Ultimate Java Tutorial,https://www.udemy.comhttps://www.udemy.com/course/learn-to-program-with-java/,Beginner Level,Mobile,-,Java
 11153,Learn jQuery: An In-depth Course For Beginners,https://www.udemy.com/jquery/,Beginner Level,Web / FrontEnd,jQuery,-
-12975,Introduction to Java Programming for Online Learners,https://www.udemy.comhttps://www.udemy.com/course/learning-to-program-in-java-a-supplement-for-online-academic-learners/,Beginner Level,Mobile,Native,java
+12975,Introduction to Java Programming for Online Learners,https://www.udemy.comhttps://www.udemy.com/course/learning-to-program-in-java-a-supplement-for-online-academic-learners/,Beginner Level,Mobile,-,Java
 14571,Learn HTML5 At Your Own Pace. Ideal for Beginners,https://www.udemy.com/learning-html5/,Beginner Level,Web / FrontEnd,-,HTML
 16646,Web Programming with Python,https://www.udemy.com/web-programming-with-python/,Beginner Level,Data Science,Python,-
 17887,JavaScript with BackboneJS and Bootstrap CSS - Advanced,https://www.udemy.com/advanced-javascript-with-backbonejs-and-bootstrap-css/,Expert Level,Web / FrontEnd,-,javascript
-18276,Java Programming using Eclipse: An Introduction,https://www.udemy.comhttps://www.udemy.com/course/programming-java/,Beginner Level,Mobile,Native,java
+18276,Java Programming using Eclipse: An Introduction,https://www.udemy.comhttps://www.udemy.com/course/programming-java/,Beginner Level,Mobile,-,Java
 18448,Learning CSS3 - A Comprehensive Tutorial For Web Developers,https://www.udemy.com/learning-css3/,Expert Level,Web / FrontEnd,-,CSS
-21386,Beginner Photoshop to HTML5 and CSS3,https://www.udemy.com/psd-html5-css3/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+21386,Beginner Photoshop to HTML5 and CSS3,https://www.udemy.com/psd-html5-css3/,Beginner Level,Web / FrontEnd,-,CSS
 25615,Login and Registration from Scratch with PHP and MySQL,https://www.udemy.com/authentication-from-scratch-with-php-and-mysql/,Beginner Level,Data Analysis,SQL,-
 26845,Advanced HTML5 Tutorial for Web Developers,https://www.udemy.com/advanced-html5-for-web-developers/,Expert Level,Web / FrontEnd,-,HTML
 28295,Learn Web Designing & HTML5/CSS3 Essentials in 4-Hours,https://www.udemy.com/build-beautiful-html5-website/,Beginner Level,Web / FrontEnd,-,HTML
 28295,Learn Web Designing & HTML5/CSS3 Essentials in 4-Hours,https://www.udemy.com/build-beautiful-html5-website/,Beginner Level,Web / FrontEnd,-,HTML
-28373,Advanced Java Programming,https://www.udemy.comhttps://www.udemy.com/course/advanced-java-programming/,Expert Level,Mobile,Native,java
+28373,Advanced Java Programming,https://www.udemy.comhttps://www.udemy.com/course/advanced-java-programming/,Expert Level,Mobile,-,Java
 30243,Mastering HTML5 Programming - The Easier Way,https://www.udemy.com/html5-programming-tutorials/,Beginner Level,Web / FrontEnd,-,HTML
 30261,"Kids Coding -Introduction to HTML, CSS and JavaScript",https://www.udemy.com/kids-coding-introduction-to-html-css-and-javascript/,Expert Level,Web / FrontEnd,-,javascript
 30318,Learning JavaScript Programming Tutorial. A Definitive Guide,https://www.udemy.com/programming-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 32649,PHP & MySQL - Learn The Easy Way. Master PHP & MySQL Quickly,https://www.udemy.com/learning-php-and-mysql-development-the-easy-way/,Beginner Level,Data Analysis,SQL,-
 37684,Learn To Program JavaScript (in ten easy steps),https://www.udemy.com/learn-to-program-javascript-in-ten-easy-steps/,Beginner Level,Web / FrontEnd,-,javascript
 41295,Learn HTML5 Programming From Scratch,https://www.udemy.com/learn-html5-programming-from-scratch/,Beginner Level,Web / FrontEnd,-,HTML
-45006,Introduction to Java for Programmers,https://www.udemy.comhttps://www.udemy.com/course/introduction-to-java-programming/,Beginner Level,Mobile,Native,java
-45226,Learn Java From Scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-java-from-scratch/,Beginner Level,Mobile,Native,java
-49340,The Ultimate Java 9 Tutorial - From beginner to professional,https://www.udemy.comhttps://www.udemy.com/course/java-basics-for-j2ee-and-android/,Beginner Level,Mobile,Native,java
-50587,HTML & CSS From Scratch in 30 Days,https://www.udemy.com/html5-css3-responsive/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+45006,Introduction to Java for Programmers,https://www.udemy.comhttps://www.udemy.com/course/introduction-to-java-programming/,Beginner Level,Mobile,-,Java
+45226,Learn Java From Scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-java-from-scratch/,Beginner Level,Mobile,-,Java
+49340,The Ultimate Java 9 Tutorial - From beginner to professional,https://www.udemy.comhttps://www.udemy.com/course/java-basics-for-j2ee-and-android/,Beginner Level,Mobile,-,Java
+50587,HTML & CSS From Scratch in 30 Days,https://www.udemy.com/html5-css3-responsive/,Beginner Level,Web / FrontEnd,-,CSS
 53256,Bootstrap Basics: Program Responsive Websites,https://www.udemy.com/code-responsive-website-twitter-bootstrap/,Beginner Level,Web / FrontEnd,Bootstrap,-
 56585,Twitter Bootstrap 2 for Beginners,https://www.udemy.com/twitter-bootstrap/,Beginner Level,Web / FrontEnd,Bootstrap,-
 58653,How to Build a CMS with PHP,https://www.udemy.com/make-a-cms/,Expert Level,Backend,PHP,-
@@ -33,43 +33,39 @@ course_id,course_title,url,level,subject,FrameWork,Language
 63612,1 Hour JavaScript,https://www.udemy.com/1-hour-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 64422,1 Hour HTML,https://www.udemy.com/1-hour-html/,Beginner Level,Web / FrontEnd,-,HTML
 64605,1 Hour CSS,https://www.udemy.com/1-hour-css/,Beginner Level,Web / FrontEnd,-,CSS
-65330,Web Development By Doing: HTML / CSS From Scratch,https://www.udemy.com/web-development-learn-by-doing-html5-css3-from-scratch-introductory/,Beginner Level,Web / FrontEnd,-,HTML/CSS
-65492,Kids Coding - Beginner HTML,https://www.udemy.com/kids-coding-beginner-html/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+65330,Web Development By Doing: HTML / CSS From Scratch,https://www.udemy.com/web-development-learn-by-doing-html5-css3-from-scratch-introductory/,Beginner Level,Web / FrontEnd,-,HTML
+65492,Kids Coding - Beginner HTML,https://www.udemy.com/kids-coding-beginner-html/,Beginner Level,Web / FrontEnd,-,HTML
 65493,Kids Coding - Beginners CSS,https://www.udemy.com/kids-coding-beginners-css/,Beginner Level,Web / FrontEnd,-,CSS
-70640,Python Programming: Create an Digital Marketplace in Django,https://www.udemy.com/coding-for-entrepreneurs-marketplace-daily-deals/,Expert Level,Backend,Django ,-
 72262,1 hour jQuery,https://www.udemy.com/1-hour-jquery/,Beginner Level,Web / FrontEnd,jQuery,-
 73080,Step-by-step HTML and CSS for Absolute Beginners,https://www.udemy.com/step-by-step-html-and-css-for-absolute-beginners/,Beginner Level,Web / FrontEnd,-,HTML
 77642,Learn HTML 5 in 1 hour,https://www.udemy.com/learn-html-5-in-1-hour/,Beginner Level,Web / FrontEnd,-,HTML
-80940,Build Websites from Scratch with HTML & CSS,https://www.udemy.com/build-website-scratch/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 82412,Intro to PHP Web Application Development with Symfony,https://www.udemy.com/symfony-development/,Expert Level,Backend,PHP,-
-92760,Crash Course: Fundamentals Of HTML & CSS From Scratch.,https://www.udemy.com/beginner-crash-course-fundamentals-of-html-css-in-60-mins/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+92760,Crash Course: Fundamentals Of HTML & CSS From Scratch.,https://www.udemy.com/beginner-crash-course-fundamentals-of-html-css-in-60-mins/,Beginner Level,Web / FrontEnd,-,HTML
 94432,Learn PHP Fundamentals From Scratch,https://www.udemy.com/learn-php-fundamentals-from-scratch/,Beginner Level,Backend,PHP,-
 98140,Introduction to Bootstrap 3,https://www.udemy.com/introduction-to-bootstrap-3/,Beginner Level,Web / FrontEnd,Bootstrap,-
 99826,Become A Web Developer And Seller - Build Websites With HTML,https://www.udemy.com/the-ultimate-building-and-selling-websites-course/,Beginner Level,Web / FrontEnd,-,HTML
 101864,Programming for Entrepreneurs - JavaScript,https://www.udemy.com/javascript-tutorial/,Beginner Level,Web / FrontEnd,-,javascript
-112866,Java Programming for Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-absolute-beginners/,Beginner Level,Mobile,Native,java
+112866,Java Programming for Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-absolute-beginners/,Beginner Level,Mobile,-,Java
 113518,CSS and CSS3 For Absolute Beginners,https://www.udemy.com/css-and-css3-for-absolute-beginners/,Beginner Level,Web / FrontEnd,-,CSS
 113888,Writing CSS with {LESS} - Tutorial From Infinite Skills,https://www.udemy.com/writing-css-with-less-tutorial-from-infinite-skills/,Expert Level,Web / FrontEnd,-,CSS
 123566,Learning Bootstrap 3 - Tutorial From Infinite Skills,https://www.udemy.com/bootstrap-3/,Expert Level,Web / FrontEnd,Bootstrap,-
 125806,Comprehensive JavaScript Programming,https://www.udemy.com/comprehensive-javascript-programming/,Beginner Level,Web / FrontEnd,-,javascript
 130064,Practical PHP: Master the Basics and Code Dynamic Websites,https://www.udemy.com/code-dynamic-websites/,Beginner Level,Backend,PHP,-
-130168,HTML and CSS for Beginning Web Developers,https://www.udemy.com/html-and-css-for-beginning-web-developers/,Beginner Level,Web / FrontEnd,-,HTML/CSS
-136098,Intermediate & Advanced Java Programming,https://www.udemy.comhttps://www.udemy.com/course/intermediate-advanced-java-programming/,Expert Level,Mobile,Native,java
+130168,HTML and CSS for Beginning Web Developers,https://www.udemy.com/html-and-css-for-beginning-web-developers/,Beginner Level,Web / FrontEnd,-,CSS
+136098,Intermediate & Advanced Java Programming,https://www.udemy.comhttps://www.udemy.com/course/intermediate-advanced-java-programming/,Expert Level,Mobile,-,Java
 143028,Code a Responsive Website Using HTML5 and CSS for Beginners,https://www.udemy.com/how-to-code-a-responsive-website-using-html5-and-css/,Beginner Level,Web / FrontEnd,-,HTML
 145812,HTML FOR BEGINNERS,https://www.udemy.com/html-5-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML
 147908,JavaScript for Beginning Web Developers,https://www.udemy.com/learn-javascript-programming/,Beginner Level,Web / FrontEnd,-,javascript
 149042,JavaScript for Absolute Beginners,https://www.udemy.com/javascript-for-absolute-beginners/,Beginner Level,Web / FrontEnd,-,javascript
-152244,Responsive Web Design with HTML5 and CSS3 - Introduction,https://www.udemy.com/responsive-web-design-with-html5-and-css3-introduction/,Expert Level,Web / FrontEnd,-,HTML/CSS
+152244,Responsive Web Design with HTML5 and CSS3 - Introduction,https://www.udemy.com/responsive-web-design-with-html5-and-css3-introduction/,Expert Level,Web / FrontEnd,-,HTML
 159070,Introduction to Web Development: HTML,https://www.udemy.com/webdevelopment101_html/,Beginner Level,Web / FrontEnd,-,HTML
-165236,What's New in Java 8: Lambdas,https://www.udemy.comhttps://www.udemy.com/course/whats-new-in-java-8/,Expert Level,Mobile,Native,java
+165236,What's New in Java 8: Lambdas,https://www.udemy.comhttps://www.udemy.com/course/whats-new-in-java-8/,Expert Level,Mobile,-,Java
 169144,How to easily Manage your WordPress Website,https://www.udemy.com/manage-wordpress-website/,Expert Level,Web / FrontEnd,WordPress,-
 173548,Build Your First Website in 1 Week with HTML5 and CSS3,https://www.udemy.com/build-your-first-website-in-1-week/,Beginner Level,Web / FrontEnd,-,HTML
 176432,HTML5 Essentials for Beginners,https://www.udemy.com/html5-essentials-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML
-179264,Become An Awesome Java Professional,https://www.udemy.comhttps://www.udemy.com/course/java-programming-wizard/,Beginner Level,Mobile,Native,java
 188828,Web Hosting Set Up and WordPress Installation For Beginners,https://www.udemy.com/web-hosting-wordpress-installation-for-beginners/,Beginner Level,Web / FrontEnd,WordPress,-
 197836,Projects in HTML5,https://www.udemy.com/projects-in-html5/,Beginner Level,Web / FrontEnd,-,HTML
 200742,Create Single Page Website using Twitter Bootstrap 3,https://www.udemy.com/create-single-page-website-using-twitter-bootstrap/,Beginner Level,Web / FrontEnd,Bootstrap,-
-200854,HTML and CSS Crash Course for Beginners,https://www.udemy.com/html-and-css-crash-course-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 212374,Introduction to CSS Development,https://www.udemy.com/refactoru-intro-to-css/,Beginner Level,Web / FrontEnd,-,CSS
 212394,Introduction to Node.js Development,https://www.udemy.com/refactoru-intro-nodejs/,Beginner Level,Backend,Nodejs,-
 212398,Advanced Node.js Development,https://www.udemy.com/refactoru-adv-nodejs/,Expert Level,Backend,Nodejs,-
@@ -78,100 +74,92 @@ course_id,course_title,url,level,subject,FrameWork,Language
 226534,WordPress Backup And Restore Fundamentals,https://www.udemy.com/wordpress-backup-and-restore-fundamentals/,Beginner Level,Web / FrontEnd,WordPress,-
 235990,Build A Great Wordpress Website For Your Business in 2 Hours,https://www.udemy.com/build-a-great-wordpress-website-for-your-business-in-2-hours/,Beginner Level,Web / FrontEnd,WordPress,-
 242574,Object Oriented Programming (OOP) in PHP - Build An OOP Site,https://www.udemy.com/object-oriented-programming-in-php/,Beginner Level,Backend,PHP,-
-246154,Web Design for Beginners: Real World Coding in HTML & CSS,https://www.udemy.com/web-design-for-beginners-real-world-coding-in-html-css/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+246154,Web Design for Beginners: Real World Coding in HTML & CSS,https://www.udemy.com/web-design-for-beginners-real-world-coding-in-html-css/,Beginner Level,Web / FrontEnd,-,HTML
 253246,Core Concepts in HTML 5,https://www.udemy.com/core-concepts-in-html-5/,Expert Level,Web / FrontEnd,-,HTML
 264790,How to Install WordPress From Scratch,https://www.udemy.com/install-wordpress/,Expert Level,Web / FrontEnd,WordPress,-
 270976,A how to guide in HTML,https://www.udemy.com/a-how-to-guide-in-html/,Expert Level,Web / FrontEnd,-,HTML
 288258,"Learn to Code in HTML5, CSS3, and JavaScript",https://www.udemy.com/learn-to-code-in-html5-css3-and-javascript/,Expert Level,Web / FrontEnd,-,javascript
-294408,Learn to Make an Animated Image Gallery using HTML5,https://www.udemy.com/learn-to-make-an-animated-image-gallery-using-html5/,Expert Level,Web / FrontEnd,-,HTML/CSS
+294408,Learn to Make an Animated Image Gallery using HTML5,https://www.udemy.com/learn-to-make-an-animated-image-gallery-using-html5/,Expert Level,Web / FrontEnd,-,HTML
 294794,Create An HTML5 Video Player From Scratch,https://www.udemy.com/html5-video-player/,Beginner Level,Web / FrontEnd,-,HTML
 304490,A 13 Hour SQL Server 2014 /ASP.NET/CSS/C#/jQuery Course,https://www.udemy.com/learnsqlwithsqlserver2014/,Beginner Level,Data Analysis,SQL,-
 309820,ASP.Net MVC Quick Start,https://www.udemy.com/aspnet-mvc-quick-start/,Beginner Level,Backend,.NET,C#
 311916,Create a Responsive Website with Bootstrap 3,https://www.udemy.com/create-a-responsive-website-with-bootstrap-3/,Beginner Level,Web / FrontEnd,Bootstrap,-
 313484,Laravel 4 try and enjoy php coding,https://www.udemy.com/laravel-4-try-and-enjoy-php-coding/,Expert Level,Backend,PHP,-
 314462,Quickstart AngularJS,https://www.udemy.com/quickstart-angularjs/,Beginner Level,Web / FrontEnd,Angular,-
-314660,Java Programming for Beginners-The Ultimate Course on Java,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-absolute-beginners_part-1/,Beginner Level,Mobile,Native,java
+314660,Java Programming for Beginners-The Ultimate Course on Java,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-absolute-beginners_part-1/,Beginner Level,Mobile,-,Java
 316704,Introductory JavaScript Made Easy Training Tutorial,https://www.udemy.com/introductory-javascript-made-easy-training-tutorial/,Beginner Level,Web / FrontEnd,-,javascript
-316970,Beginner Professional Java - Learn to Code for Work and Fun,https://www.udemy.comhttps://www.udemy.com/course/beginner-pro-java/,Beginner Level,Mobile,Native,java
+316970,Beginner Professional Java - Learn to Code for Work and Fun,https://www.udemy.comhttps://www.udemy.com/course/beginner-pro-java/,Beginner Level,Mobile,-,Java
 320798,How To Create A WordPress Website Without Paying A Developer,https://www.udemy.com/wordpress-website-in-under-one-hour/,Expert Level,Web / FrontEnd,WordPress,-
 326244,"Installing Wordpress 4 - Installation, Registrars & Hosting",https://www.udemy.com/installing-wordpress-domain-registrars-and-web-hosting/,Expert Level,Web / FrontEnd,WordPress,-
 328960,Your Own Site in 45 Min: The Complete Wordpress Course,https://www.udemy.com/wordpress-sites/,Expert Level,Web / FrontEnd,WordPress,-
 332252,"AngularJS for Beginners, Single-Page Applications Made Easy",https://www.udemy.com/angularjs-tutorial/,Beginner Level,Web / FrontEnd,Angular,-
 335280,How to Safely Copy and Move Your WordPress Website,https://www.udemy.com/how-to-safely-copy-and-move-your-wordpress-website/,Beginner Level,Web / FrontEnd,WordPress,-
-340844,Learn HTML & CSS: How To Start Your Web Development Career,https://www.udemy.com/how-i-landed-a-web-development-job-earned-5k-freelancing/,Beginner Level,Web / FrontEnd,-,HTML/CSS
-344224,Java Spring Security,https://www.udemy.com/how-to-use-spring-security-to-secure-your-java-applications/,Beginner Level,Java,Spring,-
-345178,Become A Professional Java Developer From Scratch,https://www.udemy.comhttps://www.udemy.com/course/become-a-professional-java-developer-from-scratch/,Beginner Level,Mobile,Native,java
-351310,Learn to Program with Java for Complete Beginners - Part 1,https://www.udemy.comhttps://www.udemy.com/course/learn-to-program-with-java-1/,Beginner Level,Mobile,Native,java
-351374,Learn to Program with Java for Complete Beginners - Part 2,https://www.udemy.comhttps://www.udemy.com/course/learn-to-program-with-java-2/,Beginner Level,Mobile,Native,java
-357726,Spring Framework 4 And Dependency Injection For Beginners,https://www.udemy.com/spring-framework-video-tutorial/,Beginner Level,Java,Spring,-
-358540,Java In-Depth: Become a Complete Java Engineer!,https://www.udemy.comhttps://www.udemy.com/course/java-in-depth-become-a-complete-java-engineer/,Beginner Level,Mobile,Native,java
-359550,Master Object Oriented Design in Java - Homework + Solutions,https://www.udemy.comhttps://www.udemy.com/course/mastering-object-oriented-design-in-java/,Beginner Level,Mobile,Native,java
+344224,Java Spring Security,https://www.udemy.com/how-to-use-spring-security-to-secure-your-java-applications/,Beginner Level,Backend,Spring,-
+351310,Learn to Program with Java for Complete Beginners - Part 1,https://www.udemy.comhttps://www.udemy.com/course/learn-to-program-with-java-1/,Beginner Level,Mobile,-,Java
+351374,Learn to Program with Java for Complete Beginners - Part 2,https://www.udemy.comhttps://www.udemy.com/course/learn-to-program-with-java-2/,Beginner Level,Mobile,-,Java
+357726,Spring Framework 4 And Dependency Injection For Beginners,https://www.udemy.com/spring-framework-video-tutorial/,Beginner Level,Backend,Spring,-
+359550,Master Object Oriented Design in Java - Homework + Solutions,https://www.udemy.comhttps://www.udemy.com/course/mastering-object-oriented-design-in-java/,Intermediate Level,Mobile,-,Java
 361620,Wordpress Tutorial   ,https://www.udemy.com/responsive-design/,Beginner Level,Web / FrontEnd,WordPress,-
 365426,Build A Professional Wordpress Website In An Hour,https://www.udemy.com/build-a-professional-wordpress-website-in-an-hour/,Beginner Level,Web / FrontEnd,WordPress,-
 365816,Build Professional WordPress Website,https://www.udemy.com/wordpress-no-coding/,Beginner Level,Web / FrontEnd,WordPress,-
 368340,Professional Python Web Development Using Flask,https://www.udemy.com/python-flask-course/,Beginner Level,Data Science,Python,-
 368908,JavaScript from Scratch for Very Beginners,https://www.udemy.com/javascript-basics-for-begginers/,Beginner Level,Web / FrontEnd,-,javascript
-380092,HTML & CSS for beginners: Build 3 projects from scratch,https://www.udemy.com/learn-html-css-by-building-3-real-projects/,Beginner Level,Web / FrontEnd,-,HTML/CSS
-384078,Learn HTML Fast and Easy!,https://www.udemy.com/learn-to-code-html/,Beginner Level,Web / FrontEnd,-,HTML
 384318,WordPress for Beginners - Build Your First Website in 2017,https://www.udemy.com/from-novice-to-ninja-the-complete-wordpress-training-course/,Beginner Level,Web / FrontEnd,WordPress,-
 388286,CoffeeScript: The Good Parts—Write Better javaScript,https://www.udemy.com/coffeescript/,Expert Level,Web / FrontEnd,-,javascript
-389522,Java 8 - Beyond the Basics,https://www.udemy.comhttps://www.udemy.com/course/java-8-beyond-the-basics/,Intermediate Level,Mobile,Native,java
-389632,A Practical Intro to Java Using Games,https://www.udemy.comhttps://www.udemy.com/course/a-practical-intro-to-java-using-games/,Beginner Level,Mobile,Native,java
+389522,Java 8 - Beyond the Basics,https://www.udemy.comhttps://www.udemy.com/course/java-8-beyond-the-basics/,Intermediate Level,Mobile,-,Java
+389632,A Practical Intro to Java Using Games,https://www.udemy.comhttps://www.udemy.com/course/a-practical-intro-to-java-using-games/,Beginner Level,Mobile,-,Java
 399228,"Learn to code, Become a Web Developer and Master JavaScript!",https://www.udemy.com/master-javascript-today/,Beginner Level,Web / FrontEnd,-,javascript
 399640,Intro To HTML & CSS: Web Development For Beginners,https://www.udemy.com/intro-to-html-and-css-basics/,Beginner Level,Web / FrontEnd,-,HTML
 400280,WordPress : An Overview,https://www.udemy.com/what-is-wordpress/,Beginner Level,Web / FrontEnd,WordPress,-
 405282,PHP for Beginners -Become a PHP Master - Project Included,https://www.udemy.com/php-for-complete-beginners-includes-msql-object-oriented/,Beginner Level,Backend,PHP,-
 405818,Javascript for Beginners Learn by Doing Practical Exercises,https://www.udemy.com/javascript-for-beginners-introduction-learn-fast-easy/,Beginner Level,Web / FrontEnd,-,javascript
-405926,HTML and CSS for Beginners - Build a Website & Launch ONLINE,https://www.udemy.com/html-and-css-for-beginners-crash-course-learn-fast-easy/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 407796,Redirect Your Visitors By Country Easily -Wordpress Tutorial,https://www.udemy.com/redirect-your-visitors-by-country-easily-wordpress-tutorial/,Expert Level,Web / FrontEnd,WordPress,-
 412952,AngularJS For ASP.NET MVC Developers,https://www.udemy.com/angularjs-for-aspnet-mvc-developers/,Beginner Level,Web / FrontEnd,Angular,-
 416738,Create a Client Network by Hosting WordPress Sites,https://www.udemy.com/create-a-client-network-by-hosting-wordpress-sites/,Beginner Level,Web / FrontEnd,WordPress,-
 419318,AngularJS Masterclass - Deep Dive & Understand AngularJS,https://www.udemy.com/angularjs-masterclass/,Beginner Level,Web / FrontEnd,Angular,-
 421018,Learning Object-Oriented JavaScript,https://www.udemy.com/learning-object-oriented-javascript/,Beginner Level,Web / FrontEnd,-,javascript
-421806,Java Programming – the Master Course,https://www.udemy.comhttps://www.udemy.com/course/java-programming-the-master-course/,Beginner Level,Mobile,Native,java
+421806,Java Programming – the Master Course,https://www.udemy.comhttps://www.udemy.com/course/java-programming-the-master-course/,Beginner Level,Mobile,-,Java
 425084,Administering Microsoft SQL Server 2012 Databases - 70-462,https://www.udemy.com/administering-microsoft-sql-server-2012-databases-70-462/,Beginner Level,Data Analysis,SQL,-
 426196,JavaScript from Beginner to Expert,https://www.udemy.com/javascript-from-beginner-to-expert-bring-life-to-your-site/,Beginner Level,Web / FrontEnd,-,javascript
-429364,Master the Basics of HTML5 & CSS3: Beginner Web Development,https://www.udemy.com/master-the-basics-of-html5-css3-beginner-web-development/,Beginner Level,Web / FrontEnd,-,HTML/CSS
-432700,Advanced Data Structures and Algorithms in Java ( DSA ),https://www.udemy.comhttps://www.udemy.com/course/data-structures-and-algorithms-in-java-2/,Expert Level,Mobile,Native,java
-433280,Algorithms Data Structures in Java #1 (+INTERVIEW QUESTIONS),https://www.udemy.comhttps://www.udemy.com/course/algorithms-and-data-structures/,Intermediate Level,Mobile,Native,java
+432700,Advanced Data Structures and Algorithms in Java ( DSA ),https://www.udemy.comhttps://www.udemy.com/course/data-structures-and-algorithms-in-java-2/,Expert Level,Mobile,-,Java
+433280,Algorithms Data Structures in Java #1 (+INTERVIEW QUESTIONS),https://www.udemy.comhttps://www.udemy.com/course/algorithms-and-data-structures/,Intermediate Level,Mobile,-,Java
 436496,SAP Crystal Reports with ASP.Net (Step by step),https://www.udemy.com/sap-crystalreports-for-beginners/,Expert Level,Backend,.NET,C#
-441606,Step By Step Java Programming Complete Course,https://www.udemy.comhttps://www.udemy.com/course/step-by-step-java-programming-complete-course/,Beginner Level,Mobile,Native,java
-442504,Build an HTML5 and CSS3 Website in 35 Minutes,https://www.udemy.com/build-an-html5-and-css3-website-in-35-minutes/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+441606,Step By Step Java Programming Complete Course,https://www.udemy.comhttps://www.udemy.com/course/step-by-step-java-programming-complete-course/,Beginner Level,Mobile,-,Java
 443746,The WpFASTER WordPress Speed Optimization Master Course,https://www.udemy.com/make-your-wordpress-sites-fastest-in-world/,Beginner Level,Web / FrontEnd,WordPress,-
 445534,Learn AngularJS Step By Step,https://www.udemy.com/maruti-angularjs/,Beginner Level,Web / FrontEnd,Angular,-
 452684,jQuery for Beginners - Create Website Animations Easily,https://www.udemy.com/jquery-for-beginners-fundamentals-training-tutorial-course/,Beginner Level,Web / FrontEnd,jQuery,-
 461176,Build an Advanced Single Page with Bootstrap & WordPress,https://www.udemy.com/single-page-design-with-bootstrap-css-html5-js-parallax/,Expert Level,Web / FrontEnd,Bootstrap,-
-470412,"Essential HTML, CSS & HTML5 Training",https://www.udemy.com/essential-html-css-html5-training/,Expert Level,Web / FrontEnd,-,HTML/CSS
+470412,"Essential HTML, CSS & HTML5 Training",https://www.udemy.com/essential-html-css-html5-training/,Expert Level,Web / FrontEnd,-,CSS
 472526,PHP for Beginners,https://www.udemy.com/learn-php-via-examples-and-mini-tasks/,Beginner Level,Backend,PHP,-
 473548,PHP OOP: Object Oriented Programming for beginners + Project,https://www.udemy.com/oop-php-object-oriented-programing-with-project-1-course/,Beginner Level,Backend,PHP,-
 477702,Python for Beginners: Python Programming Language | Tutorial,https://www.udemy.com/python-course/,Beginner Level,Data Science,Python,-
 482404,CSS3 for beginners,https://www.udemy.com/css-learn-css-from-scratch/,Beginner Level,Web / FrontEnd,-,CSS
-482834,HTML5 for beginners,https://www.udemy.com/html-complete-html-course-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+482834,HTML5 for beginners,https://www.udemy.com/html-complete-html-course-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML
 492818,Professional WordPress Theme Development For 2017,https://www.udemy.com/advanced-wordpress-theme-development-next-level-of-theming/,Beginner Level,Web / FrontEnd,WordPress,-
-493178,JAVA GUI Bootcamp 2021,https://www.udemy.comhttps://www.udemy.com/course/java-graphical-user-interface-gui-for-absolute-beginners/,Expert Level,Mobile,Native,java
+493178,JAVA GUI Bootcamp 2021,https://www.udemy.comhttps://www.udemy.com/course/java-graphical-user-interface-gui-for-absolute-beginners/,Expert Level,Mobile,-,Java
 494078,Expert Guide : Mastering Functions in JavaScript !,https://www.udemy.com/functions-in-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 494510,WordPress Plugin Tutorial,https://www.udemy.com/wordpress-plugin-tutorial/,Expert Level,Web / FrontEnd,WordPress,-
 495484,JavaScript for beginners with live examples,https://www.udemy.com/javascript-from-basic-fundamentals-to-advanced/,Beginner Level,Web / FrontEnd,-,javascript
 495678,JavaScript for beginners - A Complete Guide,https://www.udemy.com/javascript-a-complete-guide/,Beginner Level,Web / FrontEnd,-,javascript
-498706,Efficient Java Multithreading and Concurrency with Executors,https://www.udemy.comhttps://www.udemy.com/course/efficient-java-multithreading-with-executors/,Expert Level,Mobile,Native,java
+498706,Efficient Java Multithreading and Concurrency with Executors,https://www.udemy.comhttps://www.udemy.com/course/efficient-java-multithreading-with-executors/,Expert Level,Mobile,-,Java
 504316,Learn Jquery from Scratch 2-Hour Training ,https://www.udemy.com/jquery_complete/,Beginner Level,Web / FrontEnd,jQuery,-
 505208,Programming Foundations: HTML5 + CSS3 for Entrepreneurs 2015,https://www.udemy.com/html-css-more/,Beginner Level,Web / FrontEnd,-,HTML
 507992,Wordpress For Beginners: Create a Professional Website,https://www.udemy.com/learn-how-to-create-a-website-with-wordpress/,Beginner Level,Web / FrontEnd,WordPress,-
 510784,WordPress 2016 for Beginners : Build awesome websites!,https://www.udemy.com/build-your-own-wordpress-website-in-less-than-90-minutes/,Beginner Level,Web / FrontEnd,WordPress,-
 511934,AngularJS For Beginners,https://www.udemy.com/angularjs-for-beginners-udemy/,Beginner Level,Web / FrontEnd,Angular,-
 512000,WordPress Theme Academy with Bootstrap,https://www.udemy.com/bootstrap-to-wordpress-build-custom-responsive-themes/,Beginner Level,Web / FrontEnd,Bootstrap,-
-512546,Ultimate Java Development and Certification Guide,https://www.udemy.comhttps://www.udemy.com/course/ultimate-java-development-and-certification-guide/,Beginner Level,Mobile,Native,java
+512546,Ultimate Java Development and Certification Guide,https://www.udemy.comhttps://www.udemy.com/course/ultimate-java-development-and-certification-guide/,Beginner Level,Mobile,-,Java
 513958,Complete JavaScript Course for Beginners with Easy Examples,https://www.udemy.com/javascript-for-dummies-and-newbies/,Beginner Level,Web / FrontEnd,-,javascript
 515188,HTML Learning the Basics Intro to HTML website coding,https://www.udemy.com/html-learning-the-basics-intro-to-html-website-coding/,Beginner Level,Web / FrontEnd,-,HTML
 516062,JavaScript Intro to learning JavaScript web programming,https://www.udemy.com/javascript-intro-to-learning-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 520870,WordPress Theme Customization 101 (for beginners),https://www.udemy.com/wordpress-theme-customization-101-for-beginners/,Beginner Level,Web / FrontEnd,WordPress,-
 523312,Python Web Programming,https://www.udemy.com/python-web-programming/,Beginner Level,Data Science,Python,-
 527952,PHP for Beginners: How to Build an E-Commerce Store,https://www.udemy.com/php-for-beginners-how-to-build-an-ecommerce-store/,Beginner Level,Backend,PHP,-
-529444,Java from Beginner to Expert,https://www.udemy.comhttps://www.udemy.com/course/java-from-beginner-to-expert/,Beginner Level,Mobile,Native,java
+529444,Java from Beginner to Expert,https://www.udemy.comhttps://www.udemy.com/course/java-from-beginner-to-expert/,Beginner Level,Mobile,-,Java
 530092,Mastering CSS,https://www.udemy.com/mastering-css/,Beginner Level,Web / FrontEnd,-,CSS
 531290,"Essential JavaScript, jQuery and AngularJS Training",https://www.udemy.com/essential-javascript-jquery-angularjs-training/,Beginner Level,Web / FrontEnd,-,javascript
 533416,Build Powerful Websites & Blogs using WordPress - No Coding,https://www.udemy.com/powerful-websites-blogs-using-wordpress-no-coding/,Expert Level,Web / FrontEnd,WordPress,-
-533682,Java Programming Masterclass updated to Java 17,https://www.udemy.comhttps://www.udemy.com/course/java-the-complete-java-developer-course/,Beginner Level,Mobile,Native,java
+533682,Java Programming Masterclass updated to Java 17,https://www.udemy.comhttps://www.udemy.com/course/java-the-complete-java-developer-course/,Beginner Level,Mobile,-,Java
 537008,Be a Bootstrap Developer from scratch,https://www.udemy.com/be-a-bootstrap-developer-from-scratch/,Beginner Level,Web / FrontEnd,Bootstrap,-
 542254,Web Programming Course : Asp.Net MVC,https://www.udemy.com/mvc-course/,Beginner Level,Backend,.NET,C#
 543346,ReactJS Course: Learn JavaScript Library Used by Facebook&IG,https://www.udemy.com/react-js/,Beginner Level,Web / FrontEnd,React,-
@@ -179,8 +167,7 @@ course_id,course_title,url,level,subject,FrameWork,Language
 552258,Professional WordPress Theme Development from Scratch,https://www.udemy.com/photoshop-psd-to-wordpress-theme-development-from-scratch/,Beginner Level,Web / FrontEnd,WordPress,-
 553582,Learn JavaScript from scratch,https://www.udemy.com/learn-javascript-from-scratch/,Beginner Level,Web / FrontEnd,-,javascript
 554136,Building Responsive Websites with Bootstrap 3 Framework,https://www.udemy.com/building-responsive-websites-with-bootstrap-3-framework/,Beginner Level,Web / FrontEnd,Bootstrap,-
-554570,"Building a Portfolio in 90 minutes ( HTML, CSS, Js ) ",https://www.udemy.com/build-a-portfolio-website-in-90-minutes-html-css-js/,Expert Level,Web / FrontEnd,-,HTML/CSS
-556248,The Complete HTML & CSS Course - From Novice To Professional,https://www.udemy.com/htmlwebsite/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+556248,The Complete HTML & CSS Course - From Novice To Professional,https://www.udemy.com/htmlwebsite/,Beginner Level,Web / FrontEnd,-,HTML
 559512,The Complete HTML5 & CSS3 Course Build Professional Websites,https://www.udemy.com/html5css3/,Beginner Level,Web / FrontEnd,-,HTML
 563668,Learn how to create a WordPress theme using Pinegrow,https://www.udemy.com/learn-how-to-create-a-wordpress-theme-using-pinegrow/,Beginner Level,Web / FrontEnd,WordPress,-
 563880,Single Page Application of MVC 5 Using AngularJS,https://www.udemy.com/maruti-spa-angularjs/,Beginner Level,Web / FrontEnd,Angular,-
@@ -199,12 +186,10 @@ course_id,course_title,url,level,subject,FrameWork,Language
 579182,Wordpress Essentials: Useful Plugins,https://www.udemy.com/wordpress-essentials-useful-plugins/,Beginner Level,Web / FrontEnd,WordPress,-
 579338,Learn Object Oriented Programming PHP fundamentals bootcamp,https://www.udemy.com/learn-object-oriented-programming-php-fundamentals-bootcamp/,Beginner Level,Backend,PHP,-
 580466,Complete PHP Course With Bootstrap3 CMS System & Admin Panel,https://www.udemy.com/complete-php-course/,Beginner Level,Backend,PHP,-
-581256,Django Tutorial: Build Your First App Fast & Free! ,https://www.udemy.com/create-your-first-django-website-fast-free/,Expert Level,Backend,Django ,-
 582392,JavaScript Basics Web Development Building Blocks,https://www.udemy.com/javascript-basics-web-development-building-blocks/,Beginner Level,Web / FrontEnd,-,javascript
 584758,Bootstrap 3 Beginners: Create a Professional Landing Page,https://www.udemy.com/bootstrap-beginners-landing-page/,Beginner Level,Web / FrontEnd,Bootstrap,-
 584786,JavaScript HTML CSS Project make a Quiz Tutorial,https://www.udemy.com/javascript-html-css-project-make-a-quiz-tutorial/,Beginner Level,Web / FrontEnd,-,javascript
 587902,Core HTML How to get online quickly HTML to HTML5 ,https://www.udemy.com/web-development-introduction-html-html5-course/,Expert Level,Web / FrontEnd,-,HTML
-589342,Learn HTML - The programming language to build a webpage!,https://www.udemy.com/takethefirststep/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 590406,Learn ReactJS: Code Like A Facebook Developer,https://www.udemy.com/learn-react-js/,Beginner Level,Web / FrontEnd,React,-
 593128,Install WordPress on Computer using XAMPP,https://www.udemy.com/wordpress-xampp/,Beginner Level,Web / FrontEnd,WordPress,-
 593544,PHP MVC Framework CodeIgniter Tutorial for Beginners Project,https://www.udemy.com/php-mvc-framework-codeigniter-tutorial-for-beginners-project/,Beginner Level,Backend,PHP,-
@@ -218,26 +203,24 @@ course_id,course_title,url,level,subject,FrameWork,Language
 604044,Wordpress for Beginners - Build a Live Website from Scratch,https://www.udemy.com/wordpress_for_beginners/,Beginner Level,Web / FrontEnd,WordPress,-
 607048,Essentials of JavaScript Practice Coding Exercises Tips,https://www.udemy.com/essentials-of-javascript-practice-coding-exercises-tips/,Beginner Level,Web / FrontEnd,-,javascript
 607056,JavaScript Introduction to Object Oriented JavaScript,https://www.udemy.com/javascript-introduction-to-object-oriented-javascript/,Expert Level,Web / FrontEnd,-,javascript
-609992,HTML CSS: Essential steps to learn HTML CSS,https://www.udemy.com/html-and-css-basics/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+609992,HTML CSS: Essential steps to learn HTML CSS,https://www.udemy.com/html-and-css-basics/,Beginner Level,Web / FrontEnd,-,HTML
 611308,Complete PHP and MySql Course: From Beginner to Professional,https://www.udemy.com/complete-php-mysql-course-for-beginners-start-to-finish/,Beginner Level,Data Analysis,SQL,-
 611688,PSD to Bootstrap 3 for Beginners using HTML & CSS,https://www.udemy.com/psd-to-bootstrap/,Beginner Level,Web / FrontEnd,Bootstrap,-
 615084,Laravel(5.2) PHP Framework  Jump Start for beginners,https://www.udemy.com/laravel-php-framework-jump-start-for-beginners/,Beginner Level,Backend,PHP,-
 616818,JavaScript and jQuery Basics: Start The Journey,https://www.udemy.com/learn-javacript/,Expert Level,Web / FrontEnd,jQuery,-
-620486,Java Puzzles to Eliminate Code Fear,https://www.udemy.comhttps://www.udemy.com/course/eliminate-code-fear/,Intermediate Level,Mobile,Native,java
-623036,Java Programming | Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/beginners-java-programming-programming-for-everybody/,Beginner Level,Mobile,Native,java
+620486,Java Puzzles to Eliminate Code Fear,https://www.udemy.comhttps://www.udemy.com/course/eliminate-code-fear/,Intermediate Level,Mobile,-,Java
+623036,Java Programming | Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/beginners-java-programming-programming-for-everybody/,Beginner Level,Mobile,-,Java
 624578,Javascript for beginners,https://www.udemy.com/java-script-quick-beginner-introduction/,Beginner Level,Web / FrontEnd,-,javascript
 628430,JavaScript project Learn to create a memory Game and more,https://www.udemy.com/javascript-project-learn-to-create-a-memory-game-and-more/,Expert Level,Web / FrontEnd,-,javascript
-629082,Discover HTML Essential guide to HTML how to create webpages,https://www.udemy.com/intro-to-html-beginners-guide-to-html-how-to-create-webpages/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+629082,Discover HTML Essential guide to HTML how to create webpages,https://www.udemy.com/intro-to-html-beginners-guide-to-html-how-to-create-webpages/,Beginner Level,Web / FrontEnd,-,HTML
 629088,Code your first Website using HTML & CSS: Project Learning,https://www.udemy.com/code-your-first-website-using-html-css-project-learning/,Beginner Level,Web / FrontEnd,-,HTML
 631472,DesktopServer : Install WordPress Locally  - Work Anywhere!,https://www.udemy.com/desktopserver/,Beginner Level,Web / FrontEnd,WordPress,-
-634754,HTML Made Simple For Beginners: Create a One Page Website,https://www.udemy.com/html-made-simple-create-your-own-webpage-step-by-step/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+634754,HTML Made Simple For Beginners: Create a One Page Website,https://www.udemy.com/html-made-simple-create-your-own-webpage-step-by-step/,Beginner Level,Web / FrontEnd,-,HTML
 637974,Master ExpressJS to Build Web Apps with NodeJS&JavaScript,https://www.udemy.com/expressjs/,Beginner Level,Backend,Nodejs,-
-639048,"From 0 to 1: Learn Java Programming -Live Free,Learn To Code",https://www.udemy.comhttps://www.udemy.com/course/from-0-to-1-java/,Beginner Level,Mobile,Native,java
 641236,Basic JavaScript: Build 4 Basic JavaScript Projects,https://www.udemy.com/practical-javascript-javascript-basics/,Beginner Level,Web / FrontEnd,-,javascript
 641732,Css For Beginners,https://www.udemy.com/css-made-simple-for-beginners-learn-to-style-a-website-page/,Beginner Level,Web / FrontEnd,-,CSS
 642410,The Complete Bootstrap Masterclass Course - Build 4 Projects,https://www.udemy.com/bootstrapcourse/,Beginner Level,Web / FrontEnd,Bootstrap,-
 642940,Build A YouTube Downloader With C# And GitHub,https://www.udemy.com/youtubedownloader/,Beginner Level,Backend,.NET,C#
-645792,Java Programming for Beginners: Become a Java Programmer,https://www.udemy.comhttps://www.udemy.com/course/introduction-to-java-programming-b/,Beginner Level,Mobile,Native,java
 650328,JavaScript Complete for beginners with real world Apps,https://www.udemy.com/javascript-complete-and-comprehensive/,Beginner Level,Web / FrontEnd,-,javascript
 651032,Wordpress - Create an Outstanding Website in 2 hours,https://www.udemy.com/wordpress-business-website/,Beginner Level,Web / FrontEnd,WordPress,-
 651780,jQuery For Beginners : A Basic Introduction,https://www.udemy.com/jquery-for-beginners-a-basic-introduction/,Beginner Level,Web / FrontEnd,jQuery,-
@@ -246,32 +229,29 @@ course_id,course_title,url,level,subject,FrameWork,Language
 653754,Css Positioning For Absolute Beginners: A Basic Introduction,https://www.udemy.com/learn-how-css-positioning-works-a/,Beginner Level,Web / FrontEnd,-,CSS
 653852,Bootstrap For Beginners: A  Basic Introduction,https://www.udemy.com/bootstrap-for-beginners-a-basic-introduction/,Beginner Level,Web / FrontEnd,Bootstrap,-
 654832,HTML Forms For Beginners: A Basic Introduction  ,https://www.udemy.com/html-forms-for-beginners-a-basic-introduction/,Beginner Level,Web / FrontEnd,-,HTML
-658644,"Advanced Java Programming , Multithreading for Java Projects",https://www.udemy.comhttps://www.udemy.com/course/advanced-object-oriented-java/,Expert Level,Mobile,Native,java
+658644,"Advanced Java Programming , Multithreading for Java Projects",https://www.udemy.comhttps://www.udemy.com/course/advanced-object-oriented-java/,Expert Level,Mobile,-,Java
 661780,JavaScript Promises: Applications in ES6 and AngularJS,https://www.udemy.com/javascript-promises-applications-in-es6-and-angularjs/,Expert Level,Web / FrontEnd,Angular,-
 661802,JavaScript Design Patterns: 20 Patterns for Expert Code,https://www.udemy.com/javascript-design-patterns-20-patterns-for-expert-code/,Beginner Level,Web / FrontEnd,-,javascript
 665686,Create Newsletter Subscription Form with PHP/AJAX in 40 Min,https://www.udemy.com/php-ajax-form-with-validation-email-ip-tracking-in-40-minutes/,Expert Level,Backend,PHP,-
 667122,Build A Stock Downloader With Visual Studio 2015 And C#,https://www.udemy.com/csharpyahoostockdownloader/,Beginner Level,Backend,.NET,C#
 667744,Convert HTML Websites into PHP: Learn by Doing in 40 Minutes,https://www.udemy.com/convert-static-websites-from-html-to-php-for-web-designers/,Expert Level,Backend,PHP,-
-669518,Byte Size Chunks : Java Multithreading,https://www.udemy.comhttps://www.udemy.com/course/bsc-java-multithreading/,Expert Level,Mobile,Native,java
+669518,Byte Size Chunks : Java Multithreading,https://www.udemy.comhttps://www.udemy.com/course/bsc-java-multithreading/,Expert Level,Mobile,-,Java
 670034,Advanced Javascript,https://www.udemy.com/top-javascript-interview-questions-and-answers/,Expert Level,Web / FrontEnd,-,javascript
 671552,React and Flux Web Development for Beginners,https://www.udemy.com/react-flux/,Beginner Level,Web / FrontEnd,React,-
 674040,Bootstrap Tutorial - Essentials From Basic to Advanced,https://www.udemy.com/bootstrap-tutorial-essentials-from-basic-to-advanced/,Beginner Level,Web / FrontEnd,Bootstrap,-
 674646,PHP Essential How to create build Amazing websites with PHP,https://www.udemy.com/php-essential-how-to-create-build-amazing-websites-with-php/,Beginner Level,Backend,PHP,-
-676206,Java Basics Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/complete-java-basics-for-beginners-start-to-finish/,Intermediate Level,Mobile,Native,java
+676206,Java Basics Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/complete-java-basics-for-beginners-start-to-finish/,Intermediate Level,Mobile,-,Java
 676554,Master WCF 4.0 From Scratch Using C#,https://www.udemy.com/masterwcf/,Beginner Level,Backend,.NET,C#
-676788,Java Programming from Zero to Hero : Java Completed,https://www.udemy.comhttps://www.udemy.com/course/java-programming-from-zero-to-hero-the-complete-course/,Intermediate Level,Mobile,Native,java
-681866,Design 11 applications in Java from Scratch,https://www.udemy.comhttps://www.udemy.com/course/javatutorial/,Beginner Level,Mobile,Native,java
+676788,Java Programming from Zero to Hero : Java Completed,https://www.udemy.comhttps://www.udemy.com/course/java-programming-from-zero-to-hero-the-complete-course/,Intermediate Level,Mobile,-,Java
 682484,Create a Website from Scratch using HTML CSS step by step,https://www.udemy.com/create-a-website-from-scratch-using-html-css-in-1-hour/,Beginner Level,Web / FrontEnd,-,HTML
 683394,The complete HTML5 course,https://www.udemy.com/learn-html-by-building-websites/,Beginner Level,Web / FrontEnd,-,HTML
 683606,The Ultimate WordPress Boot Camp: Build 7 Websites,https://www.udemy.com/the-ultimate-wordpress-boot-camp-build-multiple-websites/,Beginner Level,Web / FrontEnd,WordPress,-
-684904,Java in 3 Hours: Java Programming Tutorial for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-in-3-hours-java-programming-tutorial-for-beginners/,Beginner Level,Mobile,Native,java
+684904,Java in 3 Hours: Java Programming Tutorial for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-in-3-hours-java-programming-tutorial-for-beginners/,Beginner Level,Mobile,-,Java
 687642,Custom Theme Creation for WordPress using HTML5 and CSS3,https://www.udemy.com/custom-theme-creation-for-wordpress/,Beginner Level,Web / FrontEnd,WordPress,-
 690788,Learn PHP Programming for Absolute Beginners - Lite,https://www.udemy.com/learn-php-programming-for-absolute-beginners-lite/,Beginner Level,Backend,PHP,-
 693726,Mastering Meteor: Reactive Full Stack JavaScript,https://www.udemy.com/mastering-meteor-reactive-full-stack-javascript/,Beginner Level,Web / FrontEnd,React,-
 695656,The Complete JavaScript Course For Web Development Beginners,https://www.udemy.com/javascriptcourse/,Beginner Level,Web / FrontEnd,-,javascript
-696016,HTML CSS Easy steps to create a web template from scratch,https://www.udemy.com/html-css-easy-steps-to-create-a-web-template-from-scratch/,Beginner Level,Web / FrontEnd,-,HTML/CSS
-699618,Learn HTML And CSS From Scratch,https://www.udemy.com/html-and-css-from-scratch/,Expert Level,Web / FrontEnd,-,HTML/CSS
-701570,Build Real World Websites from Scratch using HTML5 and CSS3,https://www.udemy.com/web-development-html5-css3/,Expert Level,Web / FrontEnd,-,HTML/CSS
+701570,Build Real World Websites from Scratch using HTML5 and CSS3,https://www.udemy.com/web-development-html5-css3/,Expert Level,Web / FrontEnd,-,HTML
 707962,Javascript Essentials,https://www.udemy.com/javascript-essentials/,Expert Level,Web / FrontEnd,-,javascript
 708558,Learn HTML Basics From Scratch,https://www.udemy.com/learn-html-from-scratch/,Beginner Level,Web / FrontEnd,-,HTML
 708674,Master WordPress Plugins: Shortcodes Ultimate - The Basics,https://www.udemy.com/master-popular-wordpress-plugin-shortcodes-ultimate/,Beginner Level,Web / FrontEnd,WordPress,-
@@ -280,18 +260,17 @@ course_id,course_title,url,level,subject,FrameWork,Language
 712960,"Angular 4 - Concepts, Code and Collective Wisdom",https://www.udemy.com/angular-2-concepts-code-and-collective-wisdom/,Beginner Level,Web / FrontEnd,Angular,-
 714678,Learn Ajax and jquery with PHP,https://www.udemy.com/learn-ajax-and-jquery-with-php/,Beginner Level,Backend,PHP,-
 719002,Angular 2 with TypeScript for Beginners: The Pragmatic Guide,https://www.udemy.com/angular-2-tutorial-for-beginners/,Beginner Level,Web / FrontEnd,Angular,-
-720144,Basic HTML CSS and Web Design,https://www.udemy.com/basic-html-css-web-design/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+720144,Basic HTML CSS and Web Design,https://www.udemy.com/basic-html-css-web-design/,Beginner Level,Web / FrontEnd,-,HTML
 723878,Bootstrap 4 Beginners: Code a Responsive Landing Page,https://www.udemy.com/bootstrap-4-beginners-code-a-responsive-landing-page/,Beginner Level,Web / FrontEnd,Bootstrap,-
 726290,Star Rating Project AJAX with JSON response from PHP MySQL,https://www.udemy.com/star-rating-project-ajax-with-json-response-from-php-mysql/,Expert Level,Data Analysis,SQL,-
 729552,JavaScript for Beginners Welcome to learning JavaScript,https://www.udemy.com/javascript-for-beginners-course/,Beginner Level,Web / FrontEnd,-,javascript
 735796,Object Orientation in PHP,https://www.udemy.com/object-orientation/,Expert Level,Backend,PHP,-
-736250,Mastering Thymeleaf with Spring,https://www.udemy.com/mastering-thymeleaf-with-spring/,Beginner Level,Java,Spring,-
+736250,Mastering Thymeleaf with Spring,https://www.udemy.com/mastering-thymeleaf-with-spring/,Expert Level,Backend,Spring,-
 737468,How To Create a Local Wordpress Environment,https://www.udemy.com/how-to-create-a-local-wordpress-environment/,Expert Level,Web / FrontEnd,WordPress,-
-738726,Learn HTML and CSS to make a Website,https://www.udemy.com/learn-html-and-css-to-make-website/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+738726,Learn HTML and CSS to make a Website,https://www.udemy.com/learn-html-and-css-to-make-website/,Beginner Level,Web / FrontEnd,-,HTML
 742712,CSS Tutorial For Beginners: Style Your Wordpress Templates,https://www.udemy.com/css-tutorial-for-beginners-style-your-wordpress-templates/,Beginner Level,Web / FrontEnd,-,CSS
 746014,The Complete Sass & SCSS Course: From Beginner to Advanced,https://www.udemy.com/sasscourse/,Beginner Level,Web / FrontEnd,-,CSS
 747552,Build a website HTML5 CSS3 Beginner Course,https://www.udemy.com/how-to-build-a-website-html5-css3-beginner-course/,Beginner Level,Web / FrontEnd,-,HTML
-747650,"Learn HTML, CSS, and Ruby on Rails: Build Your First Blog",https://www.udemy.com/learn-html-css-and-ruby-on-rails-build-your-first-blog/,Expert Level,Web / FrontEnd,-,HTML/CSS
 752432,How to Create a Website Without Coding - WordPress 2016,https://www.udemy.com/how-to-create-a-website-wordpress-2016/,Beginner Level,Web / FrontEnd,WordPress,-
 752658,PHP: Ultimate guide to PHP for everyone,https://www.udemy.com/basic-php/,Beginner Level,Backend,PHP,-
 756914,MongooseJS Essentials - Learn MongoDB for Node.js,https://www.udemy.com/mongoosejs-essentials/,Beginner Level,Web / FrontEnd,-,javascript
@@ -299,8 +278,8 @@ course_id,course_title,url,level,subject,FrameWork,Language
 760306,Learn JavaScript Dynamic Interactive Projects for Beginners,https://www.udemy.com/learn-javascript-dynamic-interactive-projects-for-beginners/,Beginner Level,Web / FrontEnd,-,javascript
 760752,JavaScript Basics for Beginners Introduction to coding,https://www.udemy.com/learn-javascript-for-beginners-introduction-to-coding-course/,Beginner Level,Web / FrontEnd,-,javascript
 761770,Learn HTML5 Canvas for beginners,https://www.udemy.com/learn-html5-canvas-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML
-763258,Core Java Programming from Scratch to Advanced,https://www.udemy.comhttps://www.udemy.com/course/core-java-fundamentals/,Beginner Level,Mobile,Native,java
-766592,HTML Complete Course - Beginner to Expert,https://www.udemy.com/the-complete-html-developer-course/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+763258,Core Java Programming from Scratch to Advanced,https://www.udemy.comhttps://www.udemy.com/course/core-java-fundamentals/,Beginner Level,Mobile,-,Java
+766592,HTML Complete Course - Beginner to Expert,https://www.udemy.com/the-complete-html-developer-course/,Beginner Level,Web / FrontEnd,-,HTML
 768612,Bootstrap Tutorial for Beginners,https://www.udemy.com/bootstrap-tutorial-for-beginners/,Beginner Level,Web / FrontEnd,Bootstrap,-
 769390,Angular 2 Master Class with Alejandro Rangel,https://www.udemy.com/angular-2-master-class-with-alejandro-rangel/,Beginner Level,Web / FrontEnd,Angular,-
 770526,Sending email with PHP: from Basic to Advanced,https://www.udemy.com/php-email/,Beginner Level,Backend,PHP,-
@@ -310,17 +289,17 @@ course_id,course_title,url,level,subject,FrameWork,Language
 777654,Learn what's new in PHP 7,https://www.udemy.com/php7-new-features/,Beginner Level,Backend,PHP,-
 778112,HTML5 canvas Bootcamp for beginners 25 easy steps,https://www.udemy.com/html5-canvas-course-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML
 778226,Building HTML5 Canvas projects from scratch,https://www.udemy.com/building-html5-canvas-projects-from-scratch/,Beginner Level,Web / FrontEnd,-,HTML
-780056,How To Create Your Very First Website With HTML and CSS,https://www.udemy.com/how-to-create-a-website-with-html-and-css/,Expert Level,Web / FrontEnd,-,HTML/CSS
+780056,How To Create Your Very First Website With HTML and CSS,https://www.udemy.com/how-to-create-a-website-with-html-and-css/,Expert Level,Web / FrontEnd,-,HTML
 781532,Advanced React and Redux,https://www.udemy.com/react-redux-tutorial/,Expert Level,Web / FrontEnd,React,-
 782192,Introduction to HTML5 Canvas basics of drawing,https://www.udemy.com/introduction-to-html5-canvas-basics-of-drawing/,Beginner Level,Web / FrontEnd,-,HTML
 782194,Canvas image Creator HTML5 JavaScript project from Scratch,https://www.udemy.com/canvas-image-maker-html5-javascript-project-from-scratch/,Beginner Level,Web / FrontEnd,-,javascript
 783158,Getting Started with HTML,https://www.udemy.com/html-basics-course/,Beginner Level,Web / FrontEnd,-,HTML
-784544,HTML Introduction Course: Learn HTML in 2 hours!!!,https://www.udemy.com/html-introduction-course-learn-html-in-2-hours/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+784544,HTML Introduction Course: Learn HTML in 2 hours!!!,https://www.udemy.com/html-introduction-course-learn-html-in-2-hours/,Beginner Level,Web / FrontEnd,-,HTML
 791030,Power up HTML5 with JavaScript,https://www.udemy.com/power-up-html5-with-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 791414,JavaScript programming: JavaScript for beginners,https://www.udemy.com/learn-javascript-online/,Beginner Level,Web / FrontEnd,-,javascript
 797038,Learn jQuery by Example Course,https://www.udemy.com/complete-jquery-course/,Beginner Level,Web / FrontEnd,jQuery,-
 797832,Getting Started with WordPress 2016,https://www.udemy.com/getting-started-with-wordpress-cms/,Beginner Level,Web / FrontEnd,WordPress,-
-802794,Java Basics: Learn to Code the Right Way,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming/,Intermediate Level,Mobile,Native,java
+802794,Java Basics: Learn to Code the Right Way,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming/,Intermediate Level,Mobile,-,Java
 803074,introduction to HTML Course,https://www.udemy.com/introduction-to-html-course/,Beginner Level,Web / FrontEnd,-,HTML
 803378,JavaScript in Action JavaScript Projects,https://www.udemy.com/javascript-in-action-learn-javascript-projects/,Beginner Level,Web / FrontEnd,-,javascript
 806020,Create Your First Wordpress Site in Under an Hour,https://www.udemy.com/how-to-install-wordpress-/,Beginner Level,Web / FrontEnd,WordPress,-
@@ -328,20 +307,19 @@ course_id,course_title,url,level,subject,FrameWork,Language
 812588,The Complete jQuery Course: From Beginner To Advanced!,https://www.udemy.com/jquery-tutorial/,Beginner Level,Web / FrontEnd,jQuery,-
 814206,Learn By Example: PHP For Dynamic Websites,https://www.udemy.com/learn-by-example-php-for-dynamic-websites/,Beginner Level,Backend,PHP,-
 814848,WordPress Basics to Business: Share and Sell your Expertise,https://www.udemy.com/wordpress-basics-to-business/,Beginner Level,Web / FrontEnd,WordPress,-
-816152,Algorithms Data Structures in Java #2 (+INTERVIEW QUESTIONS),https://www.udemy.comhttps://www.udemy.com/course/algorithms-and-data-structures-in-java-part-ii/,Intermediate Level,Mobile,Native,java
+816152,Algorithms Data Structures in Java #2 (+INTERVIEW QUESTIONS),https://www.udemy.comhttps://www.udemy.com/course/algorithms-and-data-structures-in-java-part-ii/,Intermediate Level,Mobile,-,Java
 818958,PHP For WordPress Development,https://www.udemy.com/php-for-wordpress-development/,Expert Level,Backend,PHP,-
-819718,Mastering Java Exceptions with Best Practices,https://www.udemy.comhttps://www.udemy.com/course/mastering-java-exceptions-with-best-practices/,Beginner Level,Mobile,Native,java
+819718,Mastering Java Exceptions with Best Practices,https://www.udemy.comhttps://www.udemy.com/course/mastering-java-exceptions-with-best-practices/,Beginner Level,Mobile,-,Java
 823996,"Full Stack JavaScript: Learn Backbone.js, Node.js & MongoDB",https://www.udemy.com/fullstack-javascript/,Expert Level,Web / FrontEnd,-,javascript
 825354,React.js Quickly: Developing Scalable Web User Interfaces,https://www.udemy.com/react-quickly/,Beginner Level,Web / FrontEnd,React,-
 825752,Angular 2 - Superheroic Framework,https://www.udemy.com/marutiangular2/,Expert Level,Web / FrontEnd,Angular,-
 826366,Building a ASP.NET MVC 5 Membership Website,https://www.udemy.com/building-a-mvc-5-membership-website/,Beginner Level,Backend,.NET,C#
 826568,Fundamentals of Angular 2 Full Stack Design,https://www.udemy.com/fundamentals-of-angular-2-full-stack-design/,Expert Level,Web / FrontEnd,Angular,-
-827692,The Complete Java Certification Course,https://www.udemy.comhttps://www.udemy.com/course/master-practical-java-development/,Beginner Level,Mobile,Native,java
+827692,The Complete Java Certification Course,https://www.udemy.comhttps://www.udemy.com/course/master-practical-java-development/,Beginner Level,Mobile,-,Java
 830834,Quick learning jQuery web development,https://www.udemy.com/quick-learning-jquery-web-development/,Beginner Level,Web / FrontEnd,jQuery,-
 832478,"JSON with Java APIs, jQuery and JSON REST Web Services",https://www.udemy.com/learn-json-with-java-apis-jquery-and-rest/,Beginner Level,Web / FrontEnd,jQuery,-
 833182,JQuery DOM and Ajax Concept Explained for Beginners,https://www.udemy.com/jquery-dom-and-ajax-concept-explained-for-beginners/,Beginner Level,Web / FrontEnd,jQuery,-
 833398,Angular Masterclass,https://www.udemy.com/angular-2-fundamentals-with-typescript-for-pro-developers-systemjs/,Beginner Level,Web / FrontEnd,Angular,-
-834266,Java For Beginners - 1st step towards becoming a Java Guru!,https://www.udemy.comhttps://www.udemy.com/course/corejava/,Beginner Level,Mobile,Native,java
 834924,How to create HTML Forms,https://www.udemy.com/how-to-create-html-forms/,Beginner Level,Web / FrontEnd,-,HTML
 837950,Customizr - Learn WordPress with the ultimate creative theme,https://www.udemy.com/wpcustomizrcourse/,Expert Level,Web / FrontEnd,WordPress,-
 842728,Getting Started with NodeJS for Beginners,https://www.udemy.com/getting-started-with-nodejs-for-beginners/,Beginner Level,Backend,Nodejs,-
@@ -353,16 +331,16 @@ course_id,course_title,url,level,subject,FrameWork,Language
 856968,How to Make a Wordpress Website 2017,https://www.udemy.com/how-to-wordpress/,Beginner Level,Web / FrontEnd,WordPress,-
 857270,Become a HTML and CSS Developer - Build a Responsive Site,https://www.udemy.com/learn-to-code-in-html-and-css/,Beginner Level,Web / FrontEnd,-,HTML
 858762,Rails Ecommerce App with HTML Template from Themeforest,https://www.udemy.com/rails-ecommerce-app-with-html-template-from-themeforest/,Beginner Level,Web / FrontEnd,-,HTML
-858882,Java for Beginners in 2 hours: Build a Banking Application,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-in-2-hours-build-a-banking-application/,Beginner Level,Mobile,Native,java
+858882,Java for Beginners in 2 hours: Build a Banking Application,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-in-2-hours-build-a-banking-application/,Beginner Level,Mobile,-,Java
 859936,WordPress Academy: Learn WordPress step by step,https://www.udemy.com/wordpress-academy-course/,Beginner Level,Web / FrontEnd,WordPress,-
 860812,JavaScript the Basics - JavaScript for Beginners,https://www.udemy.com/javascript-the-basics-for-beginners/,Beginner Level,Web / FrontEnd,-,javascript
 861624,ES6 Javascript: The Complete Developer's Guide,https://www.udemy.com/javascript-es6-tutorial/,Beginner Level,Web / FrontEnd,-,javascript
-863812,Spring Core DevOps on AWS,https://www.udemy.com/spring-core-devops-on-aws/,Beginner Level,Java,Spring,-
-864482,Coding Made Easy: HTML & CSS For Beginners,https://www.udemy.com/coding-made-easy-html-css-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+863812,Spring Core DevOps on AWS,https://www.udemy.com/spring-core-devops-on-aws/,Beginner Level,Backend,Spring,-
+864482,Coding Made Easy: HTML & CSS For Beginners,https://www.udemy.com/coding-made-easy-html-css-for-beginners/,Beginner Level,Web / FrontEnd,-,CSS
 866384,Advanced WordPress Topics: Post Types Taxonomies & Metaboxes,https://www.udemy.com/advanced-wordpress-topics-post-types-taxonomies-metaboxes/,Expert Level,Web / FrontEnd,WordPress,-
 866460,Angular 2+ with Typescript - Essential Training,https://www.udemy.com/angular-2-training/,Beginner Level,Web / FrontEnd,Angular,-
 869448,Creating Interactive HTML5 Video,https://www.udemy.com/creating-interactive-html5-video/,Beginner Level,Web / FrontEnd,-,HTML
-872936,Android & Java Developer Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/android-java-app-development-masterclass/,Expert Level,Mobile,Native,java
+872936,Android & Java Developer Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/android-java-app-development-masterclass/,Expert Level,Mobile,-,Java
 877124,The Complete jQuery Course - From Beginner to Professional!,https://www.udemy.com/complete-jquery-developer-course-beginner-to-pro/,Beginner Level,Web / FrontEnd,jQuery,-
 881210,Learn Complete WordPress for Building a Professional Sites,https://www.udemy.com/learn-complete-wordpress-for-building-a-professional-sites/,Beginner Level,Web / FrontEnd,WordPress,-
 882488,WordPress Development For Beginners,https://www.udemy.com/wordpress-basic/,Beginner Level,Web / FrontEnd,WordPress,-
@@ -370,59 +348,54 @@ course_id,course_title,url,level,subject,FrameWork,Language
 883706,Wordpress Beginner Tutorial: Build Your First Website,https://www.udemy.com/wordpress-beginner-tutorial-build-your-first-website/,Beginner Level,Web / FrontEnd,WordPress,-
 884946,Code a 'Coming Soon' Landing Page in Bootstrap 4,https://www.udemy.com/code-a-coming-soon-landing-page-in-bootstrap-4/,Beginner Level,Web / FrontEnd,Bootstrap,-
 886614,Accelerated ES6 JavaScript Training,https://www.udemy.com/es6-bootcamp-next-generation-javascript/,Beginner Level,Web / FrontEnd,-,javascript
-887006,Java Object-Oriented Programming : Build a Quiz Application,https://www.udemy.comhttps://www.udemy.com/course/java-object-oriented-programming-build-a-quiz-application/,Expert Level,Mobile,Native,java
+887006,Java Object-Oriented Programming : Build a Quiz Application,https://www.udemy.comhttps://www.udemy.com/course/java-object-oriented-programming-build-a-quiz-application/,Expert Level,Mobile,-,Java
 890810,Practical Understanding of PHP and MySQL,https://www.udemy.com/practical-understanding-of-php-and-myqsl-demo/,Expert Level,Data Analysis,SQL,-
 895040,Build WordPress Plugin to extend Beaver Builder,https://www.udemy.com/build-wordpress-plugin-to-extend-beaver-builder/,Beginner Level,Web / FrontEnd,WordPress,-
 896858,The Complete WordPress Development & Customization Course,https://www.udemy.com/the-complete-wordpress-development-customization-course/,Beginner Level,Web / FrontEnd,WordPress,-
-897146,"Become a Full Stack Developer with Spring, AWS and Stripe",https://www.udemy.com/become-a-full-stack-developer-with-spring-aws-and-stripe/,Beginner Level,Java,Spring,-
+897146,"Become a Full Stack Developer with Spring, AWS and Stripe",https://www.udemy.com/become-a-full-stack-developer-with-spring-aws-and-stripe/,Expert Level,Backend,Spring,-
 900434,VueJS V1 Introduction to VueJS JavaScript Framework,https://www.udemy.com/vuejs-introduction-to-vuejs-javascript-framework/,Beginner Level,Web / FrontEnd,-,javascript
-900464,The Complete Android T + Java Developer Course™ : 2023,https://www.udemy.comhttps://www.udemy.com/course/java-android-complete-guide/,Intermediate Level,Mobile,Native,java
+900464,The Complete Android T + Java Developer Course™ : 2023,https://www.udemy.comhttps://www.udemy.com/course/java-android-complete-guide/,Intermediate Level,Mobile,-,Java
 900794,JavaScript Basics For Web Developers,https://www.udemy.com/javascript-basics-for-web-developers/,Beginner Level,Web / FrontEnd,-,javascript
 903526,HTML Web Development Crash Course,https://www.udemy.com/html-tutorials/,Beginner Level,Web / FrontEnd,-,HTML
 907386,How To Create A Wordpress Website 2016 | NEW Divi Theme 3.0!,https://www.udemy.com/how-to-create-a-wordpress-website-2016-new-divi-theme-30/,Beginner Level,Web / FrontEnd,WordPress,-
 909244,Docker for Developers - Newest Version 1.12 with Swarm Mode,https://www.udemy.com/docker-for-developers/,Beginner Level,Desktop,Docker,-
 909836,Ultimate JavaScript Strings,https://www.udemy.com/js-strings/,Expert Level,Web / FrontEnd,-,javascript
 910838,The Complete Web Development Tutorial Using React and Redux,https://www.udemy.com/the-complete-web-development-tutorial-using-react-and-redux/,Beginner Level,Web / FrontEnd,React,-
-911256,Core Java Made Easy (Covers the latest Java 17),https://www.udemy.comhttps://www.udemy.com/course/corejavamadeeasy/,Beginner Level,Mobile,Native,java
 913966,HTML : Beginner Guide to HTML writing,https://www.udemy.com/html-beginner-guide/,Beginner Level,Web / FrontEnd,-,HTML
 917724,Learn JavaScript for Web Development,https://www.udemy.com/javascript-learn-javascript-essentials-and-build-project/,Beginner Level,Web / FrontEnd,-,javascript
 918870,HTML CSS Learn to create a website from scratch,https://www.udemy.com/html-css-learn-to-create-a-website-from-scratch/,Beginner Level,Web / FrontEnd,-,HTML
-919872,Android Java Masterclass - Become an App Developer,https://www.udemy.comhttps://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/,Beginner Level,Mobile,Native,java
+919872,Android Java Masterclass - Become an App Developer,https://www.udemy.comhttps://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/,Beginner Level,Mobile,-,Java
 920544,React Redux React-Router: From Beginner to Paid Professional,https://www.udemy.com/react-redux-react-router/,Beginner Level,Web / FrontEnd,React,-
 922600,CSS Web Development Crash Course,https://www.udemy.com/css-course/,Beginner Level,Web / FrontEnd,-,CSS
-922750,HTML : HTML Awesomeness,https://www.udemy.com/html-awesomeness/,Expert Level,Web / FrontEnd,-,HTML/CSS
+922750,HTML : HTML Awesomeness,https://www.udemy.com/html-awesomeness/,Expert Level,Web / FrontEnd,-,HTML
 923146,CSS Specialist: Comprehensive CSS Training,https://www.udemy.com/css-specialist-comprehensive-css-training/,Beginner Level,Web / FrontEnd,-,CSS
-924216,Django For Beginners,https://www.udemy.com/django-for-beginners/,Beginner Level,Backend,Django ,-
 929016,HTML and HTML5 For Beginners 2016,https://www.udemy.com/html-and-html5-for-beginners-2016/,Beginner Level,Web / FrontEnd,-,HTML
 929130,Angular 4: From Theory to Practice & FREE E-Book,https://www.udemy.com/angular-2-from-theory-to-practice/,Beginner Level,Web / FrontEnd,Angular,-
 933110,Develop a Professional OnePage WordPress site With No Coding,https://www.udemy.com/develop-a-professional-onepage-wordpress-site-with-no-coding/,Beginner Level,Web / FrontEnd,WordPress,-
 939536,Learn basics of HTML in 30 Minutes,https://www.udemy.com/learn-basics-of-html/,Expert Level,Web / FrontEnd,-,HTML
 941998,"Master Electron: Desktop Apps using HTML, JavaScript & CSS",https://www.udemy.com/master-electron/,Beginner Level,Web / FrontEnd,-,javascript
-942366,Introductory To HTML and CSS,https://www.udemy.com/introductory-to-html-and-css/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 943386,CSS :basics for beginners,https://www.udemy.com/learn-css-fast/,Beginner Level,Web / FrontEnd,-,CSS
 944156,Javascript :basics for beginners,https://www.udemy.com/learn-javascript-fast/,Beginner Level,Web / FrontEnd,-,javascript
 944886,WordPress Look and Feel with Themes,https://www.udemy.com/learn-wordpress-customize-look-and-feel-with-themes/,Beginner Level,Web / FrontEnd,WordPress,-
 944906,WordPress Plugins and Widgets,https://www.udemy.com/wordpress-plugins-and-widgets/,Beginner Level,Web / FrontEnd,WordPress,-
 945320,Javascript Intermediate level 2 - Mastering Functions,https://www.udemy.com/javascript-intermediate-mastering-functions/,Beginner Level,Web / FrontEnd,-,javascript
 945336,Javascript Intermediate level 1 - Mastering the DOM,https://www.udemy.com/javascript-intermediate-mastering-the-dom/,Beginner Level,Web / FrontEnd,-,javascript
-946480,Master the Basics of Java in Less Than 2 Hours,https://www.udemy.comhttps://www.udemy.com/course/intro-to-java-learning-the-basics/,Intermediate Level,Mobile,Native,java
-947498,Web Design HTML CSS How to Create a Website from Scratch,https://www.udemy.com/html-css-how-to-create-a-website-from-scratch/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+946480,Master the Basics of Java in Less Than 2 Hours,https://www.udemy.comhttps://www.udemy.com/course/intro-to-java-learning-the-basics/,Intermediate Level,Mobile,-,Java
 948440,PSD to Responsive HTML5: Beginner to Advanced,https://www.udemy.com/psd-to-html5-beginner-to-advanced/,Beginner Level,Web / FrontEnd,-,HTML
-949194,OOP Java Object Oriented Programming for beginners Projects,https://www.udemy.comhttps://www.udemy.com/course/java-object-oriented-programming-basic-principles/,Beginner Level,Mobile,Native,java
+949194,OOP Java Object Oriented Programming for beginners Projects,https://www.udemy.comhttps://www.udemy.com/course/java-object-oriented-programming-basic-principles/,Beginner Level,Mobile,-,Java
 949282,Learn Angular 2 from Beginner to Advanced,https://www.udemy.com/learn-angular-2-from-beginner-to-advanced/,Beginner Level,Web / FrontEnd,Angular,-
 951060,Web Design How to Create a Website HTML CSS Bootstrap,https://www.udemy.com/how-to-create-a-website-html-css-bootstrap/,Beginner Level,Web / FrontEnd,Bootstrap,-
-954710,HTML/CSS Bootcamp,https://www.udemy.com/html-css-code-bootcamp/,Expert Level,Web / FrontEnd,-,HTML/CSS
 955194,Coding Made Easy: A Beginners Guide To JavaScript,https://www.udemy.com/coding-made-easy-a-beginners-guide-to-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 955818,Jquery :basics for beginners,https://www.udemy.com/jquery-basics-for-beginners/,Beginner Level,Web / FrontEnd,jQuery,-
 956888,Tumult Hype Pro Basics: HTML5 Animations Made Easier,https://www.udemy.com/tumult-hype-pro-basics-html5-animations-made-easier/,Beginner Level,Web / FrontEnd,-,HTML
 957362,AngularJs :basics for beginners,https://www.udemy.com/angularjs-basics-for-beginners/,Beginner Level,Web / FrontEnd,Angular,-
 957422,How to Create A Website: An HTML Tutorial and CSS Tutorial,https://www.udemy.com/html-tutorial/,Beginner Level,Web / FrontEnd,-,HTML
-957902,Java Interview Guide : 200+ Interview Questions and Answers,https://www.udemy.comhttps://www.udemy.com/course/java-interview-questions-and-answers/,Intermediate Level,Mobile,Native,java
+957902,Java Interview Guide : 200+ Interview Questions and Answers,https://www.udemy.comhttps://www.udemy.com/course/java-interview-questions-and-answers/,Intermediate Level,Mobile,-,Java
 958982,JavaScript : JavaScript Awesomeness,https://www.udemy.com/javascript-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 959200,JavaScript For Absolute Beginners - Level One,https://www.udemy.com/javascript-for-absolute-beginners-level-one/,Beginner Level,Web / FrontEnd,-,javascript
 959586,Javascript from Beginner to Advanced Level,https://www.udemy.com/javascript-from-beginner-to-advanced-level/,Beginner Level,Web / FrontEnd,-,javascript
 959604,Angular JS Essentials,https://www.udemy.com/angular-js-crash-course/,Beginner Level,Web / FrontEnd,Angular,-
-961508,Learn Spring Security 4 Basics - Hands On,https://www.udemy.com/learn-spring-security-4-basics-hands-on/,Expert Level,Java,Spring,-
+961508,Learn Spring Security 4 Basics - Hands On,https://www.udemy.com/learn-spring-security-4-basics-hands-on/,Expert Level,Backend,Spring,-
 961996,Learn Reactivex From Ground Up,https://www.udemy.com/learn-reactivex-from-ground-up/,Beginner Level,Web / FrontEnd,React,-
 963378,JavaScript For Absolute Beginners - Level Two,https://www.udemy.com/javascript-for-absolute-beginners-level-two/,Beginner Level,Web / FrontEnd,-,javascript
 963412,Building Websites JavaScript and the DOM,https://www.udemy.com/building-websites-learn-javascript-and-the-dom/,Expert Level,Web / FrontEnd,-,javascript
@@ -431,15 +404,14 @@ course_id,course_title,url,level,subject,FrameWork,Language
 970252,PHP :basics for beginners,https://www.udemy.com/php-basics-for-beginners-new/,Beginner Level,Backend,PHP,-
 970600,REST APIs with Flask and Python,https://www.udemy.com/rest-api-flask-and-python/,Beginner Level,Data Science,Python,-
 970874,"Complete AJAX Using Bootstrap, PHP From Basic To Advanced.",https://www.udemy.com/complete-ajax-using-bootstrap-php-from-basic-to-advanced/,Beginner Level,Web / FrontEnd,Bootstrap,-
-973932,Learn Spring Security 4 Intermediate - Hands On,https://www.udemy.com/learn-spring-security-4-intermediate-hands-on/,Beginner Level,Java,Spring,-
+973932,Learn Spring Security 4 Intermediate - Hands On,https://www.udemy.com/learn-spring-security-4-intermediate-hands-on/,Intermediate Level,Backend,Spring,-
 975060,Learn React JS from scratch,https://www.udemy.com/learn-react-js-from-scratch/,Beginner Level,Web / FrontEnd,React,-
 975916,17 Complete JavaScript   projects explained step by step,https://www.udemy.com/17-complete-javascript-projects-explained-step-by-step/,Expert Level,Web / FrontEnd,-,javascript
-976854,Spring 4 Mastercourse: Covers Annotation & XML Configuration,https://www.udemy.com/java-spring-framework/,Beginner Level,Java,Spring,-
+976854,Spring 4 Mastercourse: Covers Annotation & XML Configuration,https://www.udemy.com/java-spring-framework/,Expert Level,Backend,Spring,-
 977474,Ultimate CSS3 Course - From Beginners To Professional,https://www.udemy.com/ultimate-css3-course/,Beginner Level,Web / FrontEnd,-,CSS
 977516,Wordpress for Non-Technical People,https://www.udemy.com/wordpress-for-non-technical-people/,Beginner Level,Web / FrontEnd,WordPress,-
 978850,Learn by Example : ReactJS,https://www.udemy.com/learn-by-example-reactjs/,Beginner Level,Web / FrontEnd,React,-
 978852,Beginning Web development Learn the basics of HTML,https://www.udemy.com/learn-the-basics-of-html-in-less-than-a-week/,Beginner Level,Web / FrontEnd,-,HTML
-981600,HTML and CSS BootCamp for Beginners,https://www.udemy.com/html-and-css-bootcamp-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 982860,Django + AngularJS for a Powerful Web Application,https://www.udemy.com/django-angularjs/,Beginner Level,Web / FrontEnd,Angular,-
 983534,Try AngularJS: Beginner's Guide to Front End Web Development,https://www.udemy.com/try-angularjs/,Beginner Level,Web / FrontEnd,Angular,-
 984072,"Build Modern Websites Quick With HTML,CSS and Bootstrap",https://www.udemy.com/build-modern-websites-quick-with-htmlcss-and-bootstrap/,Beginner Level,Web / FrontEnd,Bootstrap,-
@@ -449,7 +421,6 @@ course_id,course_title,url,level,subject,FrameWork,Language
 991290,Dynamic JavaScript Master Class AJAX JSON Simple APIs,https://www.udemy.com/ajax-course/,Beginner Level,Web / FrontEnd,-,javascript
 993146,Learn JSON with JavaScript Objects and APIs in 1 hour,https://www.udemy.com/json-course/,Beginner Level,Web / FrontEnd,-,javascript
 993148,Learn jQuery AJAX in 1 hour,https://www.udemy.com/jquery-ajax-course/,Beginner Level,Web / FrontEnd,jQuery,-
-993754,Django Core | A Reference Guide to Core Django Concepts,https://www.udemy.com/django-core/,Beginner Level,Backend,Django ,-
 994634,Mastering ASP.NET MVC 5 From Scratch Using C#,https://www.udemy.com/masteringaspnetmvc5/,Beginner Level,Backend,.NET,C#
 994740,Create an eCommerce Wordpress Website 2016 - New Divi Theme!,https://www.udemy.com/create-an-ecommerce-wordpress-website-2016-new-divi-theme/,Beginner Level,Web / FrontEnd,WordPress,-
 997814,Angular 2 & TypeScript Beginner Web Development,https://www.udemy.com/angular2/,Beginner Level,Web / FrontEnd,Angular,-
@@ -461,9 +432,8 @@ course_id,course_title,url,level,subject,FrameWork,Language
 1013314,PHP For Beginners : Learn PHP From Scratch!,https://www.udemy.com/php-fundamentals-course/,Beginner Level,Backend,PHP,-
 1013380,Learn To Build A Google Map App Using Angular 2,https://www.udemy.com/learn-to-build-a-google-map-app-using-angular-2/,Beginner Level,Web / FrontEnd,Angular,-
 1016388,Projects In ReactJS - The Complete React Learning Course,https://www.udemy.com/projects-in-reactjs-the-complete-react-learning-course/,Beginner Level,Web / FrontEnd,React,-
-1017116,Get to know HTML Learn HTML Basics,https://www.udemy.com/html-online-course/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+1017116,Get to know HTML Learn HTML Basics,https://www.udemy.com/html-online-course/,Beginner Level,Web / FrontEnd,-,HTML
 1017568,The Complete PHP Bootcamp Course With Video Sharing Project,https://www.udemy.com/php-bootcamp/,Beginner Level,Backend,PHP,-
-1019276,The Ultimate Beginner's Guide to Django,https://www.udemy.com/the-ultimate-beginners-guide-to-django-python-web-dev-website/,Beginner Level,Backend,Django ,-
 1019918,Master Angular 2 - The No Nonsense Course,https://www.udemy.com/angular-2-tutorial/,Beginner Level,Web / FrontEnd,Angular,-
 1021834,JavaScript for beginners in 1 hour,https://www.udemy.com/learn-javascript-in-1-hour-and-create-a-game-in-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 1023668,Supreme NodeJS Course - For Beginners,https://www.udemy.com/supreme-node-js-course/,Beginner Level,Backend,Nodejs,-
@@ -472,7 +442,7 @@ course_id,course_title,url,level,subject,FrameWork,Language
 1027342,Rapid Website Design with Bootstrap,https://www.udemy.com/responsive-website-design/,Beginner Level,Web / FrontEnd,Bootstrap,-
 1030774,Master all PHP ideas 2017 to build any project,https://www.udemy.com/master-all-php-ideas-2017-to-build-any-project/,Beginner Level,Backend,PHP,-
 1031626,Bootstrap 4 Responsive Web Design and Development,https://www.udemy.com/bootstrap-4-responsive-web-design-and-development/,Expert Level,Web / FrontEnd,Bootstrap,-
-1031780,Ready for Production with Spring Boot Actuator,https://www.udemy.com/ready-for-production-with-spring-boot-actuator/,Beginner Level,Java,Spring,-
+1031780,Ready for Production with Spring Boot Actuator,https://www.udemy.com/ready-for-production-with-spring-boot-actuator/,Intermediate Level,Backend,Spring,-
 1033944,Serverless Workflow Management with AWS Step Functions,https://www.udemy.com/aws-step-functions/,Beginner Level,Cloud,AWS,-
 1034520,WordPress Domination #2: Leads & Scarcity,https://www.udemy.com/wordpress-domination-2-leads-and-scarcity/,Beginner Level,Web / FrontEnd,WordPress,-
 1035940,Professional RESTful API Design using Python Flask,https://www.udemy.com/restful-api-flask-course/,Beginner Level,Data Science,Python,-
@@ -485,39 +455,34 @@ course_id,course_title,url,level,subject,FrameWork,Language
 1050632,"Complete Web Development with HTML, CSS and Javascript",https://www.udemy.com/complete-web-development-with-html-css-and-javascript/,Beginner Level,Web / FrontEnd,-,javascript
 1051672,Learn PHP from scratch!!,https://www.udemy.com/learn-php-from-scratch-by-niveditajain/,Beginner Level,Backend,PHP,-
 1052304,JavaScript For Beginners : Learn JavaScript From Scratch,https://www.udemy.com/javascript-course-for-beginners/,Beginner Level,Web / FrontEnd,-,javascript
-1052518,Master the Art of Web Design with HTML & CSS,https://www.udemy.com/html-css-beginners/,Beginner Level,Web / FrontEnd,-,HTML/CSS
-1053406,Java Web Services Part 2 - SOAP and REST Security,https://www.udemy.comhttps://www.udemy.com/course/javawebservicespart2/,Expert Level,Mobile,Native,java
+1052518,Master the Art of Web Design with HTML & CSS,https://www.udemy.com/html-css-beginners/,Beginner Level,Web / FrontEnd,-,CSS
+1053406,Java Web Services Part 2 - SOAP and REST Security,https://www.udemy.comhttps://www.udemy.com/course/javawebservicespart2/,Expert Level,Mobile,-,Java
 1062686,Complete RESPONSIVE Website Design with HTML5 & CSS3,https://www.udemy.com/website_design/,Beginner Level,Web / FrontEnd,-,HTML
 1063430,How to Build WordPress Themes: A Web Designer's Guide,https://www.udemy.com/how-to-build-wordpress-themes/,Beginner Level,Web / FrontEnd,WordPress,-
-1063722,Learn Python Django - A Hands-On Course,https://www.udemy.com/learn-python-django-a-hands-on-course/,Beginner Level,Backend,Django ,-
 1068590,Wordpress Website Mastery 2017,https://www.udemy.com/wordpress-website-mastery-2017/,Beginner Level,Web / FrontEnd,WordPress,-
-1071060,Django by Example,https://www.udemy.com/django-by-example/,Beginner Level,Backend,Django ,-
 1073793,Start Writing JavaScript Today - Beginner JavaScript Course,https://www.udemy.com/start-writing-javascript-today/,Beginner Level,Web / FrontEnd,-,javascript
 1075570,Perfect React JS Course - Understand Relevant Details,https://www.udemy.com/perfect-react-js-course/,Expert Level,Web / FrontEnd,React,-
-1078208,Spring Boot Tutorial For Beginners,https://www.udemy.com/spring-boot-tutorial-for-beginners/,Beginner Level,Java,Spring,-
+1078208,Spring Boot Tutorial For Beginners,https://www.udemy.com/spring-boot-tutorial-for-beginners/,Beginner Level,Backend,Spring,-
 1078522,React JS and Redux - Mastering Web Apps,https://www.udemy.com/react-js-and-redux-mastering-web-apps/,Beginner Level,Web / FrontEnd,React,-
-1079624,HTML and CSS for Absolute Beginners,https://www.udemy.com/html-and-css-for-absolute-beginners-with-examples/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 1085064,Let's JavaScript!  Code a calculator,https://www.udemy.com/lets-javascript-beginners-coding-projects/,Beginner Level,Web / FrontEnd,-,javascript
 1086834,How To Make A Wordpress Website 2017 | Divi Theme Tutorial,https://www.udemy.com/how-to-make-a-wordpress-website-2017-divi-theme-tutorial/,Beginner Level,Web / FrontEnd,WordPress,-
 1088178,How To Design A WordPress Website With No Coding At All,https://www.udemy.com/how-to-make-a-wordpress-website-course/,Expert Level,Web / FrontEnd,WordPress,-
 1089744,How To Make A Wordpress Website 2017 - Divi Theme Tutorial,https://www.udemy.com/how-to-make-a-wordpress-website-2017-divi-theme-tutorial-for-beginners/,Beginner Level,Web / FrontEnd,WordPress,-
-1090788,First Web Application with Spring Boot,https://www.udemy.com/spring-boot-first-web-application/,Beginner Level,Java,Spring,-
+1090788,First Web Application with Spring Boot,https://www.udemy.com/spring-boot-first-web-application/,Beginner Level,Backend,Spring,-
 1090870,Complete WooCommerce Plugin Tutorial For Wordpress 2017,https://www.udemy.com/complete-woocommerce-plugin-tutorial-for-wordpress-2017/,Beginner Level,Web / FrontEnd,WordPress,-
 1093734,HTML5 and CSS3 for beginners: Create a Website from Scratch,https://www.udemy.com/html5-and-css3-for-beginners-create-a-website-from-scratch/,Beginner Level,Web / FrontEnd,-,HTML
-1094964,Build Your Own Backend REST API using Django REST Framework,https://www.udemy.com/django-python/,Beginner Level,Backend,Django ,-
 1099956,Bootstrap 4 Theme Development Masterclass,https://www.udemy.com/bootstrap-theme-development-masterclass/,Beginner Level,Web / FrontEnd,Bootstrap,-
 1101204,Security for your WordPress site,https://www.udemy.com/security-for-your-wordpress-site/,Beginner Level,Web / FrontEnd,WordPress,-
 1102962,Angular Material - Quickstart,https://www.udemy.com/styling-angular-applications-with-angular-material/,Beginner Level,Web / FrontEnd,Angular,-
 1103954,Node.js: The Essentials + API Frameworks Express KOA Sails,https://www.udemy.com/nodejs-up-and-running/,Beginner Level,Backend,Nodejs,-
 1107986,Building Data Visualizations with D3 and Angular 2,https://www.udemy.com/building-data-visualizations-with-d3-and-angular-2/,Beginner Level,Web / FrontEnd,Angular,-
 1109926,GraphQL with React: The Complete Developers Guide,https://www.udemy.com/graphql-with-react-course/,Beginner Level,Web / FrontEnd,React,-
-1110206,Java for Beginners (A visual guide),https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-the-complete-course/,Beginner Level,Mobile,Native,java
-1110756,HTML Tutorials : HTML Code for Website Creating,https://www.udemy.com/html-code-for-website/,Beginner Level,Web / FrontEnd,-,HTML/CSS
+1110206,Java for Beginners (A visual guide),https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-the-complete-course/,Beginner Level,Mobile,-,Java
+1110756,HTML Tutorials : HTML Code for Website Creating,https://www.udemy.com/html-code-for-website/,Beginner Level,Web / FrontEnd,-,HTML
 1111844,Build a Single Page Application with jQuery & AJAX,https://www.udemy.com/jquery-ajax/,Beginner Level,Web / FrontEnd,jQuery,-
 1112604,Javascript Specialist,https://www.udemy.com/javascript-specialist/,Beginner Level,Web / FrontEnd,-,javascript
 1113036,Mastering CSS 3.0 Selectors,https://www.udemy.com/css3-selectors/,Beginner Level,Web / FrontEnd,-,CSS
 1115348,"Full stack Universal React with Redux, Node js and MongoDB",https://www.udemy.com/full-stack-universal-react-with-redux-express-and-mongodb/,Beginner Level,Web / FrontEnd,React,-
-1116366,HTML and CSS Foundations,https://www.udemy.com/html-and-css-foundations/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 1121580,WordPress Blog : Create a WordPress Website for Beginners,https://www.udemy.com/wordpress-website-for-beginners/,Beginner Level,Web / FrontEnd,WordPress,-
 1121650,Angular 2 Routing: Up And Running,https://www.udemy.com/angular-2-routing-up-and-running/,Beginner Level,Web / FrontEnd,Angular,-
 1123098,RxJs & Reactive Programming Angular Masterclass - Angular 4,https://www.udemy.com/rxjs-reactive-angular-course/,Beginner Level,Web / FrontEnd,React,-
@@ -526,11 +491,11 @@ course_id,course_title,url,level,subject,FrameWork,Language
 1124970,Javascript ES6! A Complete Reference Guide to Javascript ES6,https://www.udemy.com/javascript-es6-a-complete-reference-guide-to-javascript-es6/,Beginner Level,Web / FrontEnd,-,javascript
 1127988,Angular Tutorial For Beginners,https://www.udemy.com/angular-tutorial-for-beginners/,Beginner Level,Web / FrontEnd,Angular,-
 1128560,JavaScript - Become Higly Paid Front End Developer,https://www.udemy.com/javascript-become-higly-paid-front-end-developer/,Beginner Level,Web / FrontEnd,-,javascript
-1132250,Algorithms and Data Structures Easy Way Java - job interview,https://www.udemy.comhttps://www.udemy.com/course/algorithms-and-data-structures-made-easy-for-interview/,Intermediate Level,Mobile,Native,java
-1132484,Java Tutorial for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-8-for-complete-beginners/,Beginner Level,Mobile,Native,java
+1132250,Algorithms and Data Structures Easy Way Java - job interview,https://www.udemy.comhttps://www.udemy.com/course/algorithms-and-data-structures-made-easy-for-interview/,Intermediate Level,Mobile,-,Java
+1132484,Java Tutorial for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-8-for-complete-beginners/,Beginner Level,Mobile,-,Java
 1134390,Complete React JS web developer with ES6 - Build 10 projects,https://www.udemy.com/complete-react-js-course/,Beginner Level,Web / FrontEnd,React,-
-1135326,Learn Java by building 17 projects step by step,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-with-17-hands-on-projects/,Beginner Level,Mobile,Native,java
-1135384,Basic Java Programming with NetBeans,https://www.udemy.comhttps://www.udemy.com/course/basic-java-programming-with-netbeans/,Intermediate Level,Mobile,Native,java
+1135326,Learn Java by building 17 projects step by step,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-with-17-hands-on-projects/,Beginner Level,Mobile,-,Java
+1135384,Basic Java Programming with NetBeans,https://www.udemy.comhttps://www.udemy.com/course/basic-java-programming-with-netbeans/,Intermediate Level,Mobile,-,Java
 1135712,Mastering Modern Web Development Using React,https://www.udemy.com/mastering-modern-web-development-using-react/,Beginner Level,Web / FrontEnd,React,-
 1140532,Explore JavaScript Beginners Guide to Coding JavaScript,https://www.udemy.com/javascript-beginners-course/,Beginner Level,Web / FrontEnd,-,javascript
 1142202,Master Angular 4 by Example - Build 7 Awesome Apps!,https://www.udemy.com/learn-angular-4/,Beginner Level,Web / FrontEnd,Angular,-
@@ -540,11 +505,11 @@ course_id,course_title,url,level,subject,FrameWork,Language
 1147064,WordPress For Beginners | No Coding Required,https://www.udemy.com/wordpress-for-beginners-no-coding-required/,Beginner Level,Web / FrontEnd,WordPress,-
 1148342,Step by Step Build Your Template by Bootstrap 4 from scratch,https://www.udemy.com/bootstrap-v4/,Beginner Level,Web / FrontEnd,Bootstrap,-
 1156648,Learn ASP.Net Web API 2 for Absolute Beginner,https://www.udemy.com/learn-aspnet-web-api-2-for-absolute-beginner/,Beginner Level,Backend,.NET,C#
-1157988,Get your Java dream job! Beginners interview preparation,https://www.udemy.comhttps://www.udemy.com/course/get-your-java-dream-job-junior-interview-preparation/,Beginner Level,Mobile,Native,java
+1157988,Get your Java dream job! Beginners interview preparation,https://www.udemy.comhttps://www.udemy.com/course/get-your-java-dream-job-junior-interview-preparation/,Beginner Level,Mobile,-,Java
 1158572,Learn Angular 4 from Scratch,https://www.udemy.com/learn-angular-from-scratch/,Beginner Level,Web / FrontEnd,Angular,-
 1158836,PHP Specialist (2017 Edition),https://www.udemy.com/php-specialist-2017/,Expert Level,Backend,PHP,-
 1161118,Dive Into Docker: The Docker Course for Developers,https://www.udemy.com/dive-into-docker-the-complete-docker-course-for-developers/,Beginner Level,Desktop,Docker,-
-1168156,Learn to code in Java from Scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-to-code-in-java-from-scratch/,Beginner Level,Mobile,Native,java
+1168156,Learn to code in Java from Scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-to-code-in-java-from-scratch/,Beginner Level,Mobile,-,Java
 1170920,Node:js : Building Rest Apis with Sails.js,https://www.udemy.com/building-rest-apis-with-sailsjs-and-nodejs/,Expert Level,Backend,Nodejs,-
 1171966,The Complete PHP MySQL Professional Course with 5 Projects,https://www.udemy.com/the-complete-php-mysql-professional-course/,Beginner Level,Data Analysis,SQL,-
 1172166,WordPress for Beginners 2017 + Google AdSense Implementation,https://www.udemy.com/wordpress-tutorial-for-beginners-and-google-adsense-implementation/,Beginner Level,Web / FrontEnd,WordPress,-
@@ -555,197 +520,169 @@ course_id,course_title,url,level,subject,FrameWork,Language
 1183094,"ASP.NET Core MVC, Quick and Practical",https://www.udemy.com/aspnet-core-mvc-quick-and-practical/,Beginner Level,Backend,.NET,C#
 1189280,Introduction to Node.js for Beginners,https://www.udemy.com/introduction-to-nodejs-for-beginners/,Beginner Level,Backend,Nodejs,-
 1189508,Create a social network using PHP Mysqli HTML Css and JQuery,https://www.udemy.com/create-a-social-network-using-php-mysqli-html-css-and-jquery/,Beginner Level,Data Analysis,SQL,-
-1190864,JAVA Programming for Beginners - The Complete Course,https://www.udemy.comhttps://www.udemy.com/course/java-the-complete-course/,Beginner Level,Mobile,Native,java
 1191946,Getting Started with Angular 2+,https://www.udemy.com/getting-started-with-angular-2/,Expert Level,Web / FrontEnd,Angular,-
 1199780,Hosting your static website on Amazon AWS S3 service,https://www.udemy.com/hosting-a-static-website-on-amazon-aws-s3-service/,Beginner Level,Cloud,AWS,-
 1201054,Build CRUD Application - PHP & Mysql,https://www.udemy.com/build-crud-application-php-mysql/,Expert Level,Data Analysis,SQL,-
 1203894,How To Make an eCommerce Website With Wordpress 2017,https://www.udemy.com/how-to-make-an-ecommerce-website-with-wordpress-2017/,Beginner Level,Web / FrontEnd,WordPress,-
-1204208,Mastering Micro Services Using Java Spring Boot,https://www.udemy.com/mastering-micro-services-using-java-sprint-boot/,Beginner Level,Java,Spring,-
+1204208,Mastering Micro Services Using Java Spring Boot,https://www.udemy.com/mastering-micro-services-using-java-sprint-boot/,Beginner Level,Backend,Spring,-
 1204590,Angular Advanced MasterClass & FREE E-Book,https://www.udemy.com/angular-advanced-masterclass/,Expert Level,Web / FrontEnd,Angular,-
 1207382,Optimizing Wordpress for More Speed and Revenue,https://www.udemy.com/optimizing-wordpress-for-more-speed-and-revenue/,Beginner Level,Web / FrontEnd,WordPress,-
 1208638,"React JS, Angular & Vue JS - Quickstart & Comparison",https://www.udemy.com/angular-reactjs-vuejs-quickstart-comparison/,Beginner Level,Web / FrontEnd,React,-
-1210098,HTML5 and CSS for Beginner To Expert,https://www.udemy.com/html5-and-css-for-beginner-to-expert/,Beginner Level,Web / FrontEnd,-,HTML/CSS
 1210652,HTML5 and CSS3: Learn Web Design with HTML + CSS + Bootstrap,https://www.udemy.com/html-css-bootstrap-build-your-first-website-today/,Beginner Level,Web / FrontEnd,Bootstrap,-
 1211160,The Complete Wordpress Theme Development Guide,https://www.udemy.com/the-complete-wordpress-theme-development-guide/,Beginner Level,Web / FrontEnd,WordPress,-
 1211800,Wordpress Theme Development for Beginners,https://www.udemy.com/wordpress-theme-development-for-beginners/,Beginner Level,Web / FrontEnd,WordPress,-
 1223012,Mastering 'Native CSS Shapes To Build Modern Web Pages,https://www.udemy.com/mastering-native-css-shapes/,Beginner Level,Web / FrontEnd,-,CSS
 1227322,React vs Angular vs Vue.js by Example,https://www.udemy.com/react-vs-angular-vs-vuejs-by-example/,Beginner Level,Web / FrontEnd,React,-
-1228376,Learn Java the Easy Way: Build Desktop & Android Mobile Apps,https://www.udemy.comhttps://www.udemy.com/course/java-the-easy-way/,Beginner Level,Mobile,Native,java
-1228490,Java for Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-for-absolute-beginners/,Beginner Level,Mobile,Native,java
-1228946,Java Design Patterns Interview Questions Preparation Course,https://www.udemy.comhttps://www.udemy.com/course/java-design-patterns-interview-questions-preparation-course/,Intermediate Level,Mobile,Native,java
-1230848,Learn Java Programming | Complete Course,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-course-go-from-begginer-to-advanced/,Beginner Level,Mobile,Native,java
+1228490,Java for Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-for-absolute-beginners/,Beginner Level,Mobile,-,Java
+1228946,Java Design Patterns Interview Questions Preparation Course,https://www.udemy.comhttps://www.udemy.com/course/java-design-patterns-interview-questions-preparation-course/,Intermediate Level,Mobile,-,Java
 1231872,Web Development With HTML CSS BOOTSTRAP JQUERY for Beginners,https://www.udemy.com/web-development-with-html-css-bootstrap-jquery-for-beginners/,Beginner Level,Web / FrontEnd,jQuery,-
 1236746,WordPress Tips and Tricks,https://www.udemy.com/wordpress-tips-and-tricks/,Beginner Level,Web / FrontEnd,WordPress,-
-1236852,Java Programming: Become a Professional Java Engineer!,https://www.udemy.comhttps://www.udemy.com/course/java-programming-the-authoritative-edition/,Beginner Level,Mobile,Native,java
 1239022,How To Create A Real Estate Website With Wordpress 2017,https://www.udemy.com/how-to-create-a-real-estate-website-with-wordpress-2017/,Beginner Level,Web / FrontEnd,WordPress,-
-1240898,Java Maven - The Complete Course,https://www.udemy.comhttps://www.udemy.com/course/java-maven-the-complete-course/,Beginner Level,Mobile,Native,java
 1243474,Ultimate Css & JQuery Form Designing From Beginner to Expert,https://www.udemy.com/ultimate-css-web-form-designing-from-beginner-to-expert/,Beginner Level,Web / FrontEnd,jQuery,-
 1246622,Build and Deploy a LAMP server on AWS,https://www.udemy.com/build-and-deploy-a-lamp-server-on-aws/,Beginner Level,Cloud,AWS,-
 1247828,Angular 4 (2+) Crash Course for Beginners,https://www.udemy.com/angular-crash-course-for-beginners/,Beginner Level,Web / FrontEnd,Angular,-
-1248172,Essentials of Spring 5.0 for Developers,https://www.udemy.com/essentials-of-spring-50-for-developers/,Beginner Level,Java,Spring,-
-1249018,Java for beginners (Core concepts): Easy course on Java,https://www.udemy.comhttps://www.udemy.com/course/java-free/,Beginner Level,Mobile,Native,java
+1248172,Essentials of Spring 5.0 for Developers,https://www.udemy.com/essentials-of-spring-50-for-developers/,Beginner Level,Backend,Spring,-
 1249968,JQuery Basics - Learn JQuery From Scratch,https://www.udemy.com/jquery-basics-learn-jquery-from-scratch/,Expert Level,Web / FrontEnd,jQuery,-
 1251786,Redux in Angular (2 and 4+),https://www.udemy.com/redux-in-angular/,Beginner Level,Web / FrontEnd,Angular,-
 1252318,The Complete HTML and CSS Course For Beginners,https://www.udemy.com/the-complete-html-and-css-course-for-beginners/,Beginner Level,Web / FrontEnd,-,HTML
 1252630,React JS - Mastering Redux,https://www.udemy.com/react-js-mastering-redux/,Beginner Level,Web / FrontEnd,React,-
 1256136,Angular 4 Development Decoded,https://www.udemy.com/marutiangular4/,Beginner Level,Web / FrontEnd,Angular,-
 1260288,"Master JavaScript Programming, 3 Projects Included !!",https://www.udemy.com/master-javascript-programming-extended-course/,Beginner Level,Web / FrontEnd,-,javascript
-1264836,Java for beginners:  Create 10 useful complete projects,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-create-10-useful-complete-projects/,Beginner Level,Mobile,Native,java
+1264836,Java for beginners:  Create 10 useful complete projects,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-create-10-useful-complete-projects/,Beginner Level,Mobile,-,Java
 1267892,Getting started with JavaScript,https://www.udemy.com/javascript-code/,Beginner Level,Web / FrontEnd,-,javascript
 1270222,Learning Path: Web Applications with Spring and Angular,https://www.udemy.com/learning-path-web-applications-with-spring-and-angular/,Beginner Level,Web / FrontEnd,Angular,-
 1270392,"The Complete JavaScript, HTML and CSS Tutorial For Beginners",https://www.udemy.com/the-complete-javascript-html-and-css-tutorial-for-beginners/,Beginner Level,Web / FrontEnd,-,javascript
 1274210,Learn JSON for beginners with JavaScript,https://www.udemy.com/json-javascript-course/,Beginner Level,Web / FrontEnd,-,javascript
-1285808,Java for Complete Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-for-complete-beginners/,Beginner Level,Mobile,Native,java
-1297194,Fundamentals of Java with NetBeans,https://www.udemy.comhttps://www.udemy.com/course/fundamentals-of-java-with-netbeans/,Beginner Level,Mobile,Native,java
-1309166,Become a Junior Java Software Developer,https://www.udemy.comhttps://www.udemy.com/course/become-a-junior-java-software-developer/,Beginner Level,Mobile,Native,java
-1341322,Quick Course - Java interview preparation - for junior,https://www.udemy.comhttps://www.udemy.com/course/quick-course-java-interview-preparation-for-junior/,Beginner Level,Mobile,Native,java
-1344876,What's New in Java 9 - Modules and More!,https://www.udemy.comhttps://www.udemy.com/course/whats-new-in-java-9/,Expert Level,Mobile,Native,java
-1346964,Java for beginners: Step-by-step hands-on guide to Java,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-step-by-step-hands-on-guide-to-java/,Beginner Level,Mobile,Native,java
-1360780,Practice Java by Building Projects,https://www.udemy.comhttps://www.udemy.com/course/practice-java-by-building-projects/,Intermediate Level,Mobile,Native,java
-1412532,Complete Java Bootcamp For Beginners,https://www.udemy.comhttps://www.udemy.com/course/complete-java-bootcamp-for-beginners/,Beginner Level,Mobile,Native,java
-1425880,Java Web Development Under The Hood,https://www.udemy.comhttps://www.udemy.com/course/java-web-development-under-the-hood/,Beginner Level,Mobile,Native,java
-1461992,Java Design Patterns: The Complete Masterclass - 21 Patterns,https://www.udemy.comhttps://www.udemy.com/course/java-design-patterns-the-complete-masterclass/,Beginner Level,Mobile,Native,java
-1506644,Basic Java Programming with Eclipse,https://www.udemy.comhttps://www.udemy.com/course/eclipse-the-basic-java-programming-course/,Intermediate Level,Mobile,Native,java
-1535678,Java Programming for Complete Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-programming-tutorial-for-beginners/,Beginner Level,Mobile,Native,java
-1567526,Java A-Z™ : Learn java within 8 hours,https://www.udemy.comhttps://www.udemy.com/course/java-a-z-become-masterclass-for-java-easy-jobs/,Intermediate Level,Mobile,Native,java
-1568344,Java Design Patterns & SOLID Design Principles,https://www.udemy.comhttps://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/,Expert Level,Mobile,Native,java
-1599486,Java for Complete Beginners: Become Junior Java Developer,https://www.udemy.comhttps://www.udemy.com/course/java-for-complete-beginers-programming-fundamentals/,Beginner Level,Mobile,Native,java
-1602554,Core java for beginners and experts,https://www.udemy.comhttps://www.udemy.com/course/javabybhanu/,Beginner Level,Mobile,Native,java
-1621670,The Complete Java Developer Course from Scratch,https://www.udemy.comhttps://www.udemy.com/course/complete-java-developer-course/,Intermediate Level,Mobile,Native,java
-1632804,Flutter - Beginners Course,https://www.udemy.comhttps://www.udemy.com/course/flutters-beginners-course/,Beginner Level,Mobile,Cross platform,Flutter
-1671196,Flutter - Intermediate,https://www.udemy.comhttps://www.udemy.com/course/flutter-intermediate/,Beginner Level,Mobile,Cross platform,Flutter
-1672626,Complete Java Developer Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/complete-java-developer-bootcamp/,Beginner Level,Mobile,Native,java
-1692036,Modern Java - Learn Java 8 features by coding it,https://www.udemy.comhttps://www.udemy.com/course/modern-java-learn-java-8-features-by-coding-it/,Expert Level,Mobile,Native,java
-1692842,Java Collections and Generics for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-collections-and-generics-for-beginners/,Beginner Level,Mobile,Native,java
-1700694,Build Minecraft Mod using JAVA - for Kids and Beginners,https://www.udemy.comhttps://www.udemy.com/course/minecraft-modding-java/,Beginner Level,Mobile,Native,java
-1719462,Learn Flutter from scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-flutter-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
-1764108,Learn Java Programming from Scratch with Examples and Demos,https://www.udemy.comhttps://www.udemy.com/course/101-java-programs-for-absolute-beginners-and-school-students/,Beginner Level,Mobile,Native,java
-1789268,Java Enterprise Edition 8 for Beginners course,https://www.udemy.comhttps://www.udemy.com/course/java-enterprise-edition-8/,Beginner Level,Mobile,Native,java
-1792392,Flutter - Advanced Course,https://www.udemy.comhttps://www.udemy.com/course/flutter-advanced-course/,Expert Level,Mobile,Cross platform,Flutter
-1793280,Complete Java Masterclass For Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/complete-java-masterclass-for-absolute-beginners/,Beginner Level,Mobile,Native,java
-1861718,Java Masterclass | Beginner to OOP Programming with NetBeans,https://www.udemy.comhttps://www.udemy.com/course/java-masterclass-basic-to-oop-programming-with-netbeans/,Beginner Level,Mobile,Native,java
-1866574,Java Masterclass | Beginner to OOP Programming with Eclipse,https://www.udemy.comhttps://www.udemy.com/course/java-masterclass-beginner-to-oop-programming-with-eclipse/,Beginner Level,Mobile,Native,java
-1875420,The Complete Core Java Course : Learn to Code,https://www.udemy.comhttps://www.udemy.com/course/core-java-from-scratch/,Intermediate Level,Mobile,Native,java
-1923196,Java - A 3-Step Process to Master Java in 7 days for Newbies,https://www.udemy.comhttps://www.udemy.com/course/java-a-3-step-process-to-master-java-in-7-days-for-newbies/,Beginner Level,Mobile,Native,java
-1950444,Complete Java Web Service Bootcamp: From Beginner To Pro,https://www.udemy.comhttps://www.udemy.com/course/complete-java-web-service-bootcamp-from-beginner-to-pro/,Beginner Level,Mobile,Native,java
-1954986,Complete Java Programming and Certification Guide,https://www.udemy.comhttps://www.udemy.com/course/java-oca-ocp/,Intermediate Level,Mobile,Native,java
-1960564,Eclipse | Your Basic Java Programming Course,https://www.udemy.comhttps://www.udemy.com/course/eclipse-your-basic-java-programming-course/,Intermediate Level,Mobile,Native,java
-1967418,Flutter Beginner Tutorial - Build own App,https://www.udemy.comhttps://www.udemy.com/course/free-flutter-beginner-tutorial-build-own-app/,Beginner Level,Mobile,Cross platform,Flutter
-2002954,Learn Java Programming Crash Course,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming-crash-course/,Intermediate Level,Mobile,Native,java
-2010554,"The Complete Flutter App Development Course for Android, iOS",https://www.udemy.comhttps://www.udemy.com/course/the-complete-flutter-app-development-course-for-android-ios/,Beginner Level,Mobile,Cross platform,Flutter
-2027988,Java Programming Bootcamp 2023 - Build Real Projects!,https://www.udemy.comhttps://www.udemy.com/course/java-programming-become-complete-java-developer/,Expert Level,Mobile,Native,java
-2065405,Mastery in Java Web Services in less than 3 hours !,https://www.udemy.comhttps://www.udemy.com/course/restful-web-service-in-java/,Beginner Level,Mobile,Native,java
-2107834,java programming - From Beginner To Advance from scratch!,https://www.udemy.comhttps://www.udemy.com/course/java-basics-learn-worlds-most-powerful-programming-language/,Beginner Level,Mobile,Native,java
-2117500,Java Fast Track Preparation for Interview as Java Developer,https://www.udemy.comhttps://www.udemy.com/course/java-fast-track-preparation-for-interview-as-java-developer/,Intermediate Level,Mobile,Native,java
-2183484,Real-World Projects with Flutter,https://www.udemy.comhttps://www.udemy.com/course/real-world-projects-with-flutter/,Expert Level,Mobile,Cross platform,Flutter
-2200286,The Java Design Patterns Course,https://www.udemy.comhttps://www.udemy.com/course/java-design-patterns-course/,Expert Level,Mobile,Native,java
-2208130,Master Lambda Expressions in Java 8,https://www.udemy.comhttps://www.udemy.com/course/functional-programming-in-java/,Beginner Level,Mobile,Native,java
-2241936,Java Application Performance Tuning and Memory Management,https://www.udemy.comhttps://www.udemy.com/course/java-application-performance-and-memory-management/,Expert Level,Mobile,Native,java
-2259748,Java Collections from basics to Advanced,https://www.udemy.comhttps://www.udemy.com/course/collections-and-concurrent-collection-video-lectures-and-tutorials/,Beginner Level,Mobile,Native,java
-2270218,Complete Core Java In Simple Way,https://www.udemy.comhttps://www.udemy.com/course/complete-core-java-in-simple-way/,Intermediate Level,Mobile,Native,java
-2304824,Mastering Flutter,https://www.udemy.comhttps://www.udemy.com/course/mastering-flutter/,Beginner Level,Mobile,Cross platform,Flutter
-2312596,Java Programming: Step by Step from A to Z,https://www.udemy.comhttps://www.udemy.com/course/java-programming-step-by-step-from-a-to-z/,Beginner Level,Mobile,Native,java
-2312680,Intro to Flutter For iOS & Android,https://www.udemy.comhttps://www.udemy.com/course/devslopes-flutter/,Beginner Level,Mobile,Cross platform,Flutter
-2355420,Complete Flutter development - build 14 ios and android apps,https://www.udemy.comhttps://www.udemy.com/course/complete-flutter-development/,Beginner Level,Mobile,Cross platform,Flutter
-2363036,Java Programming: Learn Core Java and Improve Java Skills,https://www.udemy.comhttps://www.udemy.com/course/java-programming-learn-java-and-improve-core-java-skills/,Beginner Level,Mobile,Native,java
-2376444,Happy Flutter - Sport News Apps Flutter,https://www.udemy.comhttps://www.udemy.com/course/happy-flutter-sport-news-apps-flutter/,Intermediate Level,Mobile,Cross platform,Flutter
-2383620,Flutter Web Development Course Build Complete FlutterWeb App,https://www.udemy.comhttps://www.udemy.com/course/flutter-web-development-course-build-complete-flutterweb-app/,Beginner Level,Mobile,Cross platform,Flutter
-2383642,Flutter API & JSON Course Build Real ios&Android(4 Real App),https://www.udemy.comhttps://www.udemy.com/course/flutter-api-json-course-build-real-iosandroid4-real-app/,Expert Level,Mobile,Cross platform,Flutter
-2384838,Computer Science 101: Intro to Java & Algorithms,https://www.udemy.comhttps://www.udemy.com/course/computerscience101/,Beginner Level,Mobile,Native,java
-2404700,Learn Java Programming - Beginners guide 2022,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming-from-beginner-to-pro-2020/,Beginner Level,Mobile,Native,java
-2446316,Java Object Oriented Programming:OOPS OOAD & Design Patterns,https://www.udemy.comhttps://www.udemy.com/course/java-object-oriented-programming-analysis-design-oops-ooad/,Intermediate Level,Mobile,Native,java
-2456220,Java Interview Questions Boot Camp - 1000+ Q& A Master Class,https://www.udemy.comhttps://www.udemy.com/course/java-interview-questions-bootcamp-master-class-1000-java-questions/,Beginner Level,Mobile,Native,java
-2462140,Learn JAVA Programming - Beginner to Master,https://www.udemy.comhttps://www.udemy.com/course/java-se-programming/,Beginner Level,Mobile,Native,java
-2480154,Mastering Java 8 Fundamentals,https://www.udemy.comhttps://www.udemy.com/course/introduction-to-java-8-i/,Beginner Level,Mobile,Native,java
-2498038,Flutter UI Bootcamp | Build Beautiful Apps using Flutter,https://www.udemy.comhttps://www.udemy.com/course/the-complete-flutter-ui-course-build-amazing-mobile-ui/,Expert Level,Mobile,Cross platform,Flutter
-2553003,Build a Rental App with Flutter: iOS & Android Masterclass,https://www.udemy.comhttps://www.udemy.com/course/ios-android-masterclass-build-3-apps-with-google-flutter/,Beginner Level,Mobile,Cross platform,Flutter
-2553023,SOLID principles & Design Patterns for Java programmers,https://www.udemy.comhttps://www.udemy.com/course/design-patterns-and-solid-principles/,Intermediate Level,Mobile,Native,java
-2644918,Java For Everyone - Zero to Hero,https://www.udemy.comhttps://www.udemy.com/course/java-for-everyone-zero-to-hero/,Beginner Level,Mobile,Native,java
-2653532,Complete Java Tutorial Step by Step - become a programmer,https://www.udemy.comhttps://www.udemy.com/course/complete-java-tutorial-step-by-step/,Intermediate Level,Mobile,Native,java
-2669808,Java Course for Complete Beginners with Practical Examples,https://www.udemy.comhttps://www.udemy.com/course/practical-java-course/,Beginner Level,Mobile,Native,java
-2671034,Java 11 For Complete Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-11-complete-beginners/,Beginner Level,Mobile,Native,java
-2691654,"Java from Zero to First Job, Practical Guide, 1500+ examples",https://www.udemy.comhttps://www.udemy.com/course/java-development-for-beginners-learnit/,Beginner Level,Mobile,Native,java
-2707184,Java Programming: Complete Beginner to Advanced,https://www.udemy.comhttps://www.udemy.com/course/java-programming-complete-beginner-to-advanced/,Beginner Level,Mobile,Native,java
-2758820,Java Coding Challenge Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/java-coding-challenge-bootcamp/,Expert Level,Mobile,Native,java
-2767688,Java Programming Masterclass: Learn Java From Scratch,https://www.udemy.comhttps://www.udemy.com/course/java-programming-course/,Beginner Level,Mobile,Native,java
-2780776,Practical Java Basics Course with Real-life Examples,https://www.udemy.comhttps://www.udemy.com/course/practical-java-course-for-beginners/,Intermediate Level,Mobile,Native,java
-2830346,Java Programming Comprehensive Course 2022,https://www.udemy.comhttps://www.udemy.com/course/java-programming-fundamentals-training/,Expert Level,Mobile,Native,java
-2865038,Learn Java Basics in one hour with coding exercises,https://www.udemy.comhttps://www.udemy.com/course/learn-java-basics/,Intermediate Level,Mobile,Native,java
-2916558,Advanced Java Topics: Java Reflection - Master Class,https://www.udemy.comhttps://www.udemy.com/course/java-reflection-master-class/,Expert Level,Mobile,Native,java
-2923542,Reflections and Annotation in Java Uncomplicated,https://www.udemy.comhttps://www.udemy.com/course/reflections-and-annotation-in-java-uncomplicated/,Expert Level,Mobile,Native,java
-2933914,Learn Java From Scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-java-from-scratch-q/,Beginner Level,Mobile,Native,java
-2950932,Flutter Web: Create A Responsive Sleek Developer Portfolio,https://www.udemy.comhttps://www.udemy.com/course/flutter-web-create-a-responsive-sleek-developer-portfolio/,Expert Level,Mobile,Cross platform,Flutter
-3181640,Practical Java Programming Practices (120+ Common Projects),https://www.udemy.comhttps://www.udemy.com/course/practical-java-programming-practices-120-common-projects/,Expert Level,Mobile,Native,java
-3192072,The Complete Java Game Development Course for 2023,https://www.udemy.comhttps://www.udemy.com/course/java-games-development/,Intermediate Level,Mobile,Native,java
-3206841,Introduction to Java Programming,https://www.udemy.comhttps://www.udemy.com/course/introduction-to-java-programming-n/,Beginner Level,Mobile,Native,java
-3249104,Java Servlets Certification Training (beginner to advanced),https://www.udemy.comhttps://www.udemy.com/course/java-servlets-training/,Beginner Level,Mobile,Native,java
-3270308,Clean Code with Java examples,https://www.udemy.comhttps://www.udemy.com/course/clean-code-java/,Expert Level,Mobile,Native,java
-3287364,Building Applications Using Java and NetBeans,https://www.udemy.comhttps://www.udemy.com/course/building-applications-using-java-and-netbeans/,Expert Level,Mobile,Native,java
-3327688,Complete Java Programming Fundamentals With Sample Projects,https://www.udemy.comhttps://www.udemy.com/course/complete-java-programming-fundamentals-with-sample-projects/,Intermediate Level,Mobile,Native,java
-3354610,Flutter Tutorials - Complete Flutter Course for Programmers,https://www.udemy.comhttps://www.udemy.com/course/flutter-tutorials-latest-packages-and-components/,Expert Level,Mobile,Cross platform,Flutter
-3356146,Java Programming for Complete Stranger,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-complete-stranger/,Beginner Level,Mobile,Native,java
-3376366,The Complete Java Developer Course: From Beginner to Master!,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-developer-course-from-beginner-to-master/,Beginner Level,Mobile,Native,java
-3389208,Flutter - How to Build an Ultimate Responsive App,https://www.udemy.comhttps://www.udemy.com/course/build-a-responsive-app-in-flutter-for-android-ios-web/,Expert Level,Mobile,Cross platform,Flutter
-3502634,The Complete Java Developer Course -Mastering Java from zero,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-developer-course-mastering-java-from-zero/,Beginner Level,Mobile,Native,java
-3520172,Object Oriented Programming - Basics to Advance (Java OOP),https://www.udemy.comhttps://www.udemy.com/course/oop-learnit/,Intermediate Level,Mobile,Native,java
-3529020,Build 10 Java Beginner Projects  from scratch,https://www.udemy.comhttps://www.udemy.com/course/build-10-java-beginner-projects-from-scratch/,Beginner Level,Mobile,Native,java
-3539240,Learn Java Programming: Classes and Objects,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming-classes-and-objects/,Intermediate Level,Mobile,Native,java
-3576615,Flutter cross-platform course that will get you job.,https://www.udemy.comhttps://www.udemy.com/course/flutter-cross-platform-course-that-will-get-you-job/,Expert Level,Mobile,Cross platform,Flutter
-3592778,Java Programming For Complete Beginners- Learn Java in Depth,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-complete-beginners-g/,Beginner Level,Mobile,Native,java
-3601890,Java Data Structures and Algorithms Masterclass,https://www.udemy.comhttps://www.udemy.com/course/java-data-structures-and-algorithms-masterclass/,Beginner Level,Mobile,Native,java
-3668068,Java Programs for Interviews,https://www.udemy.comhttps://www.udemy.com/course/java-programs-for-interviews/,Intermediate Level,Mobile,Native,java
-3671296,Flutter - Grocery App - WordPress - WooCommerce Series,https://www.udemy.comhttps://www.udemy.com/course/flutter-grocery-app-wordpress-woocommerce-series/,Expert Level,Mobile,Cross platform,Flutter
-3728112,Project Development Using JAVA for Beginners - 2023,https://www.udemy.comhttps://www.udemy.com/course/project-development-using-java-for-beginners-2020/,Beginner Level,Mobile,Native,java
-3740582,The Complete Java Development Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-development-bootcamp/,Beginner Level,Mobile,Native,java
-3765238,Java for Beginners - Learn all the Basics of Java,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-learn-all-the-basics-of-java/,Beginner Level,Mobile,Native,java
-3785186,Flutter Artificial Intelligence Course - Build 15+ AI Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-artificial-intelligence-course-build-15-ai-apps/,Expert Level,Mobile,Cross platform,Flutter
-3794620,Java Basics for Beginners: Learn Coding with Java,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-beginners-learn-coding-with-java/,Beginner Level,Mobile,Native,java
-3803376,Java 7 & Java 8 new features with Lambdas & Streams,https://www.udemy.comhttps://www.udemy.com/course/java-7-8-new-featuresenhancements-zero-to-master/,Beginner Level,Mobile,Native,java
-3847946,Master The Java Programming Language,https://www.udemy.comhttps://www.udemy.com/course/java-tutorial-by-sagar/,Beginner Level,Mobile,Native,java
-3853988,A Guide to Understand Java Generics with Examples,https://www.udemy.comhttps://www.udemy.com/course/java-generics-complete-course/,Beginner Level,Mobile,Native,java
-3872994,Java Multithreading & Concurrency - Interview Practice Exams,https://www.udemy.comhttps://www.udemy.com/course/java-multithreading-concurrency-interview-practice-exams/,Intermediate Level,Mobile,Native,java
-3879142,Flutter BLoC - From Zero to Hero Complete Course,https://www.udemy.comhttps://www.udemy.com/course/bloc-from-zero-to-hero/,Beginner Level,Mobile,Cross platform,Flutter
-3939526,"Complete Flutter Guide 2023: Build Android, IOS and Web apps",https://www.udemy.comhttps://www.udemy.com/course/flutter-the-guide-to-build-android-ios-and-web-apps/,Expert Level,Mobile,Cross platform,Flutter
-3945196,Professional Certificate in Java Programming,https://www.udemy.comhttps://www.udemy.com/course/professional-certificate-in-java-programming/,Beginner Level,Mobile,Native,java
-3958270,Practice Exams | Flutter Certified Application Developer,https://www.udemy.comhttps://www.udemy.com/course/flutter-certified-application-developer-full-practice-exams/,Expert Level,Mobile,Cross platform,Flutter
-3975780,ABC of Java  (A Perfect Java course for beginner's),https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-a-perfect-course-for-beginners/,Beginner Level,Mobile,Native,java
-4035518,Flutter Desktop Tutorials - Create Desktop Apps in Flutter,https://www.udemy.comhttps://www.udemy.com/course/flutter-desktop-tutorials-create-desktop-apps-in-flutter/,Intermediate Level,Mobile,Cross platform,Flutter
-4076366,Flutter Music Player App with State Management from Scratch,https://www.udemy.comhttps://www.udemy.com/course/flutter-music-player-app-with-state-management-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
-4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Beginner Level,Mobile,Cross platform,Flutter
-4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Expert Level,Mobile,Cross platform,Flutter
-4107958,GoF Design Patterns - Complete Course with Java Examples,https://www.udemy.comhttps://www.udemy.com/course/gof-design-patterns-learnit/,Beginner Level,Mobile,Native,java
-4108432,Java Programming For Complete Beginners And Experts,https://www.udemy.comhttps://www.udemy.com/course/java-from-scratch-to-master/,Beginner Level,Mobile,Native,java
-4121698,Flutter Provider State Management - Blog & E-commerce App,https://www.udemy.comhttps://www.udemy.com/course/flutter-provider-state-management/,Expert Level,Mobile,Cross platform,Flutter
-4143946,Flutter Augmented Reality Course - Build 10+ Mobile AR Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-augmented-reality-course-build-10-android-ar-apps/,Expert Level,Mobile,Cross platform,Flutter
-4149968,Professional Java Developer Career Starter: Java Foundations,https://www.udemy.comhttps://www.udemy.com/course/neutrino-java-foundations/,Beginner Level,Mobile,Native,java
-4150774,Android App Development Master Course with Java | Android,https://www.udemy.comhttps://www.udemy.com/course/full-android-11-masterclass-course-with-java-53-hours/,Beginner Level,Mobile,Native,java
-4174624,Java Programming - A Complete Java course to Become Java Ace,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-programming-bootcamp-zero-to-mastery-in-java/,Intermediate Level,Mobile,Native,java
-4205958,Java for Beginners: Your Easy Guide to Java Programming,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-beginners-online-course/,Beginner Level,Mobile,Native,java
-4208444,[Free Java] Java Programming for Complete Beginners (OOP).,https://www.udemy.comhttps://www.udemy.com/course/java-programming-beginner-to-advanced-oop/,Beginner Level,Mobile,Native,java
-4209504,Master Multithreading - Concurrency with Java Examples,https://www.udemy.comhttps://www.udemy.com/course/multithreading-learnit/,Beginner Level,Mobile,Native,java
-4216996,The Complete Java Game Development Course 2023: Part 2,https://www.udemy.comhttps://www.udemy.com/course/java-games/,Beginner Level,Mobile,Native,java
-4241494,Java Logical Programs and Data Structures For Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-logical-programs/,Beginner Level,Mobile,Native,java
-4307801,Java for real Beginners in the simplest words,https://www.udemy.comhttps://www.udemy.com/course/java-for-real-beginners-in-the-simplest-words/,Beginner Level,Mobile,Native,java
-4313758,Java Fundamentals Course - Sinhala Medium,https://www.udemy.comhttps://www.udemy.com/course/java-certificate-course-sinhala-medium/,Beginner Level,Mobile,Native,java
-4328230,Java Fundamentals for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-complete-course-for-beginners/,Beginner Level,Mobile,Native,java
-4352514,Build a Flutter Stopwatch App with Custom UI and Animations,https://www.udemy.comhttps://www.udemy.com/course/flutter-stopwatch-app/,Expert Level,Mobile,Cross platform,Flutter
-4430550,Java Programming For Beginners - Theory+151 Solved Exercises,https://www.udemy.comhttps://www.udemy.com/course/java-programming-masterclass-20-theory-80-practice/,Beginner Level,Mobile,Native,java
-4430718,Flutter Course for Beginners - Learn Flutter from Scratch,https://www.udemy.comhttps://www.udemy.com/course/flutter-course-for-beginners-learn-flutter-from-scratch/,Beginner Level,Mobile,Cross platform,Flutter
-4435956,"Java 17, Java 11, Advanced Java 8 (1Z0-829,1Z0-819,1Z0-809)",https://www.udemy.comhttps://www.udemy.com/course/ocp11_from_oca8/,Expert Level,Mobile,Native,java
-4465722,Flutter Provider Essential Course (English),https://www.udemy.comhttps://www.udemy.com/course/flutter-provider-essential-course-english/,Expert Level,Mobile,Cross platform,Flutter
-4551676,Flutter Bloc Essential Course (English),https://www.udemy.comhttps://www.udemy.com/course/flutter-bloc-essential-course-english/,Beginner Level,Mobile,Cross platform,Flutter
-4551676,Flutter Bloc Essential Course (English),https://www.udemy.comhttps://www.udemy.com/course/flutter-bloc-essential-course-english/,Expert Level,Mobile,Cross platform,Flutter
-4571174,2023 Flutter Beginners Course(No rubbish),https://www.udemy.comhttps://www.udemy.com/course/2022-flutter-beginners-courseno-rubbish/,Beginner Level,Mobile,Cross platform,Flutter
-4572496,"Flutter testing : Unit, Widget & Integration testing",https://www.udemy.comhttps://www.udemy.com/course/flutter-testing-unit-widget-integration-testing/,Expert Level,Mobile,Cross platform,Flutter
-4603798,Learn Coding with Java from Scratch: Essential Training 2023,https://www.udemy.comhttps://www.udemy.com/course/learn-coding-with-java-from-scratch-essential-training-2022/,Beginner Level,Mobile,Native,java
-4702002,45 Real World Java Development Projects Bootcamp Course 2022,https://www.udemy.comhttps://www.udemy.com/course/java-programming-project-using-jsp-jdbc-servlets/,Expert Level,Mobile,Native,java
-4839360,Master Clean Architecture in Flutter for beginners,https://www.udemy.comhttps://www.udemy.com/course/master-clean-architecture-in-flutter-for-beginners/,Beginner Level,Mobile,Cross platform,Flutter
-4885954,Java Development Bootcamp: Build 35 Real World Projects,https://www.udemy.comhttps://www.udemy.com/course/build-real-world-java-development-projects/,Expert Level,Mobile,Native,java
-4889924,30 Day Java Bootcamp: Build 30 Java Development Projects,https://www.udemy.comhttps://www.udemy.com/course/build-java-development-project-course/,Expert Level,Mobile,Native,java
-4949978,Complete Java Megacourse: Beginner to Expert,https://www.udemy.comhttps://www.udemy.com/course/complete-java-megacourse-beginner-to-expert/,Beginner Level,Mobile,Native,java
-4970728,Java Training Complete Course 2022,https://www.udemy.comhttps://www.udemy.com/course/java-training-complete-course-2022/,Beginner Level,Mobile,Native,java
-4987312,2023 Core JAVA Bootcamp from Zero to Hero,https://www.udemy.comhttps://www.udemy.com/course/2022-core-java-bootcamp-from-zero-to-hero/,Beginner Level,Mobile,Native,java
-5007518,Advanced One Day Java Workshop from Java 8 to 17,https://www.udemy.comhttps://www.udemy.com/course/advanced-one-day-java-workshop-from-java-8-to-17/,Expert Level,Mobile,Native,java
+1297194,Fundamentals of Java with NetBeans,https://www.udemy.comhttps://www.udemy.com/course/fundamentals-of-java-with-netbeans/,Beginner Level,Mobile,-,Java
+1344876,What's New in Java 9 - Modules and More!,https://www.udemy.comhttps://www.udemy.com/course/whats-new-in-java-9/,Expert Level,Mobile,-,Java
+1346964,Java for beginners: Step-by-step hands-on guide to Java,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-step-by-step-hands-on-guide-to-java/,Beginner Level,Mobile,-,Java
+1360780,Practice Java by Building Projects,https://www.udemy.comhttps://www.udemy.com/course/practice-java-by-building-projects/,Intermediate Level,Mobile,-,Java
+1412532,Complete Java Bootcamp For Beginners,https://www.udemy.comhttps://www.udemy.com/course/complete-java-bootcamp-for-beginners/,Beginner Level,Mobile,-,Java
+1506644,Basic Java Programming with Eclipse,https://www.udemy.comhttps://www.udemy.com/course/eclipse-the-basic-java-programming-course/,Intermediate Level,Mobile,-,Java
+1535678,Java Programming for Complete Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-programming-tutorial-for-beginners/,Beginner Level,Mobile,-,Java
+1567526,Java A-Z™ : Learn java within 8 hours,https://www.udemy.comhttps://www.udemy.com/course/java-a-z-become-masterclass-for-java-easy-jobs/,Intermediate Level,Mobile,-,Java
+1568344,Java Design Patterns & SOLID Design Principles,https://www.udemy.comhttps://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/,Expert Level,Mobile,-,Java
+1599486,Java for Complete Beginners: Become Junior Java Developer,https://www.udemy.comhttps://www.udemy.com/course/java-for-complete-beginers-programming-fundamentals/,Beginner Level,Mobile,-,Java
+1602554,Core java for beginners and experts,https://www.udemy.comhttps://www.udemy.com/course/javabybhanu/,Beginner Level,Mobile,-,Java
+1621670,The Complete Java Developer Course from Scratch,https://www.udemy.comhttps://www.udemy.com/course/complete-java-developer-course/,Intermediate Level,Mobile,-,Java
+1632804,Flutter - Beginners Course,https://www.udemy.comhttps://www.udemy.com/course/flutters-beginners-course/,Beginner Level,Mobile,Flutter,-
+1671196,Flutter - Intermediate,https://www.udemy.comhttps://www.udemy.com/course/flutter-intermediate/,Beginner Level,Mobile,Flutter,-
+1672626,Complete Java Developer Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/complete-java-developer-bootcamp/,Beginner Level,Mobile,-,Java
+1692036,Modern Java - Learn Java 8 features by coding it,https://www.udemy.comhttps://www.udemy.com/course/modern-java-learn-java-8-features-by-coding-it/,Expert Level,Mobile,-,Java
+1692842,Java Collections and Generics for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-collections-and-generics-for-beginners/,Beginner Level,Mobile,-,Java
+1719462,Learn Flutter from scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-flutter-from-scratch/,Beginner Level,Mobile,Flutter,-
+1764108,Learn Java Programming from Scratch with Examples and Demos,https://www.udemy.comhttps://www.udemy.com/course/101-java-programs-for-absolute-beginners-and-school-students/,Beginner Level,Mobile,-,Java
+1792392,Flutter - Advanced Course,https://www.udemy.comhttps://www.udemy.com/course/flutter-advanced-course/,Expert Level,Mobile,Flutter,-
+1793280,Complete Java Masterclass For Absolute Beginners,https://www.udemy.comhttps://www.udemy.com/course/complete-java-masterclass-for-absolute-beginners/,Beginner Level,Mobile,-,Java
+1861718,Java Masterclass | Beginner to OOP Programming with NetBeans,https://www.udemy.comhttps://www.udemy.com/course/java-masterclass-basic-to-oop-programming-with-netbeans/,Beginner Level,Mobile,-,Java
+1875420,The Complete Core Java Course : Learn to Code,https://www.udemy.comhttps://www.udemy.com/course/core-java-from-scratch/,Intermediate Level,Mobile,-,Java
+1950444,Complete Java Web Service Bootcamp: From Beginner To Pro,https://www.udemy.comhttps://www.udemy.com/course/core-java-from-scratch/,Beginner Level,Mobile,-,Java
+1954986,Complete Java Programming and Certification Guide,https://www.udemy.comhttps://www.udemy.com/course/java-oca-ocp/,Intermediate Level,Mobile,-,Java
+1960564,Eclipse | Your Basic Java Programming Course,https://www.udemy.comhttps://www.udemy.com/course/eclipse-your-basic-java-programming-course/,Intermediate Level,Mobile,-,Java
+1967418,Flutter Beginner Tutorial - Build own App,https://www.udemy.comhttps://www.udemy.com/course/free-flutter-beginner-tutorial-build-own-app/,Beginner Level,Mobile,Flutter,-
+2002954,Learn Java Programming Crash Course,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming-crash-course/,Intermediate Level,Mobile,-,Java
+2010554,"The Complete Flutter App Development Course for Android, iOS",https://www.udemy.comhttps://www.udemy.com/course/the-complete-flutter-app-development-course-for-android-ios/,Beginner Level,Mobile,Flutter,-
+2027988,Java Programming Bootcamp 2023 - Build Real Projects!,https://www.udemy.comhttps://www.udemy.com/course/java-programming-become-complete-java-developer/,Expert Level,Mobile,-,Java
+2065405,Mastery in Java Web Services in less than 3 hours !,https://www.udemy.comhttps://www.udemy.com/course/restful-web-service-in-java/,Beginner Level,Mobile,-,Java
+2107834,java programming - From Beginner To Advance from scratch!,https://www.udemy.comhttps://www.udemy.com/course/java-basics-learn-worlds-most-powerful-programming-language/,Beginner Level,Mobile,-,Java
+2117500,Java Fast Track Preparation for Interview as Java Developer,https://www.udemy.comhttps://www.udemy.com/course/java-fast-track-preparation-for-interview-as-java-developer/,Intermediate Level,Mobile,-,Java
+2183484,Real-World Projects with Flutter,https://www.udemy.comhttps://www.udemy.com/course/real-world-projects-with-flutter/,Expert Level,Mobile,Flutter,-
+2200286,The Java Design Patterns Course,https://www.udemy.comhttps://www.udemy.com/course/java-design-patterns-course/,Expert Level,Mobile,-,Java
+2208130,Master Lambda Expressions in Java 8,https://www.udemy.comhttps://www.udemy.com/course/functional-programming-in-java/,Beginner Level,Mobile,-,Java
+2241936,Java Application Performance Tuning and Memory Management,https://www.udemy.comhttps://www.udemy.com/course/java-application-performance-and-memory-management/,Expert Level,Mobile,-,Java
+2259748,Java Collections from basics to Advanced,https://www.udemy.comhttps://www.udemy.com/course/collections-and-concurrent-collection-video-lectures-and-tutorials/,Beginner Level,Mobile,-,Java
+2270218,Complete Core Java In Simple Way,https://www.udemy.comhttps://www.udemy.com/course/complete-core-java-in-simple-way/,Intermediate Level,Mobile,-,Java
+2304824,Mastering Flutter,https://www.udemy.comhttps://www.udemy.com/course/mastering-flutter/,Beginner Level,Mobile,Flutter,-
+2312680,Intro to Flutter For iOS & Android,https://www.udemy.comhttps://www.udemy.com/course/devslopes-flutter/,Beginner Level,Mobile,Flutter,-
+2355420,Complete Flutter development - build 14 ios and android apps,https://www.udemy.comhttps://www.udemy.com/course/complete-flutter-development/,Beginner Level,Mobile,Flutter,-
+2376444,Happy Flutter - Sport News Apps Flutter,https://www.udemy.comhttps://www.udemy.com/course/happy-flutter-sport-news-apps-flutter/,Intermediate Level,Mobile,Flutter,-
+2383620,Flutter Web Development Course Build Complete FlutterWeb App,https://www.udemy.comhttps://www.udemy.com/course/flutter-web-development-course-build-complete-flutterweb-app/,Beginner Level,Mobile,Flutter,-
+2383642,Flutter API & JSON Course Build Real ios&Android(4 Real App),https://www.udemy.comhttps://www.udemy.com/course/flutter-api-json-course-build-real-iosandroid4-real-app/,Expert Level,Mobile,Flutter,-
+2404700,Learn Java Programming - Beginners guide 2022,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming-from-beginner-to-pro-2020/,Beginner Level,Mobile,-,Java
+2446316,Java Object Oriented Programming:OOPS OOAD & Design Patterns,https://www.udemy.comhttps://www.udemy.com/course/java-object-oriented-programming-analysis-design-oops-ooad/,Intermediate Level,Mobile,-,Java
+2480154,Mastering Java 8 Fundamentals,https://www.udemy.comhttps://www.udemy.com/course/introduction-to-java-8-i/,Beginner Level,Mobile,-,Java
+2498038,Flutter UI Bootcamp | Build Beautiful Apps using Flutter,https://www.udemy.comhttps://www.udemy.com/course/the-complete-flutter-ui-course-build-amazing-mobile-ui/,Expert Level,Mobile,Flutter,-
+2553003,Build a Rental App with Flutter: iOS & Android Masterclass,https://www.udemy.comhttps://www.udemy.com/course/ios-android-masterclass-build-3-apps-with-google-flutter/,Beginner Level,Mobile,Flutter,-
+2553023,SOLID principles & Design Patterns for Java programmers,https://www.udemy.comhttps://www.udemy.com/course/design-patterns-and-solid-principles/,Intermediate Level,Mobile,-,Java
+2644918,Java For Everyone - Zero to Hero,https://www.udemy.comhttps://www.udemy.com/course/java-for-everyone-zero-to-hero/,Beginner Level,Mobile,-,Java
+2653532,Complete Java Tutorial Step by Step - become a programmer,https://www.udemy.comhttps://www.udemy.com/course/complete-java-tutorial-step-by-step/,Intermediate Level,Mobile,-,Java
+2671034,Java 11 For Complete Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-11-complete-beginners/,Beginner Level,Mobile,-,Java
+2691654,"Java from Zero to First Job, Practical Guide, 1500+ examples",https://www.udemy.comhttps://www.udemy.com/course/java-development-for-beginners-learnit/,Beginner Level,Mobile,-,Java
+2707184,Java Programming: Complete Beginner to Advanced,https://www.udemy.comhttps://www.udemy.com/course/java-programming-complete-beginner-to-advanced/,Beginner Level,Mobile,-,Java
+2758820,Java Coding Challenge Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/java-coding-challenge-bootcamp/,Expert Level,Mobile,-,Java
+2767688,Java Programming Masterclass: Learn Java From Scratch,https://www.udemy.comhttps://www.udemy.com/course/java-programming-course/,Beginner Level,Mobile,-,Java
+2780776,Practical Java Basics Course with Real-life Examples,https://www.udemy.comhttps://www.udemy.com/course/practical-java-course-for-beginners/,Intermediate Level,Mobile,-,Java
+2830346,Java Programming Comprehensive Course 2022,https://www.udemy.comhttps://www.udemy.com/course/java-programming-fundamentals-training/,Expert Level,Mobile,-,Java
+2865038,Learn Java Basics in one hour with coding exercises,https://www.udemy.comhttps://www.udemy.com/course/learn-java-basics/,Intermediate Level,Mobile,-,Java
+2916558,Advanced Java Topics: Java Reflection - Master Class,https://www.udemy.comhttps://www.udemy.com/course/java-reflection-master-class/,Expert Level,Mobile,-,Java
+2923542,Reflections and Annotation in Java Uncomplicated,https://www.udemy.comhttps://www.udemy.com/course/reflections-and-annotation-in-java-uncomplicated/,Expert Level,Mobile,-,Java
+2933914,Learn Java From Scratch,https://www.udemy.comhttps://www.udemy.com/course/learn-java-from-scratch-q/,Beginner Level,Mobile,-,Java
+2950932,Flutter Web: Create A Responsive Sleek Developer Portfolio,https://www.udemy.comhttps://www.udemy.com/course/flutter-web-create-a-responsive-sleek-developer-portfolio/,Expert Level,Mobile,Flutter,-
+3181640,Practical Java Programming Practices (120+ Common Projects),https://www.udemy.comhttps://www.udemy.com/course/practical-java-programming-practices-120-common-projects/,Expert Level,Mobile,-,Java
+3192072,The Complete Java Game Development Course for 2023,https://www.udemy.comhttps://www.udemy.com/course/java-games-development/,Intermediate Level,Mobile,-,Java
+3206841,Introduction to Java Programming,https://www.udemy.comhttps://www.udemy.com/course/introduction-to-java-programming-n/,Beginner Level,Mobile,-,Java
+3249104,Java Servlets Certification Training (beginner to advanced),https://www.udemy.comhttps://www.udemy.com/course/java-servlets-training/,Beginner Level,Mobile,-,Java
+3270308,Clean Code with Java examples,https://www.udemy.comhttps://www.udemy.com/course/clean-code-java/,Expert Level,Mobile,-,Java
+3287364,Building Applications Using Java and NetBeans,https://www.udemy.comhttps://www.udemy.com/course/building-applications-using-java-and-netbeans/,Expert Level,Mobile,-,Java
+3327688,Complete Java Programming Fundamentals With Sample Projects,https://www.udemy.comhttps://www.udemy.com/course/complete-java-programming-fundamentals-with-sample-projects/,Intermediate Level,Mobile,-,Java
+3354610,Flutter Tutorials - Complete Flutter Course for Programmers,https://www.udemy.comhttps://www.udemy.com/course/flutter-tutorials-latest-packages-and-components/,Expert Level,Mobile,Flutter,-
+3376366,The Complete Java Developer Course: From Beginner to Master!,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-developer-course-from-beginner-to-master/,Beginner Level,Mobile,-,Java
+3389208,Flutter - How to Build an Ultimate Responsive App,https://www.udemy.comhttps://www.udemy.com/course/build-a-responsive-app-in-flutter-for-android-ios-web/,Expert Level,Mobile,Flutter,-
+3502634,The Complete Java Developer Course -Mastering Java from zero,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-developer-course-mastering-java-from-zero/,Beginner Level,Mobile,-,Java
+3520172,Object Oriented Programming - Basics to Advance (Java OOP),https://www.udemy.comhttps://www.udemy.com/course/oop-learnit/,Intermediate Level,Mobile,-,Java
+3529020,Build 10 Java Beginner Projects  from scratch,https://www.udemy.comhttps://www.udemy.com/course/build-10-java-beginner-projects-from-scratch/,Beginner Level,Mobile,-,Java
+3539240,Learn Java Programming: Classes and Objects,https://www.udemy.comhttps://www.udemy.com/course/learn-java-programming-classes-and-objects/,Intermediate Level,Mobile,-,Java
+3576615,Flutter cross-platform course that will get you job.,https://www.udemy.comhttps://www.udemy.com/course/flutter-cross-platform-course-that-will-get-you-job/,Expert Level,Mobile,Flutter,-
+3592778,Java Programming For Complete Beginners- Learn Java in Depth,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-complete-beginners-g/,Beginner Level,Mobile,-,Java
+3668068,Java Programs for Interviews,https://www.udemy.comhttps://www.udemy.com/course/java-programs-for-interviews/,Intermediate Level,Mobile,-,Java
+3671296,Flutter - Grocery App - WordPress - WooCommerce Series,https://www.udemy.comhttps://www.udemy.com/course/flutter-grocery-app-wordpress-woocommerce-series/,Expert Level,Mobile,Flutter,-
+3728112,Project Development Using JAVA for Beginners - 2023,https://www.udemy.comhttps://www.udemy.com/course/project-development-using-java-for-beginners-2020/,Beginner Level,Mobile,-,Java
+3740582,The Complete Java Development Bootcamp,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-development-bootcamp/,Beginner Level,Mobile,-,Java
+3765238,Java for Beginners - Learn all the Basics of Java,https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-learn-all-the-basics-of-java/,Beginner Level,Mobile,-,Java
+3785186,Flutter Artificial Intelligence Course - Build 15+ AI Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-artificial-intelligence-course-build-15-ai-apps/,Expert Level,Mobile,Flutter,-
+3794620,Java Basics for Beginners: Learn Coding with Java,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-beginners-learn-coding-with-java/,Beginner Level,Mobile,-,Java
+3853988,A Guide to Understand Java Generics with Examples,https://www.udemy.comhttps://www.udemy.com/course/java-generics-complete-course/,Beginner Level,Mobile,-,Java
+3872994,Java Multithreading & Concurrency - Interview Practice Exams,https://www.udemy.comhttps://www.udemy.com/course/java-multithreading-concurrency-interview-practice-exams/,Intermediate Level,Mobile,-,Java
+3879142,Flutter BLoC - From Zero to Hero Complete Course,https://www.udemy.comhttps://www.udemy.com/course/bloc-from-zero-to-hero/,Beginner Level,Mobile,Flutter,-
+3939526,"Complete Flutter Guide 2023: Build Android, IOS and Web apps",https://www.udemy.comhttps://www.udemy.com/course/flutter-the-guide-to-build-android-ios-and-web-apps/,Expert Level,Mobile,Flutter,-
+3945196,Professional Certificate in Java Programming,https://www.udemy.comhttps://www.udemy.com/course/professional-certificate-in-java-programming/,Beginner Level,Mobile,-,Java
+3958270,Practice Exams | Flutter Certified Application Developer,https://www.udemy.comhttps://www.udemy.com/course/flutter-certified-application-developer-full-practice-exams/,Expert Level,Mobile,Flutter,-
+3975780,ABC of Java  (A Perfect Java course for beginner's),https://www.udemy.comhttps://www.udemy.com/course/java-for-beginners-a-perfect-course-for-beginners/,Beginner Level,Mobile,-,Java
+4035518,Flutter Desktop Tutorials - Create Desktop Apps in Flutter,https://www.udemy.comhttps://www.udemy.com/course/flutter-desktop-tutorials-create-desktop-apps-in-flutter/,Intermediate Level,Mobile,Flutter,-
+4076366,Flutter Music Player App with State Management from Scratch,https://www.udemy.comhttps://www.udemy.com/course/flutter-music-player-app-with-state-management-from-scratch/,Beginner Level,Mobile,Flutter,-
+4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Beginner Level,Mobile,Flutter,-
+4086732,Flutter 2.0: Build Modern Responsive Web & Mobile Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-build-modern-responsive-web-mobile-apps-desktop/,Expert Level,Mobile,Flutter,-
+4108432,Java Programming For Complete Beginners And Experts,https://www.udemy.comhttps://www.udemy.com/course/java-from-scratch-to-master/,Beginner Level,Mobile,-,Java
+4121698,Flutter Provider State Management - Blog & E-commerce App,https://www.udemy.comhttps://www.udemy.com/course/flutter-provider-state-management/,Expert Level,Mobile,Flutter,-
+4143946,Flutter Augmented Reality Course - Build 10+ Mobile AR Apps,https://www.udemy.comhttps://www.udemy.com/course/flutter-augmented-reality-course-build-10-android-ar-apps/,Expert Level,Mobile,Flutter,-
+4150774,Android App Development Master Course with Java | Android,https://www.udemy.comhttps://www.udemy.com/course/full-android-11-masterclass-course-with-java-53-hours/,Beginner Level,Mobile,-,Java
+4174624,Java Programming - A Complete Java course to Become Java Ace,https://www.udemy.comhttps://www.udemy.com/course/the-complete-java-programming-bootcamp-zero-to-mastery-in-java/,Intermediate Level,Mobile,-,Java
+4205958,Java for Beginners: Your Easy Guide to Java Programming,https://www.udemy.comhttps://www.udemy.com/course/java-programming-for-beginners-online-course/,Beginner Level,Mobile,-,Java
+4208444,[Free Java] Java Programming for Complete Beginners (OOP).,https://www.udemy.comhttps://www.udemy.com/course/java-programming-beginner-to-advanced-oop/,Beginner Level,Mobile,-,Java
+4209504,Master Multithreading - Concurrency with Java Examples,https://www.udemy.comhttps://www.udemy.com/course/multithreading-learnit/,Beginner Level,Mobile,-,Java
+4216996,The Complete Java Game Development Course 2023: Part 2,https://www.udemy.comhttps://www.udemy.com/course/java-games/,Intermediate Level,Mobile,-,Java
+4241494,Java Logical Programs and Data Structures For Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-logical-programs/,Intermediate Level,Mobile,-,Java
+4307801,Java for real Beginners in the simplest words,https://www.udemy.comhttps://www.udemy.com/course/java-for-real-beginners-in-the-simplest-words/,Beginner Level,Mobile,-,Java
+4313758,Java Fundamentals Course - Sinhala Medium,https://www.udemy.comhttps://www.udemy.com/course/java-certificate-course-sinhala-medium/,Beginner Level,Mobile,-,Java
+4328230,Java Fundamentals for Beginners,https://www.udemy.comhttps://www.udemy.com/course/java-complete-course-for-beginners/,Beginner Level,Mobile,-,Java
+4352514,Build a Flutter Stopwatch App with Custom UI and Animations,https://www.udemy.comhttps://www.udemy.com/course/flutter-stopwatch-app/,Expert Level,Mobile,Flutter,-
+4430550,Java Programming For Beginners - Theory+151 Solved Exercises,https://www.udemy.comhttps://www.udemy.com/course/java-programming-masterclass-20-theory-80-practice/,Intermediate Level,Mobile,-,Java
+4430718,Flutter Course for Beginners - Learn Flutter from Scratch,https://www.udemy.comhttps://www.udemy.com/course/flutter-course-for-beginners-learn-flutter-from-scratch/,Beginner Level,Mobile,Flutter,-
+4435956,"Java 17, Java 11, Advanced Java 8 (1Z0-829,1Z0-819,1Z0-809)",https://www.udemy.comhttps://www.udemy.com/course/ocp11_from_oca8/,Expert Level,Mobile,-,Java
+4465722,Flutter Provider Essential Course (English),https://www.udemy.comhttps://www.udemy.com/course/flutter-provider-essential-course-english/,Expert Level,Mobile,Flutter,-
+4551676,Flutter Bloc Essential Course (English),https://www.udemy.comhttps://www.udemy.com/course/flutter-bloc-essential-course-english/,Beginner Level,Mobile,Flutter,-
+4551676,Flutter Bloc Essential Course (English),https://www.udemy.comhttps://www.udemy.com/course/flutter-bloc-essential-course-english/,Expert Level,Mobile,Flutter,-
+4571174,2023 Flutter Beginners Course(No rubbish),https://www.udemy.comhttps://www.udemy.com/course/2022-flutter-beginners-courseno-rubbish/,Beginner Level,Mobile,Flutter,-
+4572496,"Flutter testing : Unit, Widget & Integration testing",https://www.udemy.comhttps://www.udemy.com/course/flutter-testing-unit-widget-integration-testing/,Expert Level,Mobile,Flutter,-
+4603798,Learn Coding with Java from Scratch: Essential Training 2023,https://www.udemy.comhttps://www.udemy.com/course/learn-coding-with-java-from-scratch-essential-training-2022/,Beginner Level,Mobile,-,Java
+4702002,45 Real World Java Development Projects Bootcamp Course 2022,https://www.udemy.comhttps://www.udemy.com/course/java-programming-project-using-jsp-jdbc-servlets/,Expert Level,Mobile,-,Java
+4839360,Master Clean Architecture in Flutter for beginners,https://www.udemy.comhttps://www.udemy.com/course/master-clean-architecture-in-flutter-for-beginners/,Beginner Level,Mobile,Flutter,-
+4885954,Java Development Bootcamp: Build 35 Real World Projects,https://www.udemy.comhttps://www.udemy.com/course/build-real-world-java-development-projects/,Expert Level,Mobile,-,Java
+4889924,30 Day Java Bootcamp: Build 30 Java Development Projects,https://www.udemy.comhttps://www.udemy.com/course/build-java-development-project-course/,Expert Level,Mobile,-,Java
+4949978,Complete Java Megacourse: Beginner to Expert,https://www.udemy.comhttps://www.udemy.com/course/complete-java-megacourse-beginner-to-expert/,Beginner Level,Mobile,-,Java
+4970728,Java Training Complete Course 2022,https://www.udemy.comhttps://www.udemy.com/course/java-training-complete-course-2022/,Beginner Level,Mobile,-,Java
+4987312,2023 Core JAVA Bootcamp from Zero to Hero,https://www.udemy.comhttps://www.udemy.com/course/2022-core-java-bootcamp-from-zero-to-hero/,Beginner Level,Mobile,-,Java
+5007518,Advanced One Day Java Workshop from Java 8 to 17,https://www.udemy.comhttps://www.udemy.com/course/advanced-one-day-java-workshop-from-java-8-to-17/,Expert Level,Mobile,-,Java
 2158256,Deployment of Machine Learning Models,https://www.udemy.com/course/deployment-of-machine-learning-models/,Expert Level,AI / Artificial Intelligence,MachineLearning,-
 3501832,Mathematical Foundations of Machine Learning,https://www.udemy.com/course/machine-learning-data-science-foundations-masterclass/,Expert Level,AI / Artificial Intelligence,MachineLearning,-
 1333372,An Introduction to Machine Learning for Data Engineers,https://www.udemy.com/course/an-introduction-to-machine-learning-for-data-engineers/,Beginner Level,AI / Artificial Intelligence,MachineLearning,-
