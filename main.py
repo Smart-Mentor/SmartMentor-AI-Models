@@ -13,7 +13,12 @@ if __name__ == "__main__":
 app = FastAPI()
 
 # ================= LOAD DATA =================
-df = pd.read_csv(r"Data Model2.csv")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(BASE_DIR, "Data Model2.csv")
+
+df = pd.read_csv(file_path)
+
 df.fillna("", inplace=True)
 df.replace("-", "", inplace=True)
 
