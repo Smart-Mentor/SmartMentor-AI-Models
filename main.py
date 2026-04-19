@@ -87,7 +87,7 @@ exit_words = [
     "no thanks","no thank you",
     "that's all","thats all",
     "done","finish","finished",
-    "end","see you","see you later","good bye","stop"
+    "see you","see you later","good bye","stop"
 ]
 
 greetings = [
