@@ -1,0 +1,103 @@
+skills,subject,preferred_roadmap
+Python,AI Engineer,Beginner Path
+Git & GitHub,AI Engineer,Beginner Path
+Mathematics,AI Engineer,Beginner Path
+Data Structures,AI Engineer,Fast Track
+Machine Learning,AI Engineer,Fast Track
+Deep Learning,AI Engineer,Fast Track
+Computer Vision,AI Engineer,Project-Based
+NLP,AI Engineer,Project-Based
+Transformers,AI Engineer,Fast Track
+LLMs (GPT-like Models),AI Engineer,Project-Based
+MLOps,AI Engineer,Fast Track
+Cloud for AI,AI Engineer,Fast Track
+Projects,AI Engineer,Project-Based
+Python,Data Scientist,Beginner Path
+Git & GitHub,Data Scientist,Beginner Path
+Statistics,Data Scientist,Beginner Path
+SQL,Data Scientist,Beginner Path
+Data Cleaning,Data Scientist,Fast Track
+Exploratory Data Analysis,Data Scientist,Fast Track
+Data Analysis,Data Scientist,Fast Track
+Machine Learning,Data Scientist,Fast Track
+Visualization,Data Scientist,Project-Based
+Big Data (Spark),Data Scientist,Fast Track
+Experimentation (A/B Testing),Data Scientist,Project-Based
+Time Series Analysis,Data Scientist,Fast Track
+Projects,Data Scientist,Project-Based
+HTML,Frontend Developer,Beginner Path
+CSS,Frontend Developer,Beginner Path
+JavaScript,Frontend Developer,Fast Track
+Git & GitHub,Frontend Developer,Beginner Path
+Responsive Design,Frontend Developer,Fast Track
+TypeScript,Frontend Developer,Fast Track
+React,Frontend Developer,Fast Track
+Next.js,Frontend Developer,Fast Track
+State Management (Redux),Frontend Developer,Fast Track
+Testing (Jest),Frontend Developer,Project-Based
+Web Security Basics,Frontend Developer,Fast Track
+Performance Optimization,Frontend Developer,Project-Based
+UI/UX,Frontend Developer,Beginner Path
+Projects,Frontend Developer,Project-Based
+Programming Fundamentals,Backend Developer,Beginner Path
+Python/Node.js,Backend Developer,Beginner Path
+Git & GitHub,Backend Developer,Beginner Path
+Databases (SQL),Backend Developer,Beginner Path
+NoSQL Databases,Backend Developer,Fast Track
+APIs (REST),Backend Developer,Fast Track
+GraphQL,Backend Developer,Fast Track
+Authentication & Security,Backend Developer,Fast Track
+Caching (Redis),Backend Developer,Fast Track
+System Design Basics,Backend Developer,Fast Track
+Microservices,Backend Developer,Project-Based
+Cloud (AWS Basics),Backend Developer,Fast Track
+Projects,Backend Developer,Project-Based
+Linux Basics,DevOps Engineer,Beginner Path
+Git & GitHub,DevOps Engineer,Beginner Path
+Scripting (Bash/Python),DevOps Engineer,Fast Track
+Networking Basics,DevOps Engineer,Beginner Path
+CI/CD,DevOps Engineer,Fast Track
+Docker,DevOps Engineer,Fast Track
+Kubernetes,DevOps Engineer,Fast Track
+Infrastructure as Code (Terraform),DevOps Engineer,Fast Track
+Cloud (AWS/Azure),DevOps Engineer,Fast Track
+Monitoring (Prometheus),DevOps Engineer,Project-Based
+Projects,DevOps Engineer,Project-Based
+Programming Fundamentals,Mobile Developer,Beginner Path
+Java/Kotlin or Dart,Mobile Developer,Beginner Path
+Git & GitHub,Mobile Developer,Beginner Path
+UI for Mobile,Mobile Developer,Fast Track
+Flutter,Mobile Developer,Fast Track
+React Native,Mobile Developer,Fast Track
+State Management,Mobile Developer,Fast Track
+APIs Integration,Mobile Developer,Fast Track
+Mobile Testing,Mobile Developer,Project-Based
+App Deployment,Mobile Developer,Project-Based
+Projects,Mobile Developer,Project-Based
+Networking Basics,Cybersecurity,Beginner Path
+Linux Basics,Cybersecurity,Beginner Path
+Python for Security,Cybersecurity,Fast Track
+Web Security,Cybersecurity,Fast Track
+Ethical Hacking,Cybersecurity,Fast Track
+Penetration Testing,Cybersecurity,Project-Based
+Security Tools (Metasploit),Cybersecurity,Project-Based
+Cloud Security,Cybersecurity,Fast Track
+Projects,Cybersecurity,Project-Based
+Python,Data Engineer,Beginner Path
+SQL,Data Engineer,Beginner Path
+ETL Processes,Data Engineer,Fast Track
+Data Warehousing,Data Engineer,Fast Track
+Big Data (Hadoop),Data Engineer,Fast Track
+Spark,Data Engineer,Fast Track
+Streaming (Kafka),Data Engineer,Project-Based
+Cloud Data Engineering,Data Engineer,Fast Track
+Projects,Data Engineer,Project-Based
+Programming Fundamentals,Game Developer,Beginner Path
+C# / C++,Game Developer,Beginner Path
+Game Math,Game Developer,Fast Track
+Unity,Game Developer,Fast Track
+Unreal Engine,Game Developer,Fast Track
+Game Physics,Game Developer,Project-Based
+AI for Games,Game Developer,Project-Based
+Multiplayer Systems,Game Developer,Project-Based
+Projects,Game Developer,Project-Based

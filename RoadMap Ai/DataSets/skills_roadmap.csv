@@ -1,0 +1,103 @@
+subject,skill,prerequisite,level,duration_weeks
+AI Engineer,Python,None,Beginner,2
+AI Engineer,Git & GitHub,Python,Beginner,1
+AI Engineer,Mathematics,Python,Beginner,3
+AI Engineer,Data Structures,Python,Intermediate,3
+AI Engineer,Machine Learning,Mathematics,Intermediate,4
+AI Engineer,Deep Learning,Machine Learning,Advanced,4
+AI Engineer,Computer Vision,Deep Learning,Advanced,3
+AI Engineer,NLP,Deep Learning,Advanced,3
+AI Engineer,Transformers,NLP,Advanced,3
+AI Engineer,LLMs (GPT-like Models),Transformers,Advanced,3
+AI Engineer,MLOps,Machine Learning,Advanced,3
+AI Engineer,Cloud for AI,MLOps,Advanced,2
+AI Engineer,Projects,Machine Learning,Intermediate,3
+Data Scientist,Python,None,Beginner,2
+Data Scientist,Git & GitHub,Python,Beginner,1
+Data Scientist,Statistics,Python,Beginner,3
+Data Scientist,SQL,Python,Beginner,2
+Data Scientist,Data Cleaning,Statistics,Intermediate,2
+Data Scientist,Exploratory Data Analysis,Data Cleaning,Intermediate,2
+Data Scientist,Data Analysis,Statistics,Intermediate,3
+Data Scientist,Machine Learning,Data Analysis,Intermediate,4
+Data Scientist,Visualization,Data Analysis,Intermediate,2
+Data Scientist,Big Data (Spark),Machine Learning,Advanced,3
+Data Scientist,Experimentation (A/B Testing),Statistics,Intermediate,2
+Data Scientist,Time Series Analysis,Statistics,Advanced,3
+Data Scientist,Projects,Machine Learning,Intermediate,3
+Frontend Developer,HTML,None,Beginner,1
+Frontend Developer,CSS,HTML,Beginner,2
+Frontend Developer,JavaScript,CSS,Intermediate,3
+Frontend Developer,Git & GitHub,JavaScript,Beginner,1
+Frontend Developer,Responsive Design,CSS,Intermediate,2
+Frontend Developer,TypeScript,JavaScript,Intermediate,2
+Frontend Developer,React,JavaScript,Intermediate,4
+Frontend Developer,Next.js,React,Intermediate,3
+Frontend Developer,State Management (Redux),React,Intermediate,2
+Frontend Developer,Testing (Jest),JavaScript,Intermediate,2
+Frontend Developer,Web Security Basics,JavaScript,Intermediate,2
+Frontend Developer,Performance Optimization,React,Advanced,2
+Frontend Developer,UI/UX,HTML,Beginner,2
+Frontend Developer,Projects,Next.js,Intermediate,3
+Backend Developer,Programming Fundamentals,None,Beginner,2
+Backend Developer,Python/Node.js,Programming Fundamentals,Beginner,3
+Backend Developer,Git & GitHub,Programming Fundamentals,Beginner,1
+Backend Developer,Databases (SQL),Programming Fundamentals,Beginner,3
+Backend Developer,NoSQL Databases,Databases (SQL),Intermediate,2
+Backend Developer,APIs (REST),Python/Node.js,Intermediate,3
+Backend Developer,GraphQL,APIs (REST),Intermediate,2
+Backend Developer,Authentication & Security,APIs (REST),Intermediate,2
+Backend Developer,Caching (Redis),APIs (REST),Intermediate,2
+Backend Developer,System Design Basics,APIs (REST),Intermediate,3
+Backend Developer,Microservices,System Design Basics,Advanced,3
+Backend Developer,Cloud (AWS Basics),APIs (REST),Intermediate,2
+Backend Developer,Projects,APIs (REST),Intermediate,3
+DevOps Engineer,Linux Basics,None,Beginner,2
+DevOps Engineer,Git & GitHub,Linux Basics,Beginner,1
+DevOps Engineer,Scripting (Bash/Python),Linux Basics,Intermediate,2
+DevOps Engineer,Networking Basics,Linux Basics,Intermediate,2
+DevOps Engineer,CI/CD,Git & GitHub,Intermediate,3
+DevOps Engineer,Docker,CI/CD,Intermediate,3
+DevOps Engineer,Kubernetes,Docker,Advanced,4
+DevOps Engineer,Infrastructure as Code (Terraform),Docker,Advanced,3
+DevOps Engineer,Cloud (AWS/Azure),Docker,Intermediate,3
+DevOps Engineer,Monitoring (Prometheus),Kubernetes,Advanced,2
+DevOps Engineer,Projects,Kubernetes,Advanced,3
+Mobile Developer,Programming Fundamentals,None,Beginner,2
+Mobile Developer,Java/Kotlin or Dart,Programming Fundamentals,Beginner,3
+Mobile Developer,Git & GitHub,Programming Fundamentals,Beginner,1
+Mobile Developer,UI for Mobile,Java/Kotlin or Dart,Intermediate,2
+Mobile Developer,Flutter,Java/Kotlin or Dart,Intermediate,3
+Mobile Developer,React Native,JavaScript,Intermediate,3
+Mobile Developer,State Management,Flutter,Intermediate,2
+Mobile Developer,APIs Integration,React Native,Intermediate,2
+Mobile Developer,Mobile Testing,Flutter,Intermediate,2
+Mobile Developer,App Deployment,Mobile Testing,Advanced,2
+Mobile Developer,Projects,APIs Integration,Intermediate,3
+Cybersecurity,Networking Basics,None,Beginner,3
+Cybersecurity,Linux Basics,Networking Basics,Beginner,2
+Cybersecurity,Python for Security,Linux Basics,Intermediate,2
+Cybersecurity,Web Security,Linux Basics,Intermediate,3
+Cybersecurity,Ethical Hacking,Web Security,Advanced,4
+Cybersecurity,Penetration Testing,Ethical Hacking,Advanced,3
+Cybersecurity,Security Tools (Metasploit),Ethical Hacking,Advanced,2
+Cybersecurity,Cloud Security,Web Security,Advanced,2
+Cybersecurity,Projects,Penetration Testing,Advanced,3
+Game Developer,Programming Fundamentals,None,Beginner,2
+Game Developer,C# / C++,Programming Fundamentals,Beginner,3
+Game Developer,Game Math,C# / C++,Intermediate,2
+Game Developer,Unity,C#,Intermediate,3
+Game Developer,Unreal Engine,C++,Intermediate,3
+Game Developer,Game Physics,Unity,Advanced,2
+Game Developer,AI for Games,Game Math,Advanced,2
+Game Developer,Multiplayer Systems,Unity,Advanced,3
+Game Developer,Projects,Unity,Intermediate,3
+Data Engineer,Python,None,Beginner,2
+Data Engineer,SQL,Python,Beginner,2
+Data Engineer,ETL Processes,SQL,Intermediate,3
+Data Engineer,Data Warehousing,ETL Processes,Intermediate,3
+Data Engineer,Big Data (Hadoop),ETL Processes,Advanced,3
+Data Engineer,Spark,Big Data (Hadoop),Advanced,3
+Data Engineer,Streaming (Kafka),Spark,Advanced,3
+Data Engineer,Cloud Data Engineering,Spark,Advanced,3
+Data Engineer,Projects,Spark,Advanced,3
