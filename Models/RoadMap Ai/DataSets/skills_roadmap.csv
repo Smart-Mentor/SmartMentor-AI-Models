@@ -10,7 +10,7 @@ AI Engineer,NLP,Deep Learning,Advanced,3
 AI Engineer,Transformers,NLP,Advanced,3
 AI Engineer,LLMs (GPT-like Models),Transformers,Advanced,3
 AI Engineer,MLOps,Machine Learning,Advanced,3
-AI Engineer,Cloud for AI,MLOps,Advanced,2
+AI Engineer,CloudAI,MLOps,Advanced,2
 AI Engineer,Projects,Machine Learning,Intermediate,3
 Data Scientist,Python,None,Beginner,2
 Data Scientist,Git & GitHub,Python,Beginner,1
@@ -89,7 +89,7 @@ Game Developer,Game Math,C# / C++,Intermediate,2
 Game Developer,Unity,C#,Intermediate,3
 Game Developer,Unreal Engine,C++,Intermediate,3
 Game Developer,Game Physics,Unity,Advanced,2
-Game Developer,AI for Games,Game Math,Advanced,2
+Game Developer,Games,Game Math,Advanced,2
 Game Developer,Multiplayer Systems,Unity,Advanced,3
 Game Developer,Projects,Unity,Intermediate,3
 Data Engineer,Python,None,Beginner,2
