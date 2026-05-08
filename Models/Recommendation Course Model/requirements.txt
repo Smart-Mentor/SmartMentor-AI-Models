@@ -3,6 +3,4 @@ uvicorn
 pandas
 numpy
 scikit-learn
-transformers
-torch
 python-multipart
