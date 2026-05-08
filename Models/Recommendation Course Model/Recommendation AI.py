@@ -84,7 +84,7 @@ def clean_text(text):
     text = text.lower()             
     return text
 
-df = pd.read_csv(r"D:\Games\¡\Data Model2.csv")
+df = pd.read_csv(r"F:\SmartMentor-AI-Models\Models\Recommendation Course Model\DataSets\Data Model2.csv")
 
 df.fillna("", inplace=True)
 df.replace("-", "", inplace=True)
