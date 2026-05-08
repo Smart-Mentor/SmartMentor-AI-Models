@@ -10,11 +10,6 @@ import difflib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestRegressor
 
-from transformers import AutoTokenizer, AutoModel
-from transformers import logging
-
-logging.set_verbosity_error()
-
 # =========================================================
 # LOAD DATASET
 # =========================================================
@@ -37,7 +32,7 @@ df["text"] = (
 )
 
 # =========================================================
-# ML MODELS
+# MACHINE LEARNING
 # =========================================================
 
 tfidf = TfidfVectorizer(stop_words="english")
@@ -51,13 +46,6 @@ y = np.random.rand(len(df))
 rf = RandomForestRegressor(n_estimators=100)
 
 rf.fit(X, y)
-
-# =========================================================
-# LIGHTWEIGHT BERT MODEL
-# =========================================================
-
-tokenizer = AutoTokenizer.from_pretrained("prajjwal1/bert-tiny")
-bert_model = AutoModel.from_pretrained("prajjwal1/bert-tiny")
 
 # =========================================================
 # VARIABLES
@@ -74,7 +62,7 @@ levels = df["level"].str.lower().unique().tolist()
 all_keywords = list(set(subjects + frameworks + languages))
 
 # =========================================================
-# WELCOME / EXIT
+# WELCOME / GREETING / EXIT
 # =========================================================
 
 welcome_statements = [
@@ -101,7 +89,7 @@ exit_words = [
 ]
 
 # =========================================================
-# FASTAPI
+# FASTAPI APP
 # =========================================================
 
 app = FastAPI(title="SmartMentor AI")
@@ -277,7 +265,6 @@ def recommend_courses(
 
     return results.head(4).to_dict(orient="records")
 
-
 # =========================================================
 # ROOT ROUTE
 # =========================================================
@@ -335,7 +322,7 @@ async def chat(request: ChatRequest):
         level
     )
 
-    # No Results
+    # No Courses Found
 
     if len(results) == 0:
 
@@ -344,7 +331,7 @@ async def chat(request: ChatRequest):
             "courses": []
         }
 
-    # Format Courses
+    # Format Results
 
     courses = []
 
