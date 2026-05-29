@@ -73,6 +73,51 @@ greetings = [
 
 negation_words = ["not", "no", "don't", "dont", "isn't", "isnt", "aren't", "arent", "never", "without"]
 
+# Natural-language learning intent phrases — these strongly indicate the user
+# is expressing a learning goal even without naming a subject keyword directly.
+intent_phrases = [
+    "i want to learn", "i wanna learn", "i'd like to learn", "i would like to learn",
+    "i want to study", "i want courses", "i need courses", "i need a course",
+    "i'm looking for courses", "i am looking for courses", "looking for courses",
+    "recommend me courses", "suggest courses", "show me courses",
+    "help me learn", "help me start", "how do i learn", "how to learn",
+    "teach me", "i want to start", "i want to begin", "i want to get into",
+    "how to get started", "getting started", "getting into",
+    "i'm interested in", "i am interested in", "interested in learning",
+    "i want to understand", "i want to know", "i want to know about",
+    "fundamentals of", "basics of", "introduction to", "intro to",
+    "beginner guide", "start learning", "start with", "learn the basics",
+    "learn about", "learn how", "learn to build", "learn to create",
+    "course for", "courses for", "course about", "courses about",
+    "course on", "courses on",
+]
+
+# Subject-level goal descriptions that map to subjects even without keywords
+subject_goal_phrases = {
+    "backend": [
+        "build apis", "build an api", "create a server", "server-side development",
+        "how servers work", "rest apis", "create rest", "backend development",
+        "server programming", "build web services", "web services",
+    ],
+    "web / frontend": [
+        "build websites", "build a website", "create websites", "web pages",
+        "design websites", "build web pages", "make a website", "front-end development",
+        "ui development", "user interfaces", "web design",
+    ],
+    "mobile": [
+        "build apps", "build an app", "mobile applications", "phone apps",
+        "android development", "ios development", "create mobile apps",
+    ],
+    "data science": [
+        "work with data", "analyze data", "machine learning models", "build ml models",
+        "predict with data", "data pipelines",
+    ],
+    "ai / artificial intelligence": [
+        "build ai", "artificial intelligence", "train models", "neural network",
+        "deep learning models", "intelligent systems",
+    ],
+}
+
 # =======================================================================
 
 def normalize_spaces(text):
@@ -121,17 +166,31 @@ def correct_word(word):
     return matches[0] if matches else None
 
 def is_input_related(text):
-    text = text.lower()
+    text_lower = text.lower()
+
+    # 1. Check if the message contains a learning-intent phrase
+    for phrase in intent_phrases:
+        if phrase in text_lower:
+            return True
+
+    # 2. Check subject-goal phrases (e.g. "build apis" → backend)
+    for _, phrases in subject_goal_phrases.items():
+        for phrase in phrases:
+            if phrase in text_lower:
+                return True
 
     important_words = [
         "web", "frontend", "backend", "front", "back",
         "ai", "ml", "dl", "data", "mobile", "deep", "machine",
-        "server", "api", "ui", "mob", "wp", "js", "desk"
+        "server", "api", "ui", "mob", "wp", "js", "desk",
         "ios", "ds", "dotnet", "boot", "bs", "artificial",
-        "doc", "dock", "jq", "node", "node js", "py" , "word",
+        "doc", "dock", "jq", "node", "node js", "py", "word",
+        "learn", "course", "courses", "study", "tutorial", "training",
+        "programming", "development", "coding", "code", "software",
+        "framework", "language", "skill", "skills", "technology",
     ]
 
-    for word in text.split():
+    for word in text_lower.split():
         if word in important_words:
             return True
 
@@ -156,6 +215,65 @@ def build_subject_aliases():
             alias_list += subject.replace("/", " ").split()
         aliases[subject] = list(set(alias_list))
     return aliases
+
+# Smart clarifying questions per subject
+subject_clarifying_questions = {
+    "backend": (
+        "Great choice! 🚀 For **Backend Development**, which framework or language are you interested in?\n"
+        "For example: Node.js, Python, PHP, .NET, Spring (Java), or SQL.\n"
+        "👉 Or just tell me if you have a preference — I'll guide you!"
+    ),
+    "web / frontend": (
+        "Awesome! 🌐 For **Web/Frontend Development**, which framework or language are you thinking?\n"
+        "For example: React, Angular, jQuery, Bootstrap, HTML, CSS, or JavaScript.\n"
+        "👉 Let me know your preference!"
+    ),
+    "mobile": (
+        "Nice! 📱 For **Mobile Development**, are you targeting Android, iOS, or cross-platform?\n"
+        "For example: Flutter (cross-platform), React Native, or Android/iOS native.\n"
+        "👉 Which one interests you?"
+    ),
+    "ai / artificial intelligence": (
+        "Exciting! 🤖 For **AI/Machine Learning**, do you want to focus on Machine Learning, Deep Learning, or a specific tool like Python?\n"
+        "👉 Tell me more about what you'd like to build!"
+    ),
+    "data science": (
+        "Great! 📊 For **Data Science**, are you interested in a specific language like Python or SQL?\n"
+        "👉 What kind of data work are you aiming for?"
+    ),
+    "data analysis": (
+        "Good choice! 📈 For **Data Analysis**, do you want to work with SQL, Python, or Excel?\n"
+        "👉 Let me know your preferred tool!"
+    ),
+    "cloud": (
+        "Cloud is huge! ☁️ Are you interested in a specific platform like AWS, Azure, or GCP?\n"
+        "👉 Which cloud provider do you want to learn?"
+    ),
+    "desktop": (
+        "Solid pick! 💻 For **Desktop Development**, which language or framework do you prefer?\n"
+        "For example: .NET (C#), Java, or Python.\n"
+        "👉 Let me know!"
+    ),
+    "java": (
+        "Java is powerful! ☕ Are you looking for core Java, Spring Boot, or something else?\n"
+        "👉 What specifically do you want to build with Java?"
+    ),
+}
+
+def get_clarifying_question(subject, available_frameworks, available_languages):
+    """Return a smart clarifying question for the given subject, or fallback to listing options."""
+    if subject in subject_clarifying_questions:
+        question = subject_clarifying_questions[subject]
+    else:
+        question = f"For **{subject.title()}**, which framework or language are you interested in?"
+
+    parts = [question]
+    if available_frameworks:
+        parts.append(f"\n📦 Available Frameworks: {', '.join(available_frameworks)}")
+    if available_languages:
+        parts.append(f"🗣️ Available Languages: {', '.join(available_languages)}")
+
+    return "\n".join(parts)
 
 subject_aliases = build_subject_aliases()
 
@@ -235,34 +353,70 @@ subject_aliases = {
     ]
 }
 
+def detect_subject_from_goals(text):
+    """Detect subject from natural-language goal descriptions."""
+    text_lower = text.lower()
+    for subject, phrases in subject_goal_phrases.items():
+        for phrase in phrases:
+            if phrase in text_lower:
+                return subject
+    return None
+
+def strip_intent_phrases(text):
+    """Remove leading intent phrases to expose the core topic."""
+    text_lower = text.lower()
+    for phrase in sorted(intent_phrases, key=len, reverse=True):
+        if text_lower.startswith(phrase):
+            text_lower = text_lower[len(phrase):].strip()
+            break
+        if phrase in text_lower:
+            text_lower = text_lower.replace(phrase, " ").strip()
+    return text_lower
+
 def detect_subject(text):
-    text = text.lower()
+    text_lower = text.lower()
 
-    if any(word in text for word in ["web", "frontend", "front"]):
-        return "web / frontend"
+    # First try on the full text
+    if any(word in text_lower for word in ["web", "frontend", "front"]):
+        if not any(word in text_lower for word in ["backend", "back", "server"]):
+            return "web / frontend"
 
-    if any(word in text for word in ["backend", "back", "api", "server"]):
+    if any(word in text_lower for word in ["backend", "back end", "server-side"]):
         return "backend"
 
-    if any(word in text for word in ["data science", "ds"]):
+    # Strip intent phrases and retry on the core topic
+    core = strip_intent_phrases(text_lower)
+
+    if any(word in core for word in ["web", "frontend", "front"]):
+        return "web / frontend"
+
+    if any(word in core for word in ["backend", "back", "api", "server", "back end"]):
+        return "backend"
+
+    if any(word in core for word in ["data science", "ds"]):
         return "data science"
 
-    if any(word in text for word in ["analysis", "data analysis"]):
+    if any(word in core for word in ["analysis", "data analysis"]):
         return "data analysis"
 
-    if any(word in text for word in ["ai", "artificial intelligence"]):
+    if any(word in core for word in ["ai", "artificial intelligence"]):
         return "ai / artificial intelligence"
+
+    # Goal phrase detection (e.g. "build apis" → backend)
+    goal_subject = detect_subject_from_goals(text_lower)
+    if goal_subject:
+        return goal_subject
 
     for subject, keywords in subject_aliases.items():
         for word in keywords:
-            if word in text:
+            if word in core or word in text_lower:
                 return subject
 
     for s in subjects:
-        if s in text:
+        if s in core or s in text_lower:
             return s
 
-    for word in text.split():
+    for word in core.split():
         suggestion = correct_word(word)
         if suggestion in subjects:
             return suggestion
@@ -566,32 +720,11 @@ def detect_language(text):
 def show_options(subject):
     sub_df = df[df["subject"].str.lower() == subject]
 
-    fw = sub_df["FrameWork"].unique()
-    lang = sub_df["Language"].unique()
+    fw = [f for f in sub_df["FrameWork"].unique() if f.strip()]
+    lang = [l for l in sub_df["Language"].unique() if l.strip()]
 
-    has_framework = any(f.strip() for f in fw)
-    has_language = any(l.strip() for l in lang)
-
-    if has_framework:
-        print("\nAvailable Frameworks:")
-        for f in fw:
-            if f.strip() != "":
-                print("-", f)
-
-    if has_language:
-        print("\nAvailable Languages:")
-        for l in lang:
-            if l.strip() != "":
-                print("-", l)
-
-    if has_framework and has_language:
-        print("\n👉 Choose framework or language:")
-    elif has_framework:
-        print("\n👉 Choose framework:")
-    elif has_language:
-        print("\n👉 Choose language:")
-    else:
-        print("\n❌ No frameworks or languages available for this subject.")
+    # Print the smart clarifying question instead of a bare list
+    print("\n" + get_clarifying_question(subject, fw, lang))
 
 def recommend_courses(subject=None, framework=None, level=None, language=None):
     results = df.copy()
@@ -668,11 +801,19 @@ def is_valid_combination(subject, framework=None, language=None):
     return not results.empty
 
 def extract_intent(text):
+    # Try detecting on both the original and the intent-stripped version
     subject = detect_subject(text)
     framework = detect_framework(text)
     language = detect_language(text)
     level = detect_level(text)
-    
+
+    # If no framework/language found on full text, try on core topic after stripping intent phrases
+    if not framework and not language:
+        core = strip_intent_phrases(text)
+        if core != text.lower():
+            framework = detect_framework(core)
+            language = detect_language(core)
+
     if not subject:
         subject = infer_subject(framework, language)
 
@@ -801,19 +942,27 @@ def chatbot():
             if subject:
                 state["subject"] = subject
 
-                print(f"\nSubject: {subject}")
+                print(f"\nSubject: {subject.title()}")
 
                 sub_df = df[df["subject"].str.lower() == subject]
 
-                fw = sub_df["FrameWork"].unique()
-                lang = sub_df["Language"].unique()
+                fw = [f for f in sub_df["FrameWork"].unique() if f.strip()]
+                lang = [l for l in sub_df["Language"].unique() if l.strip()]
 
-                has_framework = any(f.strip() for f in fw)
-                has_language = any(l.strip() for l in lang)
+                has_framework = bool(fw)
+                has_language = bool(lang)
 
-                show_options(subject)
+                # If level was implied in the query (e.g. "fundamentals", "basics") store it now
+                if smart_level and not state["level"]:
+                    state["level"] = smart_level
+                    if isinstance(smart_level, list):
+                        print(f"Implied level: {', '.join([l.title() for l in smart_level])}")
+                    else:
+                        print(f"Implied level: {smart_level.title()}")
 
                 if has_framework or has_language:
+                    # Ask a smart, subject-specific clarifying question
+                    print(get_clarifying_question(subject, fw, lang))
                     step = "framework_language"
                 else:
                     print("\n❌ This subject has no data to continue.")
